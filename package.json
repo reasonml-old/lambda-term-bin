@@ -40,10 +40,10 @@
   },
   "dependencies": {
     "nopam": "https://github.com/yunxing/nopam.git",
-    "react": "https://github.com/reasonml/react-bin",
+    "react-bin": "https://github.com/reasonml/react-bin",
     "ocamlfind": "https://github.com/npm-opam/ocamlfind.git",
-    "zed": "https://github.com/reasonml/zed-bin",
-    "lwt": "https://github.com/reasonml/lwt-bin",
+    "zed-bin": "https://github.com/reasonml/zed-bin",
+    "lwt-bin": "https://github.com/reasonml/lwt-bin",
     "dependency-env": "https://github.com/npm-ml/dependency-env.git"
   }
 }
