@@ -1,0 +1,49 @@
+{
+  "name": "lambda-term-bin",
+  "version": "1.10.0",
+  "description": "bin wrapper for lambda-term",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "eval $(dependencyEnv) && nopam && make install"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "exportedEnvVars": {
+     "PATH": {
+        "global": true,
+        "resolveAsRelativePath": true,
+        "globalCollisionBehavior": "joinPath",
+        "val": "./_build/ocamlfind/bin"
+     },
+    "version": {
+        "global": true,
+        "globalCollisionBehavior": "clobber",
+        "val": "1.10.0"
+    },
+    "lambda_term_version": {
+        "global": true,
+        "globalCollisionBehavior": "clobber",
+        "val": "1.10.0"
+    },
+    "FINDLIB": {
+        "global": true,
+        "resolveAsRelativePath": true,
+        "globalCollisionBehavior": "joinPath",
+        "val": "./_build/ocamlfind/lib"
+    }
+  },
+  "dependencies": {
+    "nopam": "https://github.com/yunxing/nopam.git",
+    "react": "https://github.com/reasonml/react-bin",
+    "ocamlfind": "https://github.com/npm-opam/ocamlfind.git",
+    "zed": "https://github.com/reasonml/zed-bin",
+    "lwt": "https://github.com/reasonml/lwt-bin",
+    "dependency-env": "https://github.com/npm-ml/dependency-env.git"
+  }
+}

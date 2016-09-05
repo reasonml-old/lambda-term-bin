@@ -1,0 +1,2524 @@
+"src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  def return "src/lTerm_ui.ml" 19 460 460 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  def >>= "src/lTerm_ui.ml" 19 460 460 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 195
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t)
+)
+"src/lTerm_ui.ml" 12 178 198 "src/lTerm_ui.ml" 12 178 208
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/lTerm_ui.ml" 12 178 210 "src/lTerm_ui.ml" 12 178 219
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"src/lTerm_ui.ml" 12 178 198 "src/lTerm_ui.ml" 12 178 219
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t)
+)
+"src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+type(
+  t -> unit
+)
+ident(
+  def check "src/lTerm_ui.ml" 77 1921 1921 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 70 1631 1641 "src/lTerm_ui.ml" 70 1631 1643
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 71 1646 1648 "src/lTerm_ui.ml" 71 1646 1702
+)
+"src/lTerm_ui.ml" 71 1646 1651 "src/lTerm_ui.ml" 71 1646 1653
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 70 1631 1641 "src/lTerm_ui.ml" 70 1631 1643
+)
+"src/lTerm_ui.ml" 71 1646 1651 "src/lTerm_ui.ml" 71 1646 1659
+type(
+  state
+)
+"src/lTerm_ui.ml" 71 1646 1660 "src/lTerm_ui.ml" 71 1646 1661
+type(
+  state -> state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 71 1646 1662 "src/lTerm_ui.ml" 71 1646 1666
+type(
+  state
+)
+"src/lTerm_ui.ml" 71 1646 1651 "src/lTerm_ui.ml" 71 1646 1666
+type(
+  bool
+)
+"src/lTerm_ui.ml" 71 1646 1672 "src/lTerm_ui.ml" 71 1646 1680
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/lTerm_ui.ml" 71 1646 1681 "src/lTerm_ui.ml" 71 1646 1702
+type(
+  string
+)
+"src/lTerm_ui.ml" 71 1646 1672 "src/lTerm_ui.ml" 71 1646 1702
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 71 1646 1648 "src/lTerm_ui.ml" 71 1646 1702
+type(
+  unit
+)
+"src/lTerm_ui.ml" 77 1921 1925 "src/lTerm_ui.ml" 77 1921 1931
+type(
+  LTerm.t -> ?save_state:bool -> (t -> LTerm_draw.matrix -> unit) -> t Lwt.t
+)
+ident(
+  def create "src/lTerm_ui.ml" 99 2517 2517 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 77 1921 1932 "src/lTerm_ui.ml" 77 1921 1936
+type(
+  LTerm.t
+)
+ident(
+  def term "src/lTerm_ui.ml" 77 1921 1937 "src/lTerm_ui.ml" 97 2512 2515
+)
+"src/lTerm_ui.ml" 77 1921 1939 "src/lTerm_ui.ml" 77 1921 1949
+type(
+  bool
+)
+"src/lTerm_ui.ml" 77 1921 1952 "src/lTerm_ui.ml" 77 1921 1956
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/lTerm_ui.ml" 77 1921 1952 "src/lTerm_ui.ml" 77 1921 1956
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/lTerm_ui.ml" 77 1921 1958 "src/lTerm_ui.ml" 77 1921 1962
+type(
+  t -> LTerm_draw.matrix -> unit
+)
+ident(
+  def draw "src/lTerm_ui.ml" 78 1965 1967 "src/lTerm_ui.ml" 97 2512 2515
+)
+"src/lTerm_ui.ml" 78 1965 1967 "src/lTerm_ui.ml" 78 1965 1987
+type(
+  LTerm.t -> LTerm.mode Lwt.t
+)
+ident(
+  ext_ref LTerm.enter_raw_mode
+)
+"src/lTerm_ui.ml" 78 1965 1988 "src/lTerm_ui.ml" 78 1965 1992
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/lTerm_ui.ml" 77 1921 1932 "src/lTerm_ui.ml" 77 1921 1936
+)
+"src/lTerm_ui.ml" 78 1965 1967 "src/lTerm_ui.ml" 78 1965 1992
+call(
+  stack
+)
+type(
+  LTerm.mode Lwt.t
+)
+"src/lTerm_ui.ml" 78 1965 1993 "src/lTerm_ui.ml" 78 1965 1996
+type(
+  LTerm.mode Lwt.t -> (LTerm.mode -> t Lwt.t) -> t Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 78 1965 2001 "src/lTerm_ui.ml" 78 1965 2005
+type(
+  LTerm.mode
+)
+ident(
+  def mode "src/lTerm_ui.ml" 79 2009 2011 "src/lTerm_ui.ml" 97 2512 2515
+)
+"src/lTerm_ui.ml" 79 2009 2015 "src/lTerm_ui.ml" 79 2009 2025
+type(
+  bool
+)
+ident(
+  int_ref save_state "src/lTerm_ui.ml" 77 1921 1939 "src/lTerm_ui.ml" 77 1921 1949
+)
+"src/lTerm_ui.ml" 79 2009 2031 "src/lTerm_ui.ml" 79 2009 2047
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.save_state
+)
+"src/lTerm_ui.ml" 79 2009 2048 "src/lTerm_ui.ml" 79 2009 2052
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/lTerm_ui.ml" 77 1921 1932 "src/lTerm_ui.ml" 77 1921 1936
+)
+"src/lTerm_ui.ml" 79 2009 2031 "src/lTerm_ui.ml" 79 2009 2052
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 79 2009 2058 "src/lTerm_ui.ml" 79 2009 2064
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 79 2009 2065 "src/lTerm_ui.ml" 79 2009 2067
+type(
+  unit
+)
+"src/lTerm_ui.ml" 79 2009 2058 "src/lTerm_ui.ml" 79 2009 2067
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 79 2009 2011 "src/lTerm_ui.ml" 79 2009 2068
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 79 2009 2069 "src/lTerm_ui.ml" 79 2009 2072
+type(
+  unit Lwt.t -> (unit -> t Lwt.t) -> t Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 79 2009 2077 "src/lTerm_ui.ml" 79 2009 2079
+type(
+  unit
+)
+"src/lTerm_ui.ml" 80 2083 2089 "src/lTerm_ui.ml" 80 2083 2095
+type(
+  exn Lwt_stream.t
+)
+ident(
+  def stream "src/lTerm_ui.ml" 81 2128 2130 "src/lTerm_ui.ml" 97 2512 2515
+)
+"src/lTerm_ui.ml" 80 2083 2097 "src/lTerm_ui.ml" 80 2083 2101
+type(
+  exn option -> unit
+)
+ident(
+  def push "src/lTerm_ui.ml" 81 2128 2130 "src/lTerm_ui.ml" 97 2512 2515
+)
+"src/lTerm_ui.ml" 80 2083 2089 "src/lTerm_ui.ml" 80 2083 2101
+type(
+  exn Lwt_stream.t * (exn option -> unit)
+)
+"src/lTerm_ui.ml" 80 2083 2104 "src/lTerm_ui.ml" 80 2083 2121
+type(
+  unit -> exn Lwt_stream.t * (exn option -> unit)
+)
+ident(
+  ext_ref Lwt_stream.create
+)
+"src/lTerm_ui.ml" 80 2083 2122 "src/lTerm_ui.ml" 80 2083 2124
+type(
+  unit
+)
+"src/lTerm_ui.ml" 80 2083 2104 "src/lTerm_ui.ml" 80 2083 2124
+call(
+  stack
+)
+type(
+  exn Lwt_stream.t * (exn option -> unit)
+)
+"src/lTerm_ui.ml" 81 2128 2130 "src/lTerm_ui.ml" 81 2128 2136
+type(
+  t -> t Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 82 2139 2150 "src/lTerm_ui.ml" 82 2139 2154
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/lTerm_ui.ml" 77 1921 1932 "src/lTerm_ui.ml" 77 1921 1936
+)
+"src/lTerm_ui.ml" 83 2156 2167 "src/lTerm_ui.ml" 83 2156 2171
+type(
+  t -> LTerm_draw.matrix -> unit
+)
+ident(
+  int_ref draw "src/lTerm_ui.ml" 77 1921 1958 "src/lTerm_ui.ml" 77 1921 1962
+)
+"src/lTerm_ui.ml" 84 2173 2184 "src/lTerm_ui.ml" 84 2173 2188
+type(
+  LTerm.mode
+)
+ident(
+  int_ref mode "src/lTerm_ui.ml" 78 1965 2001 "src/lTerm_ui.ml" 78 1965 2005
+)
+"src/lTerm_ui.ml" 85 2190 2202 "src/lTerm_ui.ml" 85 2190 2206
+type(
+  state
+)
+"src/lTerm_ui.ml" 86 2208 2228 "src/lTerm_ui.ml" 86 2208 2238
+type(
+  bool
+)
+ident(
+  int_ref save_state "src/lTerm_ui.ml" 77 1921 1939 "src/lTerm_ui.ml" 77 1921 1949
+)
+"src/lTerm_ui.ml" 87 2240 2251 "src/lTerm_ui.ml" 87 2240 2261
+type(
+  LTerm.t -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm.size
+)
+"src/lTerm_ui.ml" 87 2240 2262 "src/lTerm_ui.ml" 87 2240 2266
+type(
+  LTerm.t
+)
+ident(
+  int_ref term "src/lTerm_ui.ml" 77 1921 1932 "src/lTerm_ui.ml" 77 1921 1936
+)
+"src/lTerm_ui.ml" 87 2240 2251 "src/lTerm_ui.ml" 87 2240 2266
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_ui.ml" 88 2268 2283 "src/lTerm_ui.ml" 88 2268 2287
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 89 2289 2304 "src/lTerm_ui.ml" 89 2289 2308
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 90 2310 2331 "src/lTerm_ui.ml" 90 2310 2336
+type(
+  bool
+)
+"src/lTerm_ui.ml" 91 2338 2368 "src/lTerm_ui.ml" 91 2338 2369
+type(
+  int
+)
+"src/lTerm_ui.ml" 91 2338 2377 "src/lTerm_ui.ml" 91 2338 2378
+type(
+  int
+)
+"src/lTerm_ui.ml" 91 2338 2360 "src/lTerm_ui.ml" 91 2338 2380
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_ui.ml" 92 2382 2400 "src/lTerm_ui.ml" 92 2382 2405
+type(
+  bool
+)
+"src/lTerm_ui.ml" 93 2407 2420 "src/lTerm_ui.ml" 93 2407 2426
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 93 2407 2427 "src/lTerm_ui.ml" 93 2407 2429
+type(
+  unit
+)
+"src/lTerm_ui.ml" 93 2407 2420 "src/lTerm_ui.ml" 93 2407 2429
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 94 2431 2445 "src/lTerm_ui.ml" 94 2431 2450
+type(
+  bool
+)
+"src/lTerm_ui.ml" 95 2452 2474 "src/lTerm_ui.ml" 95 2452 2478
+type(
+  exn option -> unit
+)
+ident(
+  int_ref push "src/lTerm_ui.ml" 80 2083 2097 "src/lTerm_ui.ml" 80 2083 2101
+)
+"src/lTerm_ui.ml" 96 2480 2504 "src/lTerm_ui.ml" 96 2480 2510
+type(
+  exn Lwt_stream.t
+)
+ident(
+  int_ref stream "src/lTerm_ui.ml" 80 2083 2089 "src/lTerm_ui.ml" 80 2083 2095
+)
+"src/lTerm_ui.ml" 81 2128 2137 "src/lTerm_ui.ml" 97 2512 2515
+type(
+  t
+)
+"src/lTerm_ui.ml" 81 2128 2130 "src/lTerm_ui.ml" 97 2512 2515
+call(
+  tail
+)
+type(
+  t Lwt.t
+)
+"src/lTerm_ui.ml" 80 2083 2085 "src/lTerm_ui.ml" 97 2512 2515
+type(
+  t Lwt.t
+)
+"src/lTerm_ui.ml" 79 2009 2073 "src/lTerm_ui.ml" 97 2512 2515
+type(
+  unit -> t Lwt.t
+)
+"src/lTerm_ui.ml" 79 2009 2011 "src/lTerm_ui.ml" 97 2512 2515
+call(
+  tail
+)
+type(
+  t Lwt.t
+)
+"src/lTerm_ui.ml" 78 1965 1997 "src/lTerm_ui.ml" 97 2512 2515
+type(
+  LTerm.mode -> t Lwt.t
+)
+"src/lTerm_ui.ml" 78 1965 1967 "src/lTerm_ui.ml" 97 2512 2515
+call(
+  tail
+)
+type(
+  t Lwt.t
+)
+"src/lTerm_ui.ml" 99 2517 2521 "src/lTerm_ui.ml" 99 2517 2525
+type(
+  t -> unit Lwt.t
+)
+ident(
+  def quit "src/lTerm_ui.ml" 114 2981 2981 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 100 2531 2533 "src/lTerm_ui.ml" 108 2749 2762
+)
+"src/lTerm_ui.ml" 100 2531 2533 "src/lTerm_ui.ml" 100 2531 2538
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 100 2531 2539 "src/lTerm_ui.ml" 100 2531 2541
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 100 2531 2533 "src/lTerm_ui.ml" 100 2531 2541
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 101 2543 2545 "src/lTerm_ui.ml" 101 2543 2547
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 101 2543 2557 "src/lTerm_ui.ml" 101 2543 2561
+type(
+  state
+)
+"src/lTerm_ui.ml" 101 2543 2545 "src/lTerm_ui.ml" 101 2543 2561
+type(
+  unit
+)
+"src/lTerm_ui.ml" 102 2563 2565 "src/lTerm_ui.ml" 102 2563 2567
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 102 2563 2565 "src/lTerm_ui.ml" 102 2563 2574
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 102 2563 2575 "src/lTerm_ui.ml" 102 2563 2578
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 102 2563 2583 "src/lTerm_ui.ml" 102 2563 2585
+type(
+  unit
+)
+"src/lTerm_ui.ml" 103 2589 2591 "src/lTerm_ui.ml" 103 2589 2611
+type(
+  LTerm.t -> LTerm.mode -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.leave_raw_mode
+)
+"src/lTerm_ui.ml" 103 2589 2612 "src/lTerm_ui.ml" 103 2589 2614
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 103 2589 2612 "src/lTerm_ui.ml" 103 2589 2619
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 103 2589 2620 "src/lTerm_ui.ml" 103 2589 2622
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 103 2589 2620 "src/lTerm_ui.ml" 103 2589 2627
+type(
+  LTerm.mode
+)
+"src/lTerm_ui.ml" 103 2589 2591 "src/lTerm_ui.ml" 103 2589 2627
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 103 2589 2628 "src/lTerm_ui.ml" 103 2589 2631
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 103 2589 2636 "src/lTerm_ui.ml" 103 2589 2638
+type(
+  unit
+)
+"src/lTerm_ui.ml" 104 2642 2647 "src/lTerm_ui.ml" 104 2642 2649
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 104 2642 2647 "src/lTerm_ui.ml" 104 2642 2663
+type(
+  bool
+)
+"src/lTerm_ui.ml" 105 2669 2673 "src/lTerm_ui.ml" 105 2669 2690
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.show_cursor
+)
+"src/lTerm_ui.ml" 105 2669 2691 "src/lTerm_ui.ml" 105 2669 2693
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 105 2669 2691 "src/lTerm_ui.ml" 105 2669 2698
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 105 2669 2673 "src/lTerm_ui.ml" 105 2669 2698
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 105 2669 2699 "src/lTerm_ui.ml" 105 2669 2702
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 105 2669 2707 "src/lTerm_ui.ml" 105 2669 2709
+type(
+  unit
+)
+"src/lTerm_ui.ml" 106 2713 2717 "src/lTerm_ui.ml" 106 2713 2733
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.load_state
+)
+"src/lTerm_ui.ml" 106 2713 2734 "src/lTerm_ui.ml" 106 2713 2736
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 99 2517 2526 "src/lTerm_ui.ml" 99 2517 2528
+)
+"src/lTerm_ui.ml" 106 2713 2734 "src/lTerm_ui.ml" 106 2713 2741
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 106 2713 2717 "src/lTerm_ui.ml" 106 2713 2741
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 105 2669 2703 "src/lTerm_ui.ml" 106 2713 2741
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 105 2669 2673 "src/lTerm_ui.ml" 106 2713 2741
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 108 2749 2753 "src/lTerm_ui.ml" 108 2749 2759
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 108 2749 2760 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit
+)
+"src/lTerm_ui.ml" 108 2749 2753 "src/lTerm_ui.ml" 108 2749 2762
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 104 2642 2644 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 103 2589 2632 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 103 2589 2591 "src/lTerm_ui.ml" 108 2749 2762
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 102 2563 2579 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 102 2563 2565 "src/lTerm_ui.ml" 108 2749 2762
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 101 2543 2545 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 100 2531 2533 "src/lTerm_ui.ml" 108 2749 2762
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 114 2981 2985 "src/lTerm_ui.ml" 114 2981 2999
+type(
+  t -> unit -> unit Lwt.t
+)
+ident(
+  def immediate_draw "src/lTerm_ui.ml" 153 4111 4111 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 114 2981 3005 "src/lTerm_ui.ml" 151 4095 4109
+)
+"src/lTerm_ui.ml" 114 2981 3009 "src/lTerm_ui.ml" 114 2981 3011
+type(
+  unit
+)
+"src/lTerm_ui.ml" 115 3015 3017 "src/lTerm_ui.ml" 115 3015 3026
+type(
+  (unit -> unit Lwt.t) -> (exn -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/lTerm_ui.ml" 115 3015 3032 "src/lTerm_ui.ml" 115 3015 3034
+type(
+  unit
+)
+"src/lTerm_ui.ml" 117 3093 3097 "src/lTerm_ui.ml" 117 3093 3106
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.pause
+)
+"src/lTerm_ui.ml" 117 3093 3107 "src/lTerm_ui.ml" 117 3093 3109
+type(
+  unit
+)
+"src/lTerm_ui.ml" 117 3093 3097 "src/lTerm_ui.ml" 117 3093 3109
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 117 3093 3110 "src/lTerm_ui.ml" 117 3093 3113
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 117 3093 3118 "src/lTerm_ui.ml" 117 3093 3120
+type(
+  unit
+)
+"src/lTerm_ui.ml" 118 3124 3128 "src/lTerm_ui.ml" 118 3124 3130
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 118 3124 3146 "src/lTerm_ui.ml" 118 3124 3151
+type(
+  bool
+)
+"src/lTerm_ui.ml" 118 3124 3128 "src/lTerm_ui.ml" 118 3124 3151
+type(
+  unit
+)
+"src/lTerm_ui.ml" 119 3153 3160 "src/lTerm_ui.ml" 119 3153 3162
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 119 3153 3160 "src/lTerm_ui.ml" 119 3153 3168
+type(
+  state
+)
+"src/lTerm_ui.ml" 119 3153 3169 "src/lTerm_ui.ml" 119 3153 3170
+type(
+  state -> state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 119 3153 3171 "src/lTerm_ui.ml" 119 3153 3175
+type(
+  state
+)
+"src/lTerm_ui.ml" 119 3153 3160 "src/lTerm_ui.ml" 119 3153 3175
+type(
+  bool
+)
+"src/lTerm_ui.ml" 120 3181 3187 "src/lTerm_ui.ml" 120 3181 3193
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 120 3181 3194 "src/lTerm_ui.ml" 120 3181 3196
+type(
+  unit
+)
+"src/lTerm_ui.ml" 120 3181 3187 "src/lTerm_ui.ml" 120 3181 3196
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 123 3261 3270 "src/lTerm_ui.ml" 123 3261 3272
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 123 3261 3270 "src/lTerm_ui.ml" 123 3261 3281
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 123 3261 3282 "src/lTerm_ui.ml" 123 3261 3283
+type(
+  LTerm_draw.matrix -> LTerm_draw.matrix -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 123 3261 3284 "src/lTerm_ui.ml" 123 3261 3288
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 123 3261 3270 "src/lTerm_ui.ml" 123 3261 3288
+type(
+  bool
+)
+"src/lTerm_ui.ml" 123 3261 3294 "src/lTerm_ui.ml" 123 3261 3296
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 123 3261 3309 "src/lTerm_ui.ml" 123 3261 3331
+type(
+  LTerm_geom.size -> LTerm_draw.matrix
+)
+ident(
+  ext_ref LTerm_draw.make_matrix
+)
+"src/lTerm_ui.ml" 123 3261 3332 "src/lTerm_ui.ml" 123 3261 3334
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 123 3261 3332 "src/lTerm_ui.ml" 123 3261 3339
+type(
+  LTerm_geom.size
+)
+"src/lTerm_ui.ml" 123 3261 3309 "src/lTerm_ui.ml" 123 3261 3339
+call(
+  stack
+)
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 123 3261 3294 "src/lTerm_ui.ml" 123 3261 3339
+type(
+  unit
+)
+"src/lTerm_ui.ml" 123 3261 3267 "src/lTerm_ui.ml" 123 3261 3339
+type(
+  unit
+)
+"src/lTerm_ui.ml" 126 3370 3376 "src/lTerm_ui.ml" 126 3370 3378
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 126 3370 3390 "src/lTerm_ui.ml" 126 3370 3394
+type(
+  bool
+)
+"src/lTerm_ui.ml" 126 3370 3376 "src/lTerm_ui.ml" 126 3370 3394
+type(
+  unit
+)
+"src/lTerm_ui.ml" 127 3396 3407 "src/lTerm_ui.ml" 127 3396 3409
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 127 3396 3407 "src/lTerm_ui.ml" 127 3396 3414
+type(
+  t -> LTerm_draw.matrix -> unit
+)
+"src/lTerm_ui.ml" 127 3396 3415 "src/lTerm_ui.ml" 127 3396 3417
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 127 3396 3418 "src/lTerm_ui.ml" 127 3396 3420
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 127 3396 3418 "src/lTerm_ui.ml" 127 3396 3429
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 127 3396 3407 "src/lTerm_ui.ml" 127 3396 3429
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 127 3396 3435 "src/lTerm_ui.ml" 127 3396 3438
+type(
+  exn
+)
+ident(
+  def exn "src/lTerm_ui.ml" 127 3396 3442 "src/lTerm_ui.ml" 127 3396 3472
+)
+"src/lTerm_ui.ml" 127 3396 3442 "src/lTerm_ui.ml" 127 3396 3444
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 127 3396 3456 "src/lTerm_ui.ml" 127 3396 3461
+type(
+  bool
+)
+"src/lTerm_ui.ml" 127 3396 3442 "src/lTerm_ui.ml" 127 3396 3461
+type(
+  unit
+)
+"src/lTerm_ui.ml" 127 3396 3463 "src/lTerm_ui.ml" 127 3396 3468
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/lTerm_ui.ml" 127 3396 3469 "src/lTerm_ui.ml" 127 3396 3472
+type(
+  exn
+)
+ident(
+  int_ref exn "src/lTerm_ui.ml" 127 3396 3435 "src/lTerm_ui.ml" 127 3396 3438
+)
+"src/lTerm_ui.ml" 127 3396 3463 "src/lTerm_ui.ml" 127 3396 3472
+type(
+  unit
+)
+"src/lTerm_ui.ml" 127 3396 3442 "src/lTerm_ui.ml" 127 3396 3472
+type(
+  unit
+)
+"src/lTerm_ui.ml" 127 3396 3402 "src/lTerm_ui.ml" 127 3396 3473
+type(
+  unit
+)
+"src/lTerm_ui.ml" 128 3475 3481 "src/lTerm_ui.ml" 128 3475 3483
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 128 3475 3495 "src/lTerm_ui.ml" 128 3475 3500
+type(
+  bool
+)
+"src/lTerm_ui.ml" 128 3475 3481 "src/lTerm_ui.ml" 128 3475 3500
+type(
+  unit
+)
+"src/lTerm_ui.ml" 131 3526 3532 "src/lTerm_ui.ml" 131 3526 3549
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.hide_cursor
+)
+"src/lTerm_ui.ml" 131 3526 3550 "src/lTerm_ui.ml" 131 3526 3552
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 131 3526 3550 "src/lTerm_ui.ml" 131 3526 3557
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 131 3526 3532 "src/lTerm_ui.ml" 131 3526 3557
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 131 3526 3558 "src/lTerm_ui.ml" 131 3526 3561
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 131 3526 3566 "src/lTerm_ui.ml" 131 3526 3568
+type(
+  unit
+)
+"src/lTerm_ui.ml" 132 3572 3578 "src/lTerm_ui.ml" 132 3572 3597
+type(
+  LTerm.t -> LTerm_draw.matrix -> LTerm_draw.matrix -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.render_update
+)
+"src/lTerm_ui.ml" 132 3572 3598 "src/lTerm_ui.ml" 132 3572 3600
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 132 3572 3598 "src/lTerm_ui.ml" 132 3572 3605
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 132 3572 3606 "src/lTerm_ui.ml" 132 3572 3608
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 132 3572 3606 "src/lTerm_ui.ml" 132 3572 3617
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 132 3572 3618 "src/lTerm_ui.ml" 132 3572 3620
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 132 3572 3618 "src/lTerm_ui.ml" 132 3572 3629
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 132 3572 3578 "src/lTerm_ui.ml" 132 3572 3629
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 132 3572 3630 "src/lTerm_ui.ml" 132 3572 3633
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 132 3572 3638 "src/lTerm_ui.ml" 132 3572 3640
+type(
+  unit
+)
+"src/lTerm_ui.ml" 134 3656 3667 "src/lTerm_ui.ml" 134 3656 3669
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 134 3656 3667 "src/lTerm_ui.ml" 134 3656 3684
+type(
+  bool
+)
+"src/lTerm_ui.ml" 135 3690 3700 "src/lTerm_ui.ml" 135 3690 3710
+type(
+  LTerm.t -> LTerm_geom.coord -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.goto
+)
+"src/lTerm_ui.ml" 135 3690 3711 "src/lTerm_ui.ml" 135 3690 3713
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 135 3690 3711 "src/lTerm_ui.ml" 135 3690 3718
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 135 3690 3719 "src/lTerm_ui.ml" 135 3690 3721
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 135 3690 3719 "src/lTerm_ui.ml" 135 3690 3737
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_ui.ml" 135 3690 3700 "src/lTerm_ui.ml" 135 3690 3737
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 135 3690 3738 "src/lTerm_ui.ml" 135 3690 3741
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 135 3690 3746 "src/lTerm_ui.ml" 135 3690 3748
+type(
+  unit
+)
+"src/lTerm_ui.ml" 136 3752 3762 "src/lTerm_ui.ml" 136 3752 3779
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.show_cursor
+)
+"src/lTerm_ui.ml" 136 3752 3780 "src/lTerm_ui.ml" 136 3752 3782
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 136 3752 3780 "src/lTerm_ui.ml" 136 3752 3787
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 136 3752 3762 "src/lTerm_ui.ml" 136 3752 3787
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 135 3690 3742 "src/lTerm_ui.ml" 136 3752 3787
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 135 3690 3700 "src/lTerm_ui.ml" 136 3752 3787
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 138 3801 3811 "src/lTerm_ui.ml" 138 3801 3817
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 138 3801 3818 "src/lTerm_ui.ml" 138 3801 3820
+type(
+  unit
+)
+"src/lTerm_ui.ml" 138 3801 3811 "src/lTerm_ui.ml" 138 3801 3820
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 133 3644 3650 "src/lTerm_ui.ml" 139 3821 3830
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 139 3821 3831 "src/lTerm_ui.ml" 139 3821 3834
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 139 3821 3839 "src/lTerm_ui.ml" 139 3821 3841
+type(
+  unit
+)
+"src/lTerm_ui.ml" 140 3845 3851 "src/lTerm_ui.ml" 140 3845 3862
+type(
+  LTerm.t -> unit Lwt.t
+)
+ident(
+  ext_ref LTerm.flush
+)
+"src/lTerm_ui.ml" 140 3845 3863 "src/lTerm_ui.ml" 140 3845 3865
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 140 3845 3863 "src/lTerm_ui.ml" 140 3845 3870
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 140 3845 3851 "src/lTerm_ui.ml" 140 3845 3870
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 140 3845 3871 "src/lTerm_ui.ml" 140 3845 3874
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 140 3845 3879 "src/lTerm_ui.ml" 140 3845 3881
+type(
+  unit
+)
+"src/lTerm_ui.ml" 143 3921 3931 "src/lTerm_ui.ml" 143 3921 3932
+type(
+  LTerm_draw.matrix
+)
+ident(
+  def a "src/lTerm_ui.ml" 144 3970 3976 "src/lTerm_ui.ml" 147 4019 4034
+)
+"src/lTerm_ui.ml" 143 3921 3935 "src/lTerm_ui.ml" 143 3921 3937
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 143 3921 3935 "src/lTerm_ui.ml" 143 3921 3946
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 143 3921 3951 "src/lTerm_ui.ml" 143 3921 3952
+type(
+  LTerm_draw.matrix
+)
+ident(
+  def b "src/lTerm_ui.ml" 144 3970 3976 "src/lTerm_ui.ml" 147 4019 4034
+)
+"src/lTerm_ui.ml" 143 3921 3955 "src/lTerm_ui.ml" 143 3921 3957
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 143 3921 3955 "src/lTerm_ui.ml" 143 3921 3966
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 144 3970 3976 "src/lTerm_ui.ml" 144 3970 3978
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 144 3970 3991 "src/lTerm_ui.ml" 144 3970 3992
+type(
+  LTerm_draw.matrix
+)
+ident(
+  int_ref b "src/lTerm_ui.ml" 143 3921 3951 "src/lTerm_ui.ml" 143 3921 3952
+)
+"src/lTerm_ui.ml" 144 3970 3976 "src/lTerm_ui.ml" 144 3970 3992
+type(
+  unit
+)
+"src/lTerm_ui.ml" 145 3994 4000 "src/lTerm_ui.ml" 145 3994 4002
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 145 3994 4015 "src/lTerm_ui.ml" 145 3994 4016
+type(
+  LTerm_draw.matrix
+)
+ident(
+  int_ref a "src/lTerm_ui.ml" 143 3921 3931 "src/lTerm_ui.ml" 143 3921 3932
+)
+"src/lTerm_ui.ml" 145 3994 4000 "src/lTerm_ui.ml" 145 3994 4016
+type(
+  unit
+)
+"src/lTerm_ui.ml" 147 4019 4025 "src/lTerm_ui.ml" 147 4019 4031
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 147 4019 4032 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit
+)
+"src/lTerm_ui.ml" 147 4019 4025 "src/lTerm_ui.ml" 147 4019 4034
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 145 3994 4000 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 144 3970 3976 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 143 3921 3927 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 140 3845 3875 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 140 3845 3851 "src/lTerm_ui.ml" 147 4019 4034
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 139 3821 3835 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 133 3644 3650 "src/lTerm_ui.ml" 147 4019 4034
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 132 3572 3634 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 132 3572 3578 "src/lTerm_ui.ml" 147 4019 4034
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 131 3526 3562 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 131 3526 3532 "src/lTerm_ui.ml" 147 4019 4034
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 128 3475 3481 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 127 3396 3402 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 126 3370 3376 "src/lTerm_ui.ml" 147 4019 4034
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 121 3197 3206 "src/lTerm_ui.ml" 148 4035 4042
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 119 3153 3157 "src/lTerm_ui.ml" 148 4035 4042
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 118 3124 3128 "src/lTerm_ui.ml" 148 4035 4042
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 117 3093 3114 "src/lTerm_ui.ml" 148 4035 4042
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 117 3093 3097 "src/lTerm_ui.ml" 148 4035 4042
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 115 3015 3027 "src/lTerm_ui.ml" 148 4035 4043
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 149 4044 4053 "src/lTerm_ui.ml" 149 4044 4056
+type(
+  exn
+)
+ident(
+  def exn "src/lTerm_ui.ml" 150 4060 4064 "src/lTerm_ui.ml" 151 4095 4108
+)
+"src/lTerm_ui.ml" 150 4060 4064 "src/lTerm_ui.ml" 150 4060 4066
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 114 2981 3000 "src/lTerm_ui.ml" 114 2981 3002
+)
+"src/lTerm_ui.ml" 150 4060 4064 "src/lTerm_ui.ml" 150 4060 4082
+type(
+  exn option -> unit
+)
+"src/lTerm_ui.ml" 150 4060 4089 "src/lTerm_ui.ml" 150 4060 4092
+type(
+  exn
+)
+ident(
+  int_ref exn "src/lTerm_ui.ml" 149 4044 4053 "src/lTerm_ui.ml" 149 4044 4056
+)
+"src/lTerm_ui.ml" 150 4060 4083 "src/lTerm_ui.ml" 150 4060 4093
+type(
+  exn option
+)
+"src/lTerm_ui.ml" 150 4060 4064 "src/lTerm_ui.ml" 150 4060 4093
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 151 4095 4099 "src/lTerm_ui.ml" 151 4095 4105
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 151 4095 4106 "src/lTerm_ui.ml" 151 4095 4108
+type(
+  unit
+)
+"src/lTerm_ui.ml" 151 4095 4099 "src/lTerm_ui.ml" 151 4095 4108
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 150 4060 4064 "src/lTerm_ui.ml" 151 4095 4108
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 149 4044 4048 "src/lTerm_ui.ml" 151 4095 4109
+type(
+  exn -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 115 3015 3017 "src/lTerm_ui.ml" 151 4095 4109
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 114 2981 3005 "src/lTerm_ui.ml" 151 4095 4109
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 153 4111 4115 "src/lTerm_ui.ml" 153 4111 4119
+type(
+  t -> unit
+)
+ident(
+  def draw "src/lTerm_ui.ml" 165 4580 4580 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 154 4125 4127 "src/lTerm_ui.ml" 159 4313 4361
+)
+"src/lTerm_ui.ml" 154 4125 4127 "src/lTerm_ui.ml" 154 4125 4132
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 154 4125 4133 "src/lTerm_ui.ml" 154 4125 4135
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 154 4125 4127 "src/lTerm_ui.ml" 154 4125 4135
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 155 4137 4139 "src/lTerm_ui.ml" 155 4137 4141
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 155 4137 4151 "src/lTerm_ui.ml" 155 4137 4155
+type(
+  state
+)
+"src/lTerm_ui.ml" 155 4137 4139 "src/lTerm_ui.ml" 155 4137 4155
+type(
+  unit
+)
+"src/lTerm_ui.ml" 157 4216 4221 "src/lTerm_ui.ml" 157 4216 4224
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/lTerm_ui.ml" 157 4216 4225 "src/lTerm_ui.ml" 157 4216 4227
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 157 4216 4225 "src/lTerm_ui.ml" 157 4216 4239
+type(
+  bool
+)
+"src/lTerm_ui.ml" 157 4216 4221 "src/lTerm_ui.ml" 157 4216 4239
+type(
+  bool
+)
+"src/lTerm_ui.ml" 159 4313 4317 "src/lTerm_ui.ml" 159 4313 4319
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 159 4313 4330 "src/lTerm_ui.ml" 159 4313 4332
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 159 4313 4330 "src/lTerm_ui.ml" 159 4313 4339
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 159 4313 4340 "src/lTerm_ui.ml" 159 4313 4343
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 159 4313 4344 "src/lTerm_ui.ml" 159 4313 4358
+type(
+  t -> unit -> unit Lwt.t
+)
+ident(
+  int_ref immediate_draw "src/lTerm_ui.ml" 114 2981 2985 "src/lTerm_ui.ml" 114 2981 2999
+)
+"src/lTerm_ui.ml" 159 4313 4359 "src/lTerm_ui.ml" 159 4313 4361
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 153 4111 4120 "src/lTerm_ui.ml" 153 4111 4122
+)
+"src/lTerm_ui.ml" 159 4313 4344 "src/lTerm_ui.ml" 159 4313 4361
+call(
+  stack
+)
+type(
+  unit -> unit Lwt.t
+)
+"src/lTerm_ui.ml" 159 4313 4330 "src/lTerm_ui.ml" 159 4313 4361
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_ui.ml" 159 4313 4317 "src/lTerm_ui.ml" 159 4313 4361
+type(
+  unit
+)
+"src/lTerm_ui.ml" 157 4216 4218 "src/lTerm_ui.ml" 159 4313 4361
+type(
+  unit
+)
+"src/lTerm_ui.ml" 155 4137 4139 "src/lTerm_ui.ml" 159 4313 4361
+type(
+  unit
+)
+"src/lTerm_ui.ml" 154 4125 4127 "src/lTerm_ui.ml" 159 4313 4361
+type(
+  unit
+)
+"src/lTerm_ui.ml" 165 4580 4584 "src/lTerm_ui.ml" 165 4580 4588
+type(
+  t -> LTerm_geom.size
+)
+ident(
+  def size "src/lTerm_ui.ml" 169 4617 4617 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 165 4580 4589 "src/lTerm_ui.ml" 165 4580 4591
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 166 4594 4596 "src/lTerm_ui.ml" 167 4606 4615
+)
+"src/lTerm_ui.ml" 166 4594 4596 "src/lTerm_ui.ml" 166 4594 4601
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 166 4594 4602 "src/lTerm_ui.ml" 166 4594 4604
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 165 4580 4589 "src/lTerm_ui.ml" 165 4580 4591
+)
+"src/lTerm_ui.ml" 166 4594 4596 "src/lTerm_ui.ml" 166 4594 4604
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 167 4606 4608 "src/lTerm_ui.ml" 167 4606 4610
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 165 4580 4589 "src/lTerm_ui.ml" 165 4580 4591
+)
+"src/lTerm_ui.ml" 167 4606 4608 "src/lTerm_ui.ml" 167 4606 4615
+type(
+  LTerm_geom.size
+)
+"src/lTerm_ui.ml" 166 4594 4596 "src/lTerm_ui.ml" 167 4606 4615
+type(
+  LTerm_geom.size
+)
+"src/lTerm_ui.ml" 169 4617 4621 "src/lTerm_ui.ml" 169 4617 4635
+type(
+  t -> bool
+)
+ident(
+  def cursor_visible "src/lTerm_ui.ml" 173 4674 4674 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 169 4617 4636 "src/lTerm_ui.ml" 169 4617 4638
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 170 4641 4643 "src/lTerm_ui.ml" 171 4653 4672
+)
+"src/lTerm_ui.ml" 170 4641 4643 "src/lTerm_ui.ml" 170 4641 4648
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 170 4641 4649 "src/lTerm_ui.ml" 170 4641 4651
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 169 4617 4636 "src/lTerm_ui.ml" 169 4617 4638
+)
+"src/lTerm_ui.ml" 170 4641 4643 "src/lTerm_ui.ml" 170 4641 4651
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 171 4653 4655 "src/lTerm_ui.ml" 171 4653 4657
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 169 4617 4636 "src/lTerm_ui.ml" 169 4617 4638
+)
+"src/lTerm_ui.ml" 171 4653 4655 "src/lTerm_ui.ml" 171 4653 4672
+type(
+  bool
+)
+"src/lTerm_ui.ml" 170 4641 4643 "src/lTerm_ui.ml" 171 4653 4672
+type(
+  bool
+)
+"src/lTerm_ui.ml" 173 4674 4678 "src/lTerm_ui.ml" 173 4674 4696
+type(
+  t -> bool -> unit
+)
+ident(
+  def set_cursor_visible "src/lTerm_ui.ml" 180 4856 4856 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 173 4674 4700 "src/lTerm_ui.ml" 178 4849 4854
+)
+"src/lTerm_ui.ml" 173 4674 4700 "src/lTerm_ui.ml" 173 4674 4705
+type(
+  bool
+)
+ident(
+  def state "src/lTerm_ui.ml" 174 4708 4710 "src/lTerm_ui.ml" 178 4849 4854
+)
+"src/lTerm_ui.ml" 174 4708 4710 "src/lTerm_ui.ml" 174 4708 4715
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 174 4708 4716 "src/lTerm_ui.ml" 174 4708 4718
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 174 4708 4710 "src/lTerm_ui.ml" 174 4708 4718
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 175 4720 4725 "src/lTerm_ui.ml" 175 4720 4730
+type(
+  bool
+)
+ident(
+  int_ref state "src/lTerm_ui.ml" 173 4674 4700 "src/lTerm_ui.ml" 173 4674 4705
+)
+"src/lTerm_ui.ml" 175 4720 4731 "src/lTerm_ui.ml" 175 4720 4733
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/lTerm_ui.ml" 175 4720 4734 "src/lTerm_ui.ml" 175 4720 4736
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 175 4720 4734 "src/lTerm_ui.ml" 175 4720 4751
+type(
+  bool
+)
+"src/lTerm_ui.ml" 175 4720 4725 "src/lTerm_ui.ml" 175 4720 4751
+type(
+  bool
+)
+"src/lTerm_ui.ml" 176 4763 4767 "src/lTerm_ui.ml" 176 4763 4769
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 176 4763 4788 "src/lTerm_ui.ml" 176 4763 4793
+type(
+  bool
+)
+ident(
+  int_ref state "src/lTerm_ui.ml" 173 4674 4700 "src/lTerm_ui.ml" 173 4674 4705
+)
+"src/lTerm_ui.ml" 176 4763 4767 "src/lTerm_ui.ml" 176 4763 4793
+type(
+  unit
+)
+"src/lTerm_ui.ml" 177 4795 4802 "src/lTerm_ui.ml" 177 4795 4804
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 177 4795 4802 "src/lTerm_ui.ml" 177 4795 4810
+type(
+  state
+)
+"src/lTerm_ui.ml" 177 4795 4811 "src/lTerm_ui.ml" 177 4795 4812
+type(
+  state -> state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 177 4795 4813 "src/lTerm_ui.ml" 177 4795 4817
+type(
+  state
+)
+"src/lTerm_ui.ml" 177 4795 4802 "src/lTerm_ui.ml" 177 4795 4817
+type(
+  bool
+)
+"src/lTerm_ui.ml" 177 4795 4818 "src/lTerm_ui.ml" 177 4795 4820
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_ui.ml" 177 4795 4821 "src/lTerm_ui.ml" 177 4795 4824
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/lTerm_ui.ml" 177 4795 4825 "src/lTerm_ui.ml" 177 4795 4827
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 177 4795 4825 "src/lTerm_ui.ml" 177 4795 4835
+type(
+  bool
+)
+"src/lTerm_ui.ml" 177 4795 4821 "src/lTerm_ui.ml" 177 4795 4835
+type(
+  bool
+)
+"src/lTerm_ui.ml" 177 4795 4802 "src/lTerm_ui.ml" 177 4795 4835
+type(
+  bool
+)
+"src/lTerm_ui.ml" 177 4795 4841 "src/lTerm_ui.ml" 177 4795 4845
+type(
+  t -> unit
+)
+ident(
+  int_ref draw "src/lTerm_ui.ml" 153 4111 4115 "src/lTerm_ui.ml" 153 4111 4119
+)
+"src/lTerm_ui.ml" 177 4795 4846 "src/lTerm_ui.ml" 177 4795 4848
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 173 4674 4697 "src/lTerm_ui.ml" 173 4674 4699
+)
+"src/lTerm_ui.ml" 177 4795 4841 "src/lTerm_ui.ml" 177 4795 4848
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 177 4795 4799 "src/lTerm_ui.ml" 177 4795 4848
+type(
+  unit
+)
+"src/lTerm_ui.ml" 175 4720 4757 "src/lTerm_ui.ml" 178 4849 4854
+type(
+  unit
+)
+"src/lTerm_ui.ml" 175 4720 4722 "src/lTerm_ui.ml" 178 4849 4854
+type(
+  unit
+)
+"src/lTerm_ui.ml" 174 4708 4710 "src/lTerm_ui.ml" 178 4849 4854
+type(
+  unit
+)
+"src/lTerm_ui.ml" 180 4856 4860 "src/lTerm_ui.ml" 180 4856 4875
+type(
+  t -> LTerm_geom.coord
+)
+ident(
+  def cursor_position "src/lTerm_ui.ml" 184 4915 4915 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 180 4856 4876 "src/lTerm_ui.ml" 180 4856 4878
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 181 4881 4883 "src/lTerm_ui.ml" 182 4893 4913
+)
+"src/lTerm_ui.ml" 181 4881 4883 "src/lTerm_ui.ml" 181 4881 4888
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 181 4881 4889 "src/lTerm_ui.ml" 181 4881 4891
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 180 4856 4876 "src/lTerm_ui.ml" 180 4856 4878
+)
+"src/lTerm_ui.ml" 181 4881 4883 "src/lTerm_ui.ml" 181 4881 4891
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 182 4893 4895 "src/lTerm_ui.ml" 182 4893 4897
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 180 4856 4876 "src/lTerm_ui.ml" 180 4856 4878
+)
+"src/lTerm_ui.ml" 182 4893 4895 "src/lTerm_ui.ml" 182 4893 4913
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_ui.ml" 181 4881 4883 "src/lTerm_ui.ml" 182 4893 4913
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_ui.ml" 184 4915 4919 "src/lTerm_ui.ml" 184 4915 4938
+type(
+  t -> LTerm_geom.coord -> unit
+)
+ident(
+  def set_cursor_position "src/lTerm_ui.ml" 195 5317 5317 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 184 4915 4942 "src/lTerm_ui.ml" 189 5093 5098
+)
+"src/lTerm_ui.ml" 184 4915 4942 "src/lTerm_ui.ml" 184 4915 4947
+type(
+  LTerm_geom.coord
+)
+ident(
+  def coord "src/lTerm_ui.ml" 185 4950 4952 "src/lTerm_ui.ml" 189 5093 5098
+)
+"src/lTerm_ui.ml" 185 4950 4952 "src/lTerm_ui.ml" 185 4950 4957
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 185 4950 4958 "src/lTerm_ui.ml" 185 4950 4960
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 185 4950 4952 "src/lTerm_ui.ml" 185 4950 4960
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 186 4962 4967 "src/lTerm_ui.ml" 186 4962 4972
+type(
+  LTerm_geom.coord
+)
+ident(
+  int_ref coord "src/lTerm_ui.ml" 184 4915 4942 "src/lTerm_ui.ml" 184 4915 4947
+)
+"src/lTerm_ui.ml" 186 4962 4973 "src/lTerm_ui.ml" 186 4962 4975
+type(
+  LTerm_geom.coord -> LTerm_geom.coord -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/lTerm_ui.ml" 186 4962 4976 "src/lTerm_ui.ml" 186 4962 4978
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 186 4962 4976 "src/lTerm_ui.ml" 186 4962 4994
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_ui.ml" 186 4962 4967 "src/lTerm_ui.ml" 186 4962 4994
+type(
+  bool
+)
+"src/lTerm_ui.ml" 187 5006 5010 "src/lTerm_ui.ml" 187 5006 5012
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 187 5006 5032 "src/lTerm_ui.ml" 187 5006 5037
+type(
+  LTerm_geom.coord
+)
+ident(
+  int_ref coord "src/lTerm_ui.ml" 184 4915 4942 "src/lTerm_ui.ml" 184 4915 4947
+)
+"src/lTerm_ui.ml" 187 5006 5010 "src/lTerm_ui.ml" 187 5006 5037
+type(
+  unit
+)
+"src/lTerm_ui.ml" 188 5039 5046 "src/lTerm_ui.ml" 188 5039 5048
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 188 5039 5046 "src/lTerm_ui.ml" 188 5039 5054
+type(
+  state
+)
+"src/lTerm_ui.ml" 188 5039 5055 "src/lTerm_ui.ml" 188 5039 5056
+type(
+  state -> state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 188 5039 5057 "src/lTerm_ui.ml" 188 5039 5061
+type(
+  state
+)
+"src/lTerm_ui.ml" 188 5039 5046 "src/lTerm_ui.ml" 188 5039 5061
+type(
+  bool
+)
+"src/lTerm_ui.ml" 188 5039 5062 "src/lTerm_ui.ml" 188 5039 5064
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_ui.ml" 188 5039 5065 "src/lTerm_ui.ml" 188 5039 5068
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/lTerm_ui.ml" 188 5039 5069 "src/lTerm_ui.ml" 188 5039 5071
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 188 5039 5069 "src/lTerm_ui.ml" 188 5039 5079
+type(
+  bool
+)
+"src/lTerm_ui.ml" 188 5039 5065 "src/lTerm_ui.ml" 188 5039 5079
+type(
+  bool
+)
+"src/lTerm_ui.ml" 188 5039 5046 "src/lTerm_ui.ml" 188 5039 5079
+type(
+  bool
+)
+"src/lTerm_ui.ml" 188 5039 5085 "src/lTerm_ui.ml" 188 5039 5089
+type(
+  t -> unit
+)
+ident(
+  int_ref draw "src/lTerm_ui.ml" 153 4111 4115 "src/lTerm_ui.ml" 153 4111 4119
+)
+"src/lTerm_ui.ml" 188 5039 5090 "src/lTerm_ui.ml" 188 5039 5092
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 184 4915 4939 "src/lTerm_ui.ml" 184 4915 4941
+)
+"src/lTerm_ui.ml" 188 5039 5085 "src/lTerm_ui.ml" 188 5039 5092
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 188 5039 5043 "src/lTerm_ui.ml" 188 5039 5092
+type(
+  unit
+)
+"src/lTerm_ui.ml" 186 4962 5000 "src/lTerm_ui.ml" 189 5093 5098
+type(
+  unit
+)
+"src/lTerm_ui.ml" 186 4962 4964 "src/lTerm_ui.ml" 189 5093 5098
+type(
+  unit
+)
+"src/lTerm_ui.ml" 185 4950 4952 "src/lTerm_ui.ml" 189 5093 5098
+type(
+  unit
+)
+"src/lTerm_ui.ml" 195 5317 5325 "src/lTerm_ui.ml" 195 5317 5329
+type(
+  t -> LTerm_event.t Lwt.t
+)
+ident(
+  def wait "src/lTerm_ui.ml" 195 5317 5317 "src/lTerm_ui.ml" 1 0 -1
+)
+"src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+type(
+  t
+)
+ident(
+  def ui "src/lTerm_ui.ml" 196 5335 5337 "src/lTerm_ui.ml" 209 5725 5742
+)
+"src/lTerm_ui.ml" 196 5335 5337 "src/lTerm_ui.ml" 196 5335 5342
+type(
+  t -> unit
+)
+ident(
+  int_ref check "src/lTerm_ui.ml" 70 1631 1635 "src/lTerm_ui.ml" 70 1631 1640
+)
+"src/lTerm_ui.ml" 196 5335 5343 "src/lTerm_ui.ml" 196 5335 5345
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 196 5335 5337 "src/lTerm_ui.ml" 196 5335 5345
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 197 5347 5352 "src/lTerm_ui.ml" 197 5347 5354
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 197 5347 5352 "src/lTerm_ui.ml" 197 5347 5360
+type(
+  state
+)
+"src/lTerm_ui.ml" 197 5347 5361 "src/lTerm_ui.ml" 197 5347 5362
+type(
+  state -> state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_ui.ml" 197 5347 5363 "src/lTerm_ui.ml" 197 5347 5367
+type(
+  state
+)
+"src/lTerm_ui.ml" 197 5347 5352 "src/lTerm_ui.ml" 197 5347 5367
+type(
+  bool
+)
+"src/lTerm_ui.ml" 197 5347 5373 "src/lTerm_ui.ml" 197 5347 5377
+type(
+  t -> unit
+)
+ident(
+  int_ref draw "src/lTerm_ui.ml" 153 4111 4115 "src/lTerm_ui.ml" 153 4111 4119
+)
+"src/lTerm_ui.ml" 197 5347 5378 "src/lTerm_ui.ml" 197 5347 5380
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 197 5347 5373 "src/lTerm_ui.ml" 197 5347 5380
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 197 5347 5349 "src/lTerm_ui.ml" 197 5347 5380
+type(
+  unit
+)
+"src/lTerm_ui.ml" 198 5382 5384 "src/lTerm_ui.ml" 198 5382 5392
+type(
+  LTerm_event.t Lwt.t list -> LTerm_event.t Lwt.t
+)
+ident(
+  ext_ref Lwt.pick
+)
+"src/lTerm_ui.ml" 198 5382 5394 "src/lTerm_ui.ml" 198 5382 5410
+type(
+  LTerm.t -> LTerm_event.t Lwt.t
+)
+ident(
+  ext_ref LTerm.read_event
+)
+"src/lTerm_ui.ml" 198 5382 5411 "src/lTerm_ui.ml" 198 5382 5413
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 198 5382 5411 "src/lTerm_ui.ml" 198 5382 5418
+type(
+  LTerm.t
+)
+"src/lTerm_ui.ml" 198 5382 5394 "src/lTerm_ui.ml" 198 5382 5418
+call(
+  stack
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 199 5420 5432 "src/lTerm_ui.ml" 199 5420 5447
+type(
+  exn Lwt_stream.t -> exn Lwt.t
+)
+ident(
+  ext_ref Lwt_stream.next
+)
+"src/lTerm_ui.ml" 199 5420 5448 "src/lTerm_ui.ml" 199 5420 5450
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 199 5420 5448 "src/lTerm_ui.ml" 199 5420 5468
+type(
+  exn Lwt_stream.t
+)
+"src/lTerm_ui.ml" 199 5420 5432 "src/lTerm_ui.ml" 199 5420 5468
+call(
+  stack
+)
+type(
+  exn Lwt.t
+)
+"src/lTerm_ui.ml" 199 5420 5469 "src/lTerm_ui.ml" 199 5420 5472
+type(
+  exn Lwt.t -> (exn -> LTerm_event.t Lwt.t) -> LTerm_event.t Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 199 5420 5473 "src/lTerm_ui.ml" 199 5420 5481
+type(
+  exn -> LTerm_event.t Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/lTerm_ui.ml" 199 5420 5432 "src/lTerm_ui.ml" 199 5420 5481
+call(
+  stack
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 198 5382 5393 "src/lTerm_ui.ml" 199 5420 5482
+type(
+  LTerm_event.t Lwt.t list
+)
+"src/lTerm_ui.ml" 198 5382 5384 "src/lTerm_ui.ml" 199 5420 5482
+call(
+  stack
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 199 5420 5483 "src/lTerm_ui.ml" 199 5420 5486
+type(
+  LTerm_event.t Lwt.t ->
+  (LTerm_event.t -> LTerm_event.t Lwt.t) -> LTerm_event.t Lwt.t
+)
+ident(
+  int_ref >>= "src/lTerm_ui.ml" 12 178 190 "src/lTerm_ui.ml" 12 178 195
+)
+"src/lTerm_ui.ml" 199 5420 5491 "src/lTerm_ui.ml" 199 5420 5493
+type(
+  LTerm_event.t
+)
+ident(
+  def ev "src/lTerm_ui.ml" 200 5497 5499 "src/lTerm_ui.ml" 209 5725 5742
+)
+"src/lTerm_ui.ml" 200 5497 5505 "src/lTerm_ui.ml" 200 5497 5507
+type(
+  LTerm_event.t
+)
+ident(
+  int_ref ev "src/lTerm_ui.ml" 199 5420 5491 "src/lTerm_ui.ml" 199 5420 5493
+)
+"src/lTerm_ui.ml" 201 5513 5538 "src/lTerm_ui.ml" 201 5513 5542
+type(
+  LTerm_geom.size
+)
+ident(
+  def size "src/lTerm_ui.ml" 202 5546 5554 "src/lTerm_ui.ml" 207 5696 5713
+)
+"src/lTerm_ui.ml" 201 5513 5519 "src/lTerm_ui.ml" 201 5513 5542
+type(
+  LTerm_event.t
+)
+"src/lTerm_ui.ml" 202 5546 5554 "src/lTerm_ui.ml" 202 5546 5556
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 202 5546 5565 "src/lTerm_ui.ml" 202 5546 5569
+type(
+  LTerm_geom.size
+)
+ident(
+  int_ref size "src/lTerm_ui.ml" 201 5513 5538 "src/lTerm_ui.ml" 201 5513 5542
+)
+"src/lTerm_ui.ml" 202 5546 5554 "src/lTerm_ui.ml" 202 5546 5569
+type(
+  unit
+)
+"src/lTerm_ui.ml" 204 5621 5629 "src/lTerm_ui.ml" 204 5621 5631
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 204 5621 5644 "src/lTerm_ui.ml" 204 5621 5648
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 204 5621 5629 "src/lTerm_ui.ml" 204 5621 5648
+type(
+  unit
+)
+"src/lTerm_ui.ml" 205 5650 5658 "src/lTerm_ui.ml" 205 5650 5660
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 205 5650 5673 "src/lTerm_ui.ml" 205 5650 5677
+type(
+  LTerm_draw.matrix
+)
+"src/lTerm_ui.ml" 205 5650 5658 "src/lTerm_ui.ml" 205 5650 5677
+type(
+  unit
+)
+"src/lTerm_ui.ml" 206 5679 5687 "src/lTerm_ui.ml" 206 5679 5691
+type(
+  t -> unit
+)
+ident(
+  int_ref draw "src/lTerm_ui.ml" 153 4111 4115 "src/lTerm_ui.ml" 153 4111 4119
+)
+"src/lTerm_ui.ml" 206 5679 5692 "src/lTerm_ui.ml" 206 5679 5694
+type(
+  t
+)
+ident(
+  int_ref ui "src/lTerm_ui.ml" 195 5317 5330 "src/lTerm_ui.ml" 195 5317 5332
+)
+"src/lTerm_ui.ml" 206 5679 5687 "src/lTerm_ui.ml" 206 5679 5694
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_ui.ml" 207 5696 5704 "src/lTerm_ui.ml" 207 5696 5710
+type(
+  LTerm_event.t -> LTerm_event.t Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 207 5696 5711 "src/lTerm_ui.ml" 207 5696 5713
+type(
+  LTerm_event.t
+)
+ident(
+  int_ref ev "src/lTerm_ui.ml" 199 5420 5491 "src/lTerm_ui.ml" 199 5420 5493
+)
+"src/lTerm_ui.ml" 207 5696 5704 "src/lTerm_ui.ml" 207 5696 5713
+call(
+  tail
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 206 5679 5687 "src/lTerm_ui.ml" 207 5696 5713
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 205 5650 5658 "src/lTerm_ui.ml" 207 5696 5713
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 204 5621 5629 "src/lTerm_ui.ml" 207 5696 5713
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 202 5546 5554 "src/lTerm_ui.ml" 207 5696 5713
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 208 5714 5720 "src/lTerm_ui.ml" 208 5714 5721
+type(
+  LTerm_event.t
+)
+"src/lTerm_ui.ml" 209 5725 5733 "src/lTerm_ui.ml" 209 5725 5739
+type(
+  LTerm_event.t -> LTerm_event.t Lwt.t
+)
+ident(
+  int_ref return "src/lTerm_ui.ml" 12 178 182 "src/lTerm_ui.ml" 12 178 188
+)
+"src/lTerm_ui.ml" 209 5725 5740 "src/lTerm_ui.ml" 209 5725 5742
+type(
+  LTerm_event.t
+)
+ident(
+  int_ref ev "src/lTerm_ui.ml" 199 5420 5491 "src/lTerm_ui.ml" 199 5420 5493
+)
+"src/lTerm_ui.ml" 209 5725 5733 "src/lTerm_ui.ml" 209 5725 5742
+call(
+  tail
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 200 5497 5499 "src/lTerm_ui.ml" 209 5725 5742
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 199 5420 5487 "src/lTerm_ui.ml" 209 5725 5742
+type(
+  LTerm_event.t -> LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 198 5382 5384 "src/lTerm_ui.ml" 209 5725 5742
+call(
+  tail
+)
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 197 5347 5349 "src/lTerm_ui.ml" 209 5725 5742
+type(
+  LTerm_event.t Lwt.t
+)
+"src/lTerm_ui.ml" 196 5335 5337 "src/lTerm_ui.ml" 209 5725 5742
+type(
+  LTerm_event.t Lwt.t
+)

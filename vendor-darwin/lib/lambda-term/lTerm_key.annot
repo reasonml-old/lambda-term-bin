@@ -1,0 +1,1290 @@
+"src/lTerm_key.ml" 48 540 544 "src/lTerm_key.ml" 48 540 551
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/lTerm_key.ml" 50 563 563 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 48 540 554 "src/lTerm_key.ml" 48 540 561
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/lTerm_key.ml" 50 563 567 "src/lTerm_key.ml" 50 563 574
+type(
+  t -> bool
+)
+ident(
+  def control "src/lTerm_key.ml" 51 593 593 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 50 563 575 "src/lTerm_key.ml" 50 563 578
+type(
+  t
+)
+ident(
+  def key "src/lTerm_key.ml" 50 563 581 "src/lTerm_key.ml" 50 563 592
+)
+"src/lTerm_key.ml" 50 563 581 "src/lTerm_key.ml" 50 563 584
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 50 563 575 "src/lTerm_key.ml" 50 563 578
+)
+"src/lTerm_key.ml" 50 563 581 "src/lTerm_key.ml" 50 563 592
+type(
+  bool
+)
+"src/lTerm_key.ml" 51 593 597 "src/lTerm_key.ml" 51 593 601
+type(
+  t -> bool
+)
+ident(
+  def meta "src/lTerm_key.ml" 52 617 617 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 51 593 602 "src/lTerm_key.ml" 51 593 605
+type(
+  t
+)
+ident(
+  def key "src/lTerm_key.ml" 51 593 608 "src/lTerm_key.ml" 51 593 616
+)
+"src/lTerm_key.ml" 51 593 608 "src/lTerm_key.ml" 51 593 611
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 51 593 602 "src/lTerm_key.ml" 51 593 605
+)
+"src/lTerm_key.ml" 51 593 608 "src/lTerm_key.ml" 51 593 616
+type(
+  bool
+)
+"src/lTerm_key.ml" 52 617 621 "src/lTerm_key.ml" 52 617 625
+type(
+  t -> code
+)
+ident(
+  def code "src/lTerm_key.ml" 54 642 642 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 52 617 626 "src/lTerm_key.ml" 52 617 629
+type(
+  t
+)
+ident(
+  def key "src/lTerm_key.ml" 52 617 632 "src/lTerm_key.ml" 52 617 640
+)
+"src/lTerm_key.ml" 52 617 632 "src/lTerm_key.ml" 52 617 635
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 52 617 626 "src/lTerm_key.ml" 52 617 629
+)
+"src/lTerm_key.ml" 52 617 632 "src/lTerm_key.ml" 52 617 640
+type(
+  code
+)
+"src/lTerm_key.ml" 54 642 646 "src/lTerm_key.ml" 54 642 660
+type(
+  code -> string
+)
+ident(
+  def string_of_code "src/lTerm_key.ml" 83 1223 1223 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 55 672 681 "src/lTerm_key.ml" 55 672 683
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  def ch "src/lTerm_key.ml" 55 672 687 "src/lTerm_key.ml" 55 672 731
+)
+"src/lTerm_key.ml" 55 672 676 "src/lTerm_key.ml" 55 672 683
+type(
+  code
+)
+"src/lTerm_key.ml" 55 672 687 "src/lTerm_key.ml" 55 672 701
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_key.ml" 55 672 702 "src/lTerm_key.ml" 55 672 715
+type(
+  (int -> string, unit, string) format
+)
+"src/lTerm_key.ml" 55 672 717 "src/lTerm_key.ml" 55 672 727
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/lTerm_key.ml" 55 672 728 "src/lTerm_key.ml" 55 672 730
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/lTerm_key.ml" 55 672 681 "src/lTerm_key.ml" 55 672 683
+)
+"src/lTerm_key.ml" 55 672 716 "src/lTerm_key.ml" 55 672 731
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_key.ml" 55 672 687 "src/lTerm_key.ml" 55 672 731
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 56 732 736 "src/lTerm_key.ml" 56 732 741
+type(
+  code
+)
+"src/lTerm_key.ml" 56 732 745 "src/lTerm_key.ml" 56 732 752
+type(
+  string
+)
+"src/lTerm_key.ml" 57 753 757 "src/lTerm_key.ml" 57 753 763
+type(
+  code
+)
+"src/lTerm_key.ml" 57 753 767 "src/lTerm_key.ml" 57 753 775
+type(
+  string
+)
+"src/lTerm_key.ml" 58 776 780 "src/lTerm_key.ml" 58 776 783
+type(
+  code
+)
+"src/lTerm_key.ml" 58 776 787 "src/lTerm_key.ml" 58 776 792
+type(
+  string
+)
+"src/lTerm_key.ml" 59 793 797 "src/lTerm_key.ml" 59 793 799
+type(
+  code
+)
+"src/lTerm_key.ml" 59 793 803 "src/lTerm_key.ml" 59 793 807
+type(
+  string
+)
+"src/lTerm_key.ml" 60 808 812 "src/lTerm_key.ml" 60 808 816
+type(
+  code
+)
+"src/lTerm_key.ml" 60 808 820 "src/lTerm_key.ml" 60 808 826
+type(
+  string
+)
+"src/lTerm_key.ml" 61 827 831 "src/lTerm_key.ml" 61 827 835
+type(
+  code
+)
+"src/lTerm_key.ml" 61 827 839 "src/lTerm_key.ml" 61 827 845
+type(
+  string
+)
+"src/lTerm_key.ml" 62 846 850 "src/lTerm_key.ml" 62 846 855
+type(
+  code
+)
+"src/lTerm_key.ml" 62 846 859 "src/lTerm_key.ml" 62 846 866
+type(
+  string
+)
+"src/lTerm_key.ml" 63 867 871 "src/lTerm_key.ml" 63 867 873
+type(
+  code
+)
+"src/lTerm_key.ml" 63 867 877 "src/lTerm_key.ml" 63 867 881
+type(
+  string
+)
+"src/lTerm_key.ml" 64 882 886 "src/lTerm_key.ml" 64 882 888
+type(
+  code
+)
+"src/lTerm_key.ml" 64 882 892 "src/lTerm_key.ml" 64 882 896
+type(
+  string
+)
+"src/lTerm_key.ml" 65 897 901 "src/lTerm_key.ml" 65 897 903
+type(
+  code
+)
+"src/lTerm_key.ml" 65 897 907 "src/lTerm_key.ml" 65 897 911
+type(
+  string
+)
+"src/lTerm_key.ml" 66 912 916 "src/lTerm_key.ml" 66 912 918
+type(
+  code
+)
+"src/lTerm_key.ml" 66 912 922 "src/lTerm_key.ml" 66 912 926
+type(
+  string
+)
+"src/lTerm_key.ml" 67 927 931 "src/lTerm_key.ml" 67 927 933
+type(
+  code
+)
+"src/lTerm_key.ml" 67 927 937 "src/lTerm_key.ml" 67 927 941
+type(
+  string
+)
+"src/lTerm_key.ml" 68 942 946 "src/lTerm_key.ml" 68 942 948
+type(
+  code
+)
+"src/lTerm_key.ml" 68 942 952 "src/lTerm_key.ml" 68 942 956
+type(
+  string
+)
+"src/lTerm_key.ml" 69 957 961 "src/lTerm_key.ml" 69 957 963
+type(
+  code
+)
+"src/lTerm_key.ml" 69 957 967 "src/lTerm_key.ml" 69 957 971
+type(
+  string
+)
+"src/lTerm_key.ml" 70 972 976 "src/lTerm_key.ml" 70 972 978
+type(
+  code
+)
+"src/lTerm_key.ml" 70 972 982 "src/lTerm_key.ml" 70 972 986
+type(
+  string
+)
+"src/lTerm_key.ml" 71 987 991 "src/lTerm_key.ml" 71 987 993
+type(
+  code
+)
+"src/lTerm_key.ml" 71 987 997 "src/lTerm_key.ml" 71 987 1001
+type(
+  string
+)
+"src/lTerm_key.ml" 72 1002 1006 "src/lTerm_key.ml" 72 1002 1009
+type(
+  code
+)
+"src/lTerm_key.ml" 72 1002 1013 "src/lTerm_key.ml" 72 1002 1018
+type(
+  string
+)
+"src/lTerm_key.ml" 73 1019 1023 "src/lTerm_key.ml" 73 1019 1026
+type(
+  code
+)
+"src/lTerm_key.ml" 73 1019 1030 "src/lTerm_key.ml" 73 1019 1035
+type(
+  string
+)
+"src/lTerm_key.ml" 74 1036 1040 "src/lTerm_key.ml" 74 1036 1043
+type(
+  code
+)
+"src/lTerm_key.ml" 74 1036 1047 "src/lTerm_key.ml" 74 1036 1052
+type(
+  string
+)
+"src/lTerm_key.ml" 75 1053 1057 "src/lTerm_key.ml" 75 1053 1066
+type(
+  code
+)
+"src/lTerm_key.ml" 75 1053 1070 "src/lTerm_key.ml" 75 1053 1081
+type(
+  string
+)
+"src/lTerm_key.ml" 76 1082 1086 "src/lTerm_key.ml" 76 1082 1095
+type(
+  code
+)
+"src/lTerm_key.ml" 76 1082 1099 "src/lTerm_key.ml" 76 1082 1110
+type(
+  string
+)
+"src/lTerm_key.ml" 77 1111 1115 "src/lTerm_key.ml" 77 1111 1119
+type(
+  code
+)
+"src/lTerm_key.ml" 77 1111 1123 "src/lTerm_key.ml" 77 1111 1129
+type(
+  string
+)
+"src/lTerm_key.ml" 78 1130 1134 "src/lTerm_key.ml" 78 1130 1137
+type(
+  code
+)
+"src/lTerm_key.ml" 78 1130 1141 "src/lTerm_key.ml" 78 1130 1146
+type(
+  string
+)
+"src/lTerm_key.ml" 79 1147 1151 "src/lTerm_key.ml" 79 1147 1157
+type(
+  code
+)
+"src/lTerm_key.ml" 79 1147 1161 "src/lTerm_key.ml" 79 1147 1169
+type(
+  string
+)
+"src/lTerm_key.ml" 80 1170 1174 "src/lTerm_key.ml" 80 1170 1180
+type(
+  code
+)
+"src/lTerm_key.ml" 80 1170 1184 "src/lTerm_key.ml" 80 1170 1192
+type(
+  string
+)
+"src/lTerm_key.ml" 81 1193 1197 "src/lTerm_key.ml" 81 1193 1206
+type(
+  code
+)
+"src/lTerm_key.ml" 81 1193 1210 "src/lTerm_key.ml" 81 1193 1221
+type(
+  string
+)
+"src/lTerm_key.ml" 54 642 663 "src/lTerm_key.ml" 81 1193 1221
+type(
+  code -> string
+)
+"src/lTerm_key.ml" 83 1223 1227 "src/lTerm_key.ml" 83 1223 1236
+type(
+  t -> string
+)
+ident(
+  def to_string "src/lTerm_key.ml" 86 1371 1371 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 83 1223 1237 "src/lTerm_key.ml" 83 1223 1240
+type(
+  t
+)
+ident(
+  def key "src/lTerm_key.ml" 84 1243 1245 "src/lTerm_key.ml" 84 1243 1369
+)
+"src/lTerm_key.ml" 84 1243 1245 "src/lTerm_key.ml" 84 1243 1259
+type(
+  (bool -> bool -> bool -> string -> string, unit, string) format ->
+  bool -> bool -> bool -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_key.ml" 84 1243 1260 "src/lTerm_key.ml" 84 1243 1312
+type(
+  (bool -> bool -> bool -> string -> string, unit, string) format
+)
+"src/lTerm_key.ml" 84 1243 1313 "src/lTerm_key.ml" 84 1243 1316
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 83 1223 1237 "src/lTerm_key.ml" 83 1223 1240
+)
+"src/lTerm_key.ml" 84 1243 1313 "src/lTerm_key.ml" 84 1243 1324
+type(
+  bool
+)
+"src/lTerm_key.ml" 84 1243 1325 "src/lTerm_key.ml" 84 1243 1328
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 83 1223 1237 "src/lTerm_key.ml" 83 1223 1240
+)
+"src/lTerm_key.ml" 84 1243 1325 "src/lTerm_key.ml" 84 1243 1333
+type(
+  bool
+)
+"src/lTerm_key.ml" 84 1243 1334 "src/lTerm_key.ml" 84 1243 1337
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 83 1223 1237 "src/lTerm_key.ml" 83 1223 1240
+)
+"src/lTerm_key.ml" 84 1243 1334 "src/lTerm_key.ml" 84 1243 1343
+type(
+  bool
+)
+"src/lTerm_key.ml" 84 1243 1345 "src/lTerm_key.ml" 84 1243 1359
+type(
+  code -> string
+)
+ident(
+  int_ref string_of_code "src/lTerm_key.ml" 54 642 646 "src/lTerm_key.ml" 54 642 660
+)
+"src/lTerm_key.ml" 84 1243 1360 "src/lTerm_key.ml" 84 1243 1363
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 83 1223 1237 "src/lTerm_key.ml" 83 1223 1240
+)
+"src/lTerm_key.ml" 84 1243 1360 "src/lTerm_key.ml" 84 1243 1368
+type(
+  code
+)
+"src/lTerm_key.ml" 84 1243 1344 "src/lTerm_key.ml" 84 1243 1369
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 84 1243 1245 "src/lTerm_key.ml" 84 1243 1369
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 86 1371 1375 "src/lTerm_key.ml" 86 1371 1392
+type(
+  t -> string
+)
+ident(
+  def to_string_compact "src/lTerm_key.ml" 116 2542 2566 "src/lTerm_key.ml" 1 0 -1
+)
+"src/lTerm_key.ml" 86 1371 1393 "src/lTerm_key.ml" 86 1371 1396
+type(
+  t
+)
+ident(
+  def key "src/lTerm_key.ml" 87 1399 1401 "src/lTerm_key.ml" 116 2542 2566
+)
+"src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+type(
+  Buffer.t
+)
+ident(
+  def buffer "src/lTerm_key.ml" 88 1434 1436 "src/lTerm_key.ml" 116 2542 2566
+)
+"src/lTerm_key.ml" 87 1399 1414 "src/lTerm_key.ml" 87 1399 1427
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/lTerm_key.ml" 87 1399 1428 "src/lTerm_key.ml" 87 1399 1430
+type(
+  int
+)
+"src/lTerm_key.ml" 87 1399 1414 "src/lTerm_key.ml" 87 1399 1430
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/lTerm_key.ml" 88 1434 1439 "src/lTerm_key.ml" 88 1434 1442
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 86 1371 1393 "src/lTerm_key.ml" 86 1371 1396
+)
+"src/lTerm_key.ml" 88 1434 1439 "src/lTerm_key.ml" 88 1434 1450
+type(
+  bool
+)
+"src/lTerm_key.ml" 88 1434 1456 "src/lTerm_key.ml" 88 1434 1473
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 88 1434 1474 "src/lTerm_key.ml" 88 1434 1480
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 88 1434 1481 "src/lTerm_key.ml" 88 1434 1485
+type(
+  string
+)
+"src/lTerm_key.ml" 88 1434 1456 "src/lTerm_key.ml" 88 1434 1485
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 88 1434 1436 "src/lTerm_key.ml" 88 1434 1485
+type(
+  unit
+)
+"src/lTerm_key.ml" 89 1487 1492 "src/lTerm_key.ml" 89 1487 1495
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 86 1371 1393 "src/lTerm_key.ml" 86 1371 1396
+)
+"src/lTerm_key.ml" 89 1487 1492 "src/lTerm_key.ml" 89 1487 1500
+type(
+  bool
+)
+"src/lTerm_key.ml" 89 1487 1506 "src/lTerm_key.ml" 89 1487 1523
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 89 1487 1524 "src/lTerm_key.ml" 89 1487 1530
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 89 1487 1531 "src/lTerm_key.ml" 89 1487 1535
+type(
+  string
+)
+"src/lTerm_key.ml" 89 1487 1506 "src/lTerm_key.ml" 89 1487 1535
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 89 1487 1489 "src/lTerm_key.ml" 89 1487 1535
+type(
+  unit
+)
+"src/lTerm_key.ml" 90 1537 1542 "src/lTerm_key.ml" 90 1537 1545
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 86 1371 1393 "src/lTerm_key.ml" 86 1371 1396
+)
+"src/lTerm_key.ml" 90 1537 1542 "src/lTerm_key.ml" 90 1537 1551
+type(
+  bool
+)
+"src/lTerm_key.ml" 90 1537 1557 "src/lTerm_key.ml" 90 1537 1574
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 90 1537 1575 "src/lTerm_key.ml" 90 1537 1581
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 90 1537 1582 "src/lTerm_key.ml" 90 1537 1586
+type(
+  string
+)
+"src/lTerm_key.ml" 90 1537 1557 "src/lTerm_key.ml" 90 1537 1586
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 90 1537 1539 "src/lTerm_key.ml" 90 1537 1586
+type(
+  unit
+)
+"src/lTerm_key.ml" 91 1588 1597 "src/lTerm_key.ml" 91 1588 1600
+type(
+  t
+)
+ident(
+  int_ref key "src/lTerm_key.ml" 86 1371 1393 "src/lTerm_key.ml" 86 1371 1396
+)
+"src/lTerm_key.ml" 91 1588 1597 "src/lTerm_key.ml" 91 1588 1605
+type(
+  code
+)
+"src/lTerm_key.ml" 92 1611 1623 "src/lTerm_key.ml" 92 1611 1625
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  def ch "src/lTerm_key.ml" 93 1629 1638 "src/lTerm_key.ml" 109 2281 2327
+)
+"src/lTerm_key.ml" 92 1611 1618 "src/lTerm_key.ml" 92 1611 1625
+type(
+  code
+)
+"src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+type(
+  int
+)
+ident(
+  def code "src/lTerm_key.ml" 94 1666 1675 "src/lTerm_key.ml" 109 2281 2327
+)
+"src/lTerm_key.ml" 93 1629 1649 "src/lTerm_key.ml" 93 1629 1659
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/lTerm_key.ml" 93 1629 1660 "src/lTerm_key.ml" 93 1629 1662
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/lTerm_key.ml" 92 1611 1623 "src/lTerm_key.ml" 92 1611 1625
+)
+"src/lTerm_key.ml" 93 1629 1649 "src/lTerm_key.ml" 93 1629 1662
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_key.ml" 94 1666 1678 "src/lTerm_key.ml" 94 1666 1682
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 94 1666 1683 "src/lTerm_key.ml" 94 1666 1685
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lTerm_key.ml" 94 1666 1686 "src/lTerm_key.ml" 94 1666 1689
+type(
+  int
+)
+"src/lTerm_key.ml" 94 1666 1678 "src/lTerm_key.ml" 94 1666 1689
+type(
+  bool
+)
+"src/lTerm_key.ml" 95 1695 1712 "src/lTerm_key.ml" 95 1695 1720
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/lTerm_key.ml" 95 1695 1721 "src/lTerm_key.ml" 95 1695 1725
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 95 1695 1712 "src/lTerm_key.ml" 95 1695 1725
+call(
+  stack
+)
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 96 1731 1756
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1759 "src/lTerm_key.ml" 96 1731 1769
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 96 1731 1769
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1772 "src/lTerm_key.ml" 96 1731 1782
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 96 1731 1782
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1798 "src/lTerm_key.ml" 97 1783 1801
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1801
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1804 "src/lTerm_key.ml" 97 1783 1807
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1807
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1810 "src/lTerm_key.ml" 97 1783 1813
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1813
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1816 "src/lTerm_key.ml" 97 1783 1819
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1819
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1822 "src/lTerm_key.ml" 97 1783 1825
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1825
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1828 "src/lTerm_key.ml" 97 1783 1831
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1831
+type(
+  char
+)
+"src/lTerm_key.ml" 97 1783 1834 "src/lTerm_key.ml" 97 1783 1837
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 97 1783 1837
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1853 "src/lTerm_key.ml" 98 1838 1856
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1856
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1859 "src/lTerm_key.ml" 98 1838 1862
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1862
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1865 "src/lTerm_key.ml" 98 1838 1868
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1868
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1871 "src/lTerm_key.ml" 98 1838 1874
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1874
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1877 "src/lTerm_key.ml" 98 1838 1880
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1880
+type(
+  char
+)
+"src/lTerm_key.ml" 98 1838 1883 "src/lTerm_key.ml" 98 1838 1886
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 98 1838 1886
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1902 "src/lTerm_key.ml" 99 1887 1905
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1905
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1908 "src/lTerm_key.ml" 99 1887 1911
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1911
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1914 "src/lTerm_key.ml" 99 1887 1917
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1917
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1920 "src/lTerm_key.ml" 99 1887 1923
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1923
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1926 "src/lTerm_key.ml" 99 1887 1929
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1929
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1932 "src/lTerm_key.ml" 99 1887 1935
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1935
+type(
+  char
+)
+"src/lTerm_key.ml" 99 1887 1938 "src/lTerm_key.ml" 99 1887 1942
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 99 1887 1942
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1958 "src/lTerm_key.ml" 100 1943 1961
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1961
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1964 "src/lTerm_key.ml" 100 1943 1967
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1967
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1970 "src/lTerm_key.ml" 100 1943 1973
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1973
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1976 "src/lTerm_key.ml" 100 1943 1979
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1979
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1982 "src/lTerm_key.ml" 100 1943 1985
+type(
+  char
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1985
+type(
+  char
+)
+"src/lTerm_key.ml" 100 1943 1989 "src/lTerm_key.ml" 100 1943 1991
+ident(
+  def ch "src/lTerm_key.ml" 101 1995 2012 "src/lTerm_key.ml" 101 1995 2037
+)
+"src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1991
+type(
+  char
+)
+"src/lTerm_key.ml" 101 1995 2012 "src/lTerm_key.ml" 101 1995 2027
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/lTerm_key.ml" 101 1995 2028 "src/lTerm_key.ml" 101 1995 2034
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 101 1995 2035 "src/lTerm_key.ml" 101 1995 2037
+type(
+  char
+)
+ident(
+  int_ref ch "src/lTerm_key.ml" 96 1731 1746 "src/lTerm_key.ml" 100 1943 1991
+)
+"src/lTerm_key.ml" 101 1995 2012 "src/lTerm_key.ml" 101 1995 2037
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 102 2038 2053 "src/lTerm_key.ml" 102 2038 2056
+type(
+  char
+)
+"src/lTerm_key.ml" 103 2060 2077 "src/lTerm_key.ml" 103 2060 2094
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 103 2060 2095 "src/lTerm_key.ml" 103 2060 2101
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 103 2060 2102 "src/lTerm_key.ml" 103 2060 2109
+type(
+  string
+)
+"src/lTerm_key.ml" 103 2060 2077 "src/lTerm_key.ml" 103 2060 2109
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 104 2110 2125 "src/lTerm_key.ml" 104 2110 2126
+type(
+  char
+)
+"src/lTerm_key.ml" 105 2130 2147 "src/lTerm_key.ml" 105 2130 2161
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"src/lTerm_key.ml" 105 2130 2162 "src/lTerm_key.ml" 105 2130 2168
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 105 2130 2169 "src/lTerm_key.ml" 105 2130 2177
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"src/lTerm_key.ml" 105 2130 2178 "src/lTerm_key.ml" 105 2130 2182
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 105 2130 2147 "src/lTerm_key.ml" 105 2130 2182
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 95 1695 1706 "src/lTerm_key.ml" 105 2130 2182
+type(
+  unit
+)
+"src/lTerm_key.ml" 106 2183 2200 "src/lTerm_key.ml" 106 2183 2204
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 106 2183 2205 "src/lTerm_key.ml" 106 2183 2207
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/lTerm_key.ml" 106 2183 2208 "src/lTerm_key.ml" 106 2183 2214
+type(
+  int
+)
+"src/lTerm_key.ml" 106 2183 2200 "src/lTerm_key.ml" 106 2183 2214
+type(
+  bool
+)
+"src/lTerm_key.ml" 107 2220 2231 "src/lTerm_key.ml" 107 2220 2245
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"src/lTerm_key.ml" 107 2220 2246 "src/lTerm_key.ml" 107 2220 2252
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 107 2220 2253 "src/lTerm_key.ml" 107 2220 2261
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"src/lTerm_key.ml" 107 2220 2262 "src/lTerm_key.ml" 107 2220 2266
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 107 2220 2231 "src/lTerm_key.ml" 107 2220 2266
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 109 2281 2292 "src/lTerm_key.ml" 109 2281 2306
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"src/lTerm_key.ml" 109 2281 2307 "src/lTerm_key.ml" 109 2281 2313
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 109 2281 2314 "src/lTerm_key.ml" 109 2281 2322
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"src/lTerm_key.ml" 109 2281 2323 "src/lTerm_key.ml" 109 2281 2327
+type(
+  int
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 93 1629 1642 "src/lTerm_key.ml" 93 1629 1646
+)
+"src/lTerm_key.ml" 109 2281 2292 "src/lTerm_key.ml" 109 2281 2327
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 106 2183 2197 "src/lTerm_key.ml" 109 2281 2327
+type(
+  unit
+)
+"src/lTerm_key.ml" 94 1666 1675 "src/lTerm_key.ml" 109 2281 2327
+type(
+  unit
+)
+"src/lTerm_key.ml" 93 1629 1638 "src/lTerm_key.ml" 109 2281 2327
+type(
+  unit
+)
+"src/lTerm_key.ml" 110 2328 2335 "src/lTerm_key.ml" 110 2328 2344
+type(
+  code
+)
+"src/lTerm_key.ml" 111 2348 2357 "src/lTerm_key.ml" 111 2348 2374
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 111 2348 2375 "src/lTerm_key.ml" 111 2348 2381
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 111 2348 2382 "src/lTerm_key.ml" 111 2348 2388
+type(
+  string
+)
+"src/lTerm_key.ml" 111 2348 2357 "src/lTerm_key.ml" 111 2348 2388
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 112 2389 2396 "src/lTerm_key.ml" 112 2389 2405
+type(
+  code
+)
+"src/lTerm_key.ml" 113 2409 2418 "src/lTerm_key.ml" 113 2409 2435
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 113 2409 2436 "src/lTerm_key.ml" 113 2409 2442
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 113 2409 2443 "src/lTerm_key.ml" 113 2409 2449
+type(
+  string
+)
+"src/lTerm_key.ml" 113 2409 2418 "src/lTerm_key.ml" 113 2409 2449
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 114 2450 2457 "src/lTerm_key.ml" 114 2450 2461
+type(
+  code
+)
+ident(
+  def code "src/lTerm_key.ml" 115 2465 2474 "src/lTerm_key.ml" 115 2465 2539
+)
+"src/lTerm_key.ml" 115 2465 2474 "src/lTerm_key.ml" 115 2465 2491
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"src/lTerm_key.ml" 115 2465 2492 "src/lTerm_key.ml" 115 2465 2498
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 115 2465 2500 "src/lTerm_key.ml" 115 2465 2516
+type(
+  string -> string
+)
+ident(
+  ext_ref String.lowercase
+)
+"src/lTerm_key.ml" 115 2465 2518 "src/lTerm_key.ml" 115 2465 2532
+type(
+  code -> string
+)
+ident(
+  int_ref string_of_code "src/lTerm_key.ml" 54 642 646 "src/lTerm_key.ml" 54 642 660
+)
+"src/lTerm_key.ml" 115 2465 2533 "src/lTerm_key.ml" 115 2465 2537
+type(
+  code
+)
+ident(
+  int_ref code "src/lTerm_key.ml" 114 2450 2457 "src/lTerm_key.ml" 114 2450 2461
+)
+"src/lTerm_key.ml" 115 2465 2517 "src/lTerm_key.ml" 115 2465 2538
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 115 2465 2499 "src/lTerm_key.ml" 115 2465 2539
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 115 2465 2474 "src/lTerm_key.ml" 115 2465 2539
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_key.ml" 91 1588 1590 "src/lTerm_key.ml" 115 2465 2540
+type(
+  unit
+)
+"src/lTerm_key.ml" 116 2542 2544 "src/lTerm_key.ml" 116 2542 2559
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/lTerm_key.ml" 116 2542 2560 "src/lTerm_key.ml" 116 2542 2566
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/lTerm_key.ml" 87 1399 1405 "src/lTerm_key.ml" 87 1399 1411
+)
+"src/lTerm_key.ml" 116 2542 2544 "src/lTerm_key.ml" 116 2542 2566
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_key.ml" 91 1588 1590 "src/lTerm_key.ml" 116 2542 2566
+type(
+  string
+)
+"src/lTerm_key.ml" 90 1537 1539 "src/lTerm_key.ml" 116 2542 2566
+type(
+  string
+)
+"src/lTerm_key.ml" 89 1487 1489 "src/lTerm_key.ml" 116 2542 2566
+type(
+  string
+)
+"src/lTerm_key.ml" 88 1434 1436 "src/lTerm_key.ml" 116 2542 2566
+type(
+  string
+)
+"src/lTerm_key.ml" 87 1399 1401 "src/lTerm_key.ml" 116 2542 2566
+type(
+  string
+)

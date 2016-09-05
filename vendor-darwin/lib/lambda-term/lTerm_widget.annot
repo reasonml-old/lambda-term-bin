@@ -1,0 +1,1864 @@
+"src/lTerm_widget.ml" 19 326 330 "src/lTerm_widget.ml" 19 326 336
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  def return "src/lTerm_widget.ml" 25 586 586 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 19 326 338 "src/lTerm_widget.ml" 19 326 343
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  def >>= "src/lTerm_widget.ml" 25 586 586 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 19 326 330 "src/lTerm_widget.ml" 19 326 343
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t)
+)
+"src/lTerm_widget.ml" 19 326 346 "src/lTerm_widget.ml" 19 326 356
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/lTerm_widget.ml" 19 326 358 "src/lTerm_widget.ml" 19 326 367
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"src/lTerm_widget.ml" 19 326 346 "src/lTerm_widget.ml" 19 326 367
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t)
+)
+"src/lTerm_widget.ml" 31 839 843 "src/lTerm_widget.ml" 31 839 850
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  def newline "src/lTerm_widget.ml" 33 873 873 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 31 839 853 "src/lTerm_widget.ml" 31 839 866
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_widget.ml" 31 839 867 "src/lTerm_widget.ml" 31 839 871
+type(
+  char
+)
+"src/lTerm_widget.ml" 31 839 853 "src/lTerm_widget.ml" 31 839 871
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_widget.ml" 33 873 877 "src/lTerm_widget.ml" 33 873 886
+type(
+  Zed_utf8.t -> LTerm_geom.size
+)
+ident(
+  def text_size "src/lTerm_widget.ml" 49 1332 1332 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 33 873 887 "src/lTerm_widget.ml" 33 873 890
+type(
+  Zed_utf8.t
+)
+ident(
+  def str "src/lTerm_widget.ml" 34 893 895 "src/lTerm_widget.ml" 47 1316 1330
+)
+"src/lTerm_widget.ml" 34 893 903 "src/lTerm_widget.ml" 34 893 907
+type(
+  int -> int -> int -> int -> LTerm_geom.size
+)
+ident(
+  def loop "src/lTerm_widget.ml" 34 893 895 "src/lTerm_widget.ml" 47 1316 1330
+)
+"src/lTerm_widget.ml" 34 893 908 "src/lTerm_widget.ml" 34 893 911
+type(
+  int
+)
+ident(
+  def ofs "src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 34 893 916
+type(
+  int
+)
+ident(
+  def rows "src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 34 893 921
+type(
+  int
+)
+ident(
+  def cols "src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 34 893 930
+type(
+  int
+)
+ident(
+  def max_cols "src/lTerm_widget.ml" 35 933 937 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 35 933 940 "src/lTerm_widget.ml" 35 933 943
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lTerm_widget.ml" 34 893 908 "src/lTerm_widget.ml" 34 893 911
+)
+"src/lTerm_widget.ml" 35 933 944 "src/lTerm_widget.ml" 35 933 945
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_widget.ml" 35 933 946 "src/lTerm_widget.ml" 35 933 959
+type(
+  Zed_utf8.t -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lTerm_widget.ml" 35 933 960 "src/lTerm_widget.ml" 35 933 963
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref str "src/lTerm_widget.ml" 33 873 887 "src/lTerm_widget.ml" 33 873 890
+)
+"src/lTerm_widget.ml" 35 933 946 "src/lTerm_widget.ml" 35 933 963
+type(
+  int
+)
+"src/lTerm_widget.ml" 35 933 940 "src/lTerm_widget.ml" 35 933 963
+type(
+  bool
+)
+"src/lTerm_widget.ml" 36 969 977 "src/lTerm_widget.ml" 36 969 981
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 34 893 916
+)
+"src/lTerm_widget.ml" 36 969 990 "src/lTerm_widget.ml" 36 969 993
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/lTerm_widget.ml" 36 969 994 "src/lTerm_widget.ml" 36 969 998
+type(
+  int
+)
+ident(
+  int_ref cols "src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 34 893 921
+)
+"src/lTerm_widget.ml" 36 969 999 "src/lTerm_widget.ml" 36 969 1007
+type(
+  int
+)
+ident(
+  int_ref max_cols "src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 34 893 930
+)
+"src/lTerm_widget.ml" 36 969 990 "src/lTerm_widget.ml" 36 969 1007
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_widget.ml" 36 969 975 "src/lTerm_widget.ml" 36 969 1009
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 38 1019 1029 "src/lTerm_widget.ml" 38 1019 1032
+type(
+  CamomileLibrary.UChar.t
+)
+ident(
+  def chr "src/lTerm_widget.ml" 39 1080 1086 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 38 1019 1034 "src/lTerm_widget.ml" 38 1019 1037
+type(
+  int
+)
+ident(
+  def ofs "src/lTerm_widget.ml" 39 1080 1086 "src/lTerm_widget.ml" 45 1269 1310
+)
+"src/lTerm_widget.ml" 38 1019 1029 "src/lTerm_widget.ml" 38 1019 1037
+type(
+  CamomileLibrary.UChar.t * int
+)
+"src/lTerm_widget.ml" 38 1019 1040 "src/lTerm_widget.ml" 38 1019 1068
+type(
+  Zed_utf8.t -> int -> CamomileLibrary.UChar.t * int
+)
+ident(
+  ext_ref Zed_utf8.unsafe_extract_next
+)
+"src/lTerm_widget.ml" 38 1019 1069 "src/lTerm_widget.ml" 38 1019 1072
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref str "src/lTerm_widget.ml" 33 873 887 "src/lTerm_widget.ml" 33 873 890
+)
+"src/lTerm_widget.ml" 38 1019 1073 "src/lTerm_widget.ml" 38 1019 1076
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lTerm_widget.ml" 34 893 908 "src/lTerm_widget.ml" 34 893 911
+)
+"src/lTerm_widget.ml" 38 1019 1040 "src/lTerm_widget.ml" 38 1019 1076
+call(
+  stack
+)
+type(
+  CamomileLibrary.UChar.t * int
+)
+"src/lTerm_widget.ml" 39 1080 1089 "src/lTerm_widget.ml" 39 1080 1092
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref chr "src/lTerm_widget.ml" 38 1019 1029 "src/lTerm_widget.ml" 38 1019 1032
+)
+"src/lTerm_widget.ml" 39 1080 1093 "src/lTerm_widget.ml" 39 1080 1094
+type(
+  CamomileLibraryDyn.Camomile.UChar.t ->
+  CamomileLibraryDyn.Camomile.UChar.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_widget.ml" 39 1080 1095 "src/lTerm_widget.ml" 39 1080 1102
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref newline "src/lTerm_widget.ml" 31 839 843 "src/lTerm_widget.ml" 31 839 850
+)
+"src/lTerm_widget.ml" 39 1080 1089 "src/lTerm_widget.ml" 39 1080 1102
+type(
+  bool
+)
+"src/lTerm_widget.ml" 40 1108 1119 "src/lTerm_widget.ml" 40 1108 1122
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lTerm_widget.ml" 38 1019 1034 "src/lTerm_widget.ml" 38 1019 1037
+)
+"src/lTerm_widget.ml" 40 1108 1123 "src/lTerm_widget.ml" 40 1108 1124
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_widget.ml" 40 1108 1125 "src/lTerm_widget.ml" 40 1108 1138
+type(
+  Zed_utf8.t -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/lTerm_widget.ml" 40 1108 1139 "src/lTerm_widget.ml" 40 1108 1142
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref str "src/lTerm_widget.ml" 33 873 887 "src/lTerm_widget.ml" 33 873 890
+)
+"src/lTerm_widget.ml" 40 1108 1125 "src/lTerm_widget.ml" 40 1108 1142
+type(
+  int
+)
+"src/lTerm_widget.ml" 40 1108 1119 "src/lTerm_widget.ml" 40 1108 1142
+type(
+  bool
+)
+"src/lTerm_widget.ml" 41 1148 1160 "src/lTerm_widget.ml" 41 1148 1164
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 34 893 916
+)
+"src/lTerm_widget.ml" 41 1148 1173 "src/lTerm_widget.ml" 41 1148 1176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/lTerm_widget.ml" 41 1148 1177 "src/lTerm_widget.ml" 41 1148 1181
+type(
+  int
+)
+ident(
+  int_ref cols "src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 34 893 921
+)
+"src/lTerm_widget.ml" 41 1148 1182 "src/lTerm_widget.ml" 41 1148 1190
+type(
+  int
+)
+ident(
+  int_ref max_cols "src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 34 893 930
+)
+"src/lTerm_widget.ml" 41 1148 1173 "src/lTerm_widget.ml" 41 1148 1190
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_widget.ml" 41 1148 1158 "src/lTerm_widget.ml" 41 1148 1192
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 43 1206 1216 "src/lTerm_widget.ml" 43 1206 1220
+type(
+  int -> int -> int -> int -> LTerm_geom.size
+)
+ident(
+  int_ref loop "src/lTerm_widget.ml" 34 893 903 "src/lTerm_widget.ml" 34 893 907
+)
+"src/lTerm_widget.ml" 43 1206 1221 "src/lTerm_widget.ml" 43 1206 1224
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lTerm_widget.ml" 38 1019 1034 "src/lTerm_widget.ml" 38 1019 1037
+)
+"src/lTerm_widget.ml" 43 1206 1226 "src/lTerm_widget.ml" 43 1206 1230
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 34 893 916
+)
+"src/lTerm_widget.ml" 43 1206 1231 "src/lTerm_widget.ml" 43 1206 1232
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lTerm_widget.ml" 43 1206 1233 "src/lTerm_widget.ml" 43 1206 1234
+type(
+  int
+)
+"src/lTerm_widget.ml" 43 1206 1225 "src/lTerm_widget.ml" 43 1206 1235
+type(
+  int
+)
+"src/lTerm_widget.ml" 43 1206 1236 "src/lTerm_widget.ml" 43 1206 1237
+type(
+  int
+)
+"src/lTerm_widget.ml" 43 1206 1239 "src/lTerm_widget.ml" 43 1206 1242
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/lTerm_widget.ml" 43 1206 1243 "src/lTerm_widget.ml" 43 1206 1247
+type(
+  int
+)
+ident(
+  int_ref cols "src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 34 893 921
+)
+"src/lTerm_widget.ml" 43 1206 1248 "src/lTerm_widget.ml" 43 1206 1256
+type(
+  int
+)
+ident(
+  int_ref max_cols "src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 34 893 930
+)
+"src/lTerm_widget.ml" 43 1206 1238 "src/lTerm_widget.ml" 43 1206 1257
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_widget.ml" 43 1206 1216 "src/lTerm_widget.ml" 43 1206 1257
+call(
+  tail
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 40 1108 1116 "src/lTerm_widget.ml" 43 1206 1257
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 45 1269 1277 "src/lTerm_widget.ml" 45 1269 1281
+type(
+  int -> int -> int -> int -> LTerm_geom.size
+)
+ident(
+  int_ref loop "src/lTerm_widget.ml" 34 893 903 "src/lTerm_widget.ml" 34 893 907
+)
+"src/lTerm_widget.ml" 45 1269 1282 "src/lTerm_widget.ml" 45 1269 1285
+type(
+  int
+)
+ident(
+  int_ref ofs "src/lTerm_widget.ml" 38 1019 1034 "src/lTerm_widget.ml" 38 1019 1037
+)
+"src/lTerm_widget.ml" 45 1269 1286 "src/lTerm_widget.ml" 45 1269 1290
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 34 893 912 "src/lTerm_widget.ml" 34 893 916
+)
+"src/lTerm_widget.ml" 45 1269 1292 "src/lTerm_widget.ml" 45 1269 1296
+type(
+  int
+)
+ident(
+  int_ref cols "src/lTerm_widget.ml" 34 893 917 "src/lTerm_widget.ml" 34 893 921
+)
+"src/lTerm_widget.ml" 45 1269 1297 "src/lTerm_widget.ml" 45 1269 1298
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/lTerm_widget.ml" 45 1269 1299 "src/lTerm_widget.ml" 45 1269 1300
+type(
+  int
+)
+"src/lTerm_widget.ml" 45 1269 1291 "src/lTerm_widget.ml" 45 1269 1301
+type(
+  int
+)
+"src/lTerm_widget.ml" 45 1269 1302 "src/lTerm_widget.ml" 45 1269 1310
+type(
+  int
+)
+ident(
+  int_ref max_cols "src/lTerm_widget.ml" 34 893 922 "src/lTerm_widget.ml" 34 893 930
+)
+"src/lTerm_widget.ml" 45 1269 1277 "src/lTerm_widget.ml" 45 1269 1310
+call(
+  tail
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 39 1080 1086 "src/lTerm_widget.ml" 45 1269 1310
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 38 1019 1025 "src/lTerm_widget.ml" 45 1269 1310
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 35 933 937 "src/lTerm_widget.ml" 45 1269 1310
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 47 1316 1318 "src/lTerm_widget.ml" 47 1316 1322
+type(
+  int -> int -> int -> int -> LTerm_geom.size
+)
+ident(
+  int_ref loop "src/lTerm_widget.ml" 34 893 903 "src/lTerm_widget.ml" 34 893 907
+)
+"src/lTerm_widget.ml" 47 1316 1323 "src/lTerm_widget.ml" 47 1316 1324
+type(
+  int
+)
+"src/lTerm_widget.ml" 47 1316 1325 "src/lTerm_widget.ml" 47 1316 1326
+type(
+  int
+)
+"src/lTerm_widget.ml" 47 1316 1327 "src/lTerm_widget.ml" 47 1316 1328
+type(
+  int
+)
+"src/lTerm_widget.ml" 47 1316 1329 "src/lTerm_widget.ml" 47 1316 1330
+type(
+  int
+)
+"src/lTerm_widget.ml" 47 1316 1318 "src/lTerm_widget.ml" 47 1316 1330
+call(
+  tail
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 34 893 895 "src/lTerm_widget.ml" 47 1316 1330
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 49 1332 1344 "src/lTerm_widget.ml" 49 1332 1356
+type(
+  Zed_utf8.t
+)
+"src/lTerm_widget.ml" 49 1332 1365 "src/lTerm_widget.ml" 49 1332 1371
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit; set_text : Zed_utf8.t -> unit;
+    size_request : LTerm_geom.size; text : Zed_utf8.t;
+    update_resources : unit; .. >
+)
+"src/lTerm_widget.ml" 50 1372 1384 "src/lTerm_widget.ml" 50 1372 1391
+type(
+  string
+)
+"src/lTerm_widget.ml" 51 1392 1413 "src/lTerm_widget.ml" 51 1392 1425
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref initial_text "src/lTerm_widget.ml" 49 1332 1344 "src/lTerm_widget.ml" 49 1332 1356
+)
+"src/lTerm_widget.ml" 53 1427 1456 "src/lTerm_widget.ml" 53 1427 1465
+type(
+  Zed_utf8.t -> LTerm_geom.size
+)
+ident(
+  int_ref text_size "src/lTerm_widget.ml" 33 873 877 "src/lTerm_widget.ml" 33 873 886
+)
+"src/lTerm_widget.ml" 53 1427 1466 "src/lTerm_widget.ml" 53 1427 1478
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref initial_text "src/lTerm_widget.ml" 49 1332 1344 "src/lTerm_widget.ml" 49 1332 1356
+)
+"src/lTerm_widget.ml" 53 1427 1456 "src/lTerm_widget.ml" 53 1427 1478
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 54 1479 1503 "src/lTerm_widget.ml" 54 1479 1515
+type(
+  LTerm_geom.size
+)
+type(
+  LTerm_geom.size
+)
+ident(
+  ext_ref size_request
+)
+"src/lTerm_widget.ml" 56 1517 1539 "src/lTerm_widget.ml" 56 1517 1555
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref LTerm_style.none
+)
+"src/lTerm_widget.ml" 58 1584 1597 "src/lTerm_widget.ml" 58 1584 1622
+type(
+  string -> LTerm_resources.t -> LTerm_style.t
+)
+ident(
+  ext_ref LTerm_resources.get_style
+)
+"src/lTerm_widget.ml" 58 1584 1623 "src/lTerm_widget.ml" 58 1584 1627
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit; set_text : Zed_utf8.t -> unit;
+    size_request : LTerm_geom.size; text : Zed_utf8.t;
+    update_resources : unit; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 49 1332 1365 "src/lTerm_widget.ml" 49 1332 1371
+)
+"src/lTerm_widget.ml" 58 1584 1623 "src/lTerm_widget.ml" 58 1584 1642
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_widget.ml" 58 1584 1643 "src/lTerm_widget.ml" 58 1584 1647
+type(
+  'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 49 1332 1365 "src/lTerm_widget.ml" 49 1332 1371
+)
+"src/lTerm_widget.ml" 58 1584 1643 "src/lTerm_widget.ml" 58 1584 1657
+call(
+  stack
+)
+type(
+  LTerm_resources.t
+)
+"src/lTerm_widget.ml" 58 1584 1597 "src/lTerm_widget.ml" 58 1584 1657
+call(
+  stack
+)
+type(
+  LTerm_style.t
+)
+"src/lTerm_widget.ml" 58 1584 1588 "src/lTerm_widget.ml" 58 1584 1657
+type(
+  unit
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 60 1659 1675 "src/lTerm_widget.ml" 60 1659 1679
+type(
+  Zed_utf8.t
+)
+type(
+  Zed_utf8.t
+)
+ident(
+  ext_ref text
+)
+"src/lTerm_widget.ml" 61 1680 1698 "src/lTerm_widget.ml" 61 1680 1699
+type(
+  Zed_utf8.t
+)
+ident(
+  def t "src/lTerm_widget.ml" 62 1702 1706 "src/lTerm_widget.ml" 64 1750 1769
+)
+"src/lTerm_widget.ml" 62 1702 1714 "src/lTerm_widget.ml" 62 1702 1715
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref t "src/lTerm_widget.ml" 61 1680 1698 "src/lTerm_widget.ml" 61 1680 1699
+)
+"src/lTerm_widget.ml" 62 1702 1706 "src/lTerm_widget.ml" 62 1702 1715
+type(
+  unit
+)
+"src/lTerm_widget.ml" 63 1717 1737 "src/lTerm_widget.ml" 63 1717 1746
+type(
+  Zed_utf8.t -> LTerm_geom.size
+)
+ident(
+  int_ref text_size "src/lTerm_widget.ml" 33 873 877 "src/lTerm_widget.ml" 33 873 886
+)
+"src/lTerm_widget.ml" 63 1717 1747 "src/lTerm_widget.ml" 63 1717 1748
+type(
+  Zed_utf8.t
+)
+ident(
+  int_ref t "src/lTerm_widget.ml" 61 1680 1698 "src/lTerm_widget.ml" 61 1680 1699
+)
+"src/lTerm_widget.ml" 63 1717 1737 "src/lTerm_widget.ml" 63 1717 1748
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 63 1717 1721 "src/lTerm_widget.ml" 63 1717 1748
+type(
+  unit
+)
+"src/lTerm_widget.ml" 64 1750 1754 "src/lTerm_widget.ml" 64 1750 1758
+type(
+  'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 49 1332 1365 "src/lTerm_widget.ml" 49 1332 1371
+)
+"src/lTerm_widget.ml" 64 1750 1754 "src/lTerm_widget.ml" 64 1750 1769
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 63 1717 1721 "src/lTerm_widget.ml" 64 1750 1769
+type(
+  unit
+)
+"src/lTerm_widget.ml" 62 1702 1706 "src/lTerm_widget.ml" 64 1750 1769
+type(
+  unit
+)
+"src/lTerm_widget.ml" 66 1771 1785 "src/lTerm_widget.ml" 66 1771 1788
+type(
+  LTerm_draw.context
+)
+ident(
+  def ctx "src/lTerm_widget.ml" 66 1771 1789 "src/lTerm_widget.ml" 70 1926 1988
+)
+"src/lTerm_widget.ml" 66 1771 1789 "src/lTerm_widget.ml" 66 1771 1796
+type(
+  LTerm_widget_base_impl.t
+)
+ident(
+  def focused "src/lTerm_widget.ml" 67 1799 1803 "src/lTerm_widget.ml" 70 1926 1988
+)
+"src/lTerm_widget.ml" 67 1799 1809 "src/lTerm_widget.ml" 67 1799 1813
+type(
+  int
+)
+ident(
+  def rows "src/lTerm_widget.ml" 68 1841 1845 "src/lTerm_widget.ml" 70 1926 1988
+)
+"src/lTerm_widget.ml" 67 1799 1807 "src/lTerm_widget.ml" 67 1799 1815
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 67 1799 1818 "src/lTerm_widget.ml" 67 1799 1833
+type(
+  LTerm_draw.context -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm_draw.size
+)
+"src/lTerm_widget.ml" 67 1799 1834 "src/lTerm_widget.ml" 67 1799 1837
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 66 1771 1785 "src/lTerm_widget.ml" 66 1771 1788
+)
+"src/lTerm_widget.ml" 67 1799 1818 "src/lTerm_widget.ml" 67 1799 1837
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 68 1841 1849 "src/lTerm_widget.ml" 68 1841 1852
+type(
+  int
+)
+ident(
+  def row "src/lTerm_widget.ml" 69 1889 1893 "src/lTerm_widget.ml" 70 1926 1988
+)
+"src/lTerm_widget.ml" 68 1841 1856 "src/lTerm_widget.ml" 68 1841 1860
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 67 1799 1809 "src/lTerm_widget.ml" 67 1799 1813
+)
+"src/lTerm_widget.ml" 68 1841 1861 "src/lTerm_widget.ml" 68 1841 1862
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lTerm_widget.ml" 68 1841 1863 "src/lTerm_widget.ml" 68 1841 1875
+type(
+  LTerm_geom.size
+)
+ident(
+  ext_ref size_request
+)
+"src/lTerm_widget.ml" 68 1841 1863 "src/lTerm_widget.ml" 68 1841 1880
+type(
+  int
+)
+"src/lTerm_widget.ml" 68 1841 1855 "src/lTerm_widget.ml" 68 1841 1881
+type(
+  int
+)
+"src/lTerm_widget.ml" 68 1841 1882 "src/lTerm_widget.ml" 68 1841 1883
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/lTerm_widget.ml" 68 1841 1884 "src/lTerm_widget.ml" 68 1841 1885
+type(
+  int
+)
+"src/lTerm_widget.ml" 68 1841 1855 "src/lTerm_widget.ml" 68 1841 1885
+type(
+  int
+)
+"src/lTerm_widget.ml" 69 1889 1893 "src/lTerm_widget.ml" 69 1889 1914
+type(
+  LTerm_draw.context -> LTerm_style.t -> unit
+)
+ident(
+  ext_ref LTerm_draw.fill_style
+)
+"src/lTerm_widget.ml" 69 1889 1915 "src/lTerm_widget.ml" 69 1889 1918
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 66 1771 1785 "src/lTerm_widget.ml" 66 1771 1788
+)
+"src/lTerm_widget.ml" 69 1889 1919 "src/lTerm_widget.ml" 69 1889 1924
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref style
+)
+"src/lTerm_widget.ml" 69 1889 1893 "src/lTerm_widget.ml" 69 1889 1924
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 70 1926 1930 "src/lTerm_widget.ml" 70 1926 1960
+type(
+  LTerm_draw.context ->
+  int ->
+  LTerm_geom.horz_alignment -> ?style:LTerm_style.t -> Zed_utf8.t -> unit
+)
+ident(
+  ext_ref LTerm_draw.draw_string_aligned
+)
+"src/lTerm_widget.ml" 70 1926 1961 "src/lTerm_widget.ml" 70 1926 1964
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 66 1771 1785 "src/lTerm_widget.ml" 66 1771 1788
+)
+"src/lTerm_widget.ml" 70 1926 1965 "src/lTerm_widget.ml" 70 1926 1968
+type(
+  int
+)
+ident(
+  int_ref row "src/lTerm_widget.ml" 68 1841 1849 "src/lTerm_widget.ml" 68 1841 1852
+)
+"src/lTerm_widget.ml" 70 1926 1969 "src/lTerm_widget.ml" 70 1926 1983
+type(
+  LTerm_geom.horz_alignment
+)
+"src/lTerm_widget.ml" 70 1926 1984 "src/lTerm_widget.ml" 70 1926 1988
+type(
+  Zed_utf8.t
+)
+ident(
+  ext_ref text
+)
+"src/lTerm_widget.ml" 70 1926 1930 "src/lTerm_widget.ml" 70 1926 1988
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 69 1889 1893 "src/lTerm_widget.ml" 70 1926 1988
+type(
+  unit
+)
+"src/lTerm_widget.ml" 68 1841 1845 "src/lTerm_widget.ml" 70 1926 1988
+type(
+  unit
+)
+"src/lTerm_widget.ml" 67 1799 1803 "src/lTerm_widget.ml" 70 1926 1988
+type(
+  unit
+)
+"src/lTerm_widget.ml" 88 2708 2728 "src/lTerm_widget.ml" 88 2708 2734
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. >
+)
+"src/lTerm_widget.ml" 89 2735 2747 "src/lTerm_widget.ml" 89 2735 2754
+type(
+  string
+)
+"src/lTerm_widget.ml" 91 2756 2786 "src/lTerm_widget.ml" 91 2756 2787
+type(
+  int
+)
+"src/lTerm_widget.ml" 91 2756 2796 "src/lTerm_widget.ml" 91 2756 2797
+type(
+  int
+)
+"src/lTerm_widget.ml" 91 2756 2777 "src/lTerm_widget.ml" 91 2756 2799
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 92 2800 2824 "src/lTerm_widget.ml" 92 2800 2836
+type(
+  LTerm_geom.size
+)
+type(
+  LTerm_geom.size
+)
+ident(
+  ext_ref size_request
+)
+"src/lTerm_widget.ml" 94 2838 2860 "src/lTerm_widget.ml" 94 2838 2876
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref LTerm_style.none
+)
+"src/lTerm_widget.ml" 95 2877 2904 "src/lTerm_widget.ml" 95 2877 2920
+type(
+  LTerm_draw.connection
+)
+"src/lTerm_widget.ml" 97 2949 2957 "src/lTerm_widget.ml" 97 2949 2959
+type(
+  string
+)
+ident(
+  def rc "src/lTerm_widget.ml" 98 3016 3020 "src/lTerm_widget.ml" 99 3069 3148
+)
+"src/lTerm_widget.ml" 97 2949 2962 "src/lTerm_widget.ml" 97 2949 2966
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 88 2708 2728 "src/lTerm_widget.ml" 88 2708 2734
+)
+"src/lTerm_widget.ml" 97 2949 2962 "src/lTerm_widget.ml" 97 2949 2981
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_widget.ml" 97 2949 2986 "src/lTerm_widget.ml" 97 2949 2995
+type(
+  LTerm_resources.t
+)
+ident(
+  def resources "src/lTerm_widget.ml" 98 3016 3020 "src/lTerm_widget.ml" 99 3069 3148
+)
+"src/lTerm_widget.ml" 97 2949 2998 "src/lTerm_widget.ml" 97 2949 3002
+type(
+  'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 88 2708 2728 "src/lTerm_widget.ml" 88 2708 2734
+)
+"src/lTerm_widget.ml" 97 2949 2998 "src/lTerm_widget.ml" 97 2949 3012
+call(
+  stack
+)
+type(
+  LTerm_resources.t
+)
+"src/lTerm_widget.ml" 98 3016 3029 "src/lTerm_widget.ml" 98 3016 3054
+type(
+  string -> LTerm_resources.t -> LTerm_style.t
+)
+ident(
+  ext_ref LTerm_resources.get_style
+)
+"src/lTerm_widget.ml" 98 3016 3055 "src/lTerm_widget.ml" 98 3016 3057
+type(
+  string
+)
+ident(
+  int_ref rc "src/lTerm_widget.ml" 97 2949 2957 "src/lTerm_widget.ml" 97 2949 2959
+)
+"src/lTerm_widget.ml" 98 3016 3058 "src/lTerm_widget.ml" 98 3016 3067
+type(
+  LTerm_resources.t
+)
+ident(
+  int_ref resources "src/lTerm_widget.ml" 97 2949 2986 "src/lTerm_widget.ml" 97 2949 2995
+)
+"src/lTerm_widget.ml" 98 3016 3029 "src/lTerm_widget.ml" 98 3016 3067
+call(
+  stack
+)
+type(
+  LTerm_style.t
+)
+"src/lTerm_widget.ml" 98 3016 3020 "src/lTerm_widget.ml" 98 3016 3067
+type(
+  unit
+)
+"src/lTerm_widget.ml" 99 3069 3087 "src/lTerm_widget.ml" 99 3069 3117
+type(
+  string -> LTerm_resources.t -> LTerm_draw.connection
+)
+ident(
+  ext_ref LTerm_resources.get_connection
+)
+"src/lTerm_widget.ml" 99 3069 3119 "src/lTerm_widget.ml" 99 3069 3121
+type(
+  string
+)
+ident(
+  int_ref rc "src/lTerm_widget.ml" 97 2949 2957 "src/lTerm_widget.ml" 97 2949 2959
+)
+"src/lTerm_widget.ml" 99 3069 3122 "src/lTerm_widget.ml" 99 3069 3123
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/lTerm_widget.ml" 99 3069 3124 "src/lTerm_widget.ml" 99 3069 3137
+type(
+  string
+)
+"src/lTerm_widget.ml" 99 3069 3118 "src/lTerm_widget.ml" 99 3069 3138
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_widget.ml" 99 3069 3139 "src/lTerm_widget.ml" 99 3069 3148
+type(
+  LTerm_resources.t
+)
+ident(
+  int_ref resources "src/lTerm_widget.ml" 97 2949 2986 "src/lTerm_widget.ml" 97 2949 2995
+)
+"src/lTerm_widget.ml" 99 3069 3087 "src/lTerm_widget.ml" 99 3069 3148
+call(
+  stack
+)
+type(
+  LTerm_draw.connection
+)
+"src/lTerm_widget.ml" 99 3069 3073 "src/lTerm_widget.ml" 99 3069 3148
+type(
+  unit
+)
+"src/lTerm_widget.ml" 98 3016 3020 "src/lTerm_widget.ml" 99 3069 3148
+type(
+  unit
+)
+"src/lTerm_widget.ml" 97 2949 2953 "src/lTerm_widget.ml" 99 3069 3148
+type(
+  unit
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 101 3150 3164 "src/lTerm_widget.ml" 101 3150 3167
+type(
+  LTerm_draw.context
+)
+ident(
+  def ctx "src/lTerm_widget.ml" 101 3150 3168 "src/lTerm_widget.ml" 104 3257 3326
+)
+"src/lTerm_widget.ml" 101 3150 3168 "src/lTerm_widget.ml" 101 3150 3175
+type(
+  LTerm_widget_base_impl.t
+)
+ident(
+  def focused "src/lTerm_widget.ml" 102 3178 3182 "src/lTerm_widget.ml" 104 3257 3326
+)
+"src/lTerm_widget.ml" 102 3178 3188 "src/lTerm_widget.ml" 102 3178 3192
+type(
+  int
+)
+ident(
+  def rows "src/lTerm_widget.ml" 103 3220 3224 "src/lTerm_widget.ml" 104 3257 3326
+)
+"src/lTerm_widget.ml" 102 3178 3186 "src/lTerm_widget.ml" 102 3178 3194
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 102 3178 3197 "src/lTerm_widget.ml" 102 3178 3212
+type(
+  LTerm_draw.context -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm_draw.size
+)
+"src/lTerm_widget.ml" 102 3178 3213 "src/lTerm_widget.ml" 102 3178 3216
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 101 3150 3164 "src/lTerm_widget.ml" 101 3150 3167
+)
+"src/lTerm_widget.ml" 102 3178 3197 "src/lTerm_widget.ml" 102 3178 3216
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 103 3220 3224 "src/lTerm_widget.ml" 103 3220 3245
+type(
+  LTerm_draw.context -> LTerm_style.t -> unit
+)
+ident(
+  ext_ref LTerm_draw.fill_style
+)
+"src/lTerm_widget.ml" 103 3220 3246 "src/lTerm_widget.ml" 103 3220 3249
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 101 3150 3164 "src/lTerm_widget.ml" 101 3150 3167
+)
+"src/lTerm_widget.ml" 103 3220 3250 "src/lTerm_widget.ml" 103 3220 3255
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref style
+)
+"src/lTerm_widget.ml" 103 3220 3224 "src/lTerm_widget.ml" 103 3220 3255
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 104 3257 3261 "src/lTerm_widget.ml" 104 3257 3271
+type(
+  LTerm_draw.context ->
+  int -> int -> int -> ?style:LTerm_style.t -> LTerm_draw.connection -> unit
+)
+ident(
+  ext_ref LTerm_draw.draw_hline
+)
+"src/lTerm_widget.ml" 104 3257 3272 "src/lTerm_widget.ml" 104 3257 3275
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 101 3150 3164 "src/lTerm_widget.ml" 101 3150 3167
+)
+"src/lTerm_widget.ml" 104 3257 3277 "src/lTerm_widget.ml" 104 3257 3281
+type(
+  int
+)
+ident(
+  int_ref rows "src/lTerm_widget.ml" 102 3178 3188 "src/lTerm_widget.ml" 102 3178 3192
+)
+"src/lTerm_widget.ml" 104 3257 3282 "src/lTerm_widget.ml" 104 3257 3283
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/lTerm_widget.ml" 104 3257 3284 "src/lTerm_widget.ml" 104 3257 3285
+type(
+  int
+)
+"src/lTerm_widget.ml" 104 3257 3276 "src/lTerm_widget.ml" 104 3257 3286
+type(
+  int
+)
+"src/lTerm_widget.ml" 104 3257 3287 "src/lTerm_widget.ml" 104 3257 3288
+type(
+  int
+)
+"src/lTerm_widget.ml" 104 3257 3290 "src/lTerm_widget.ml" 104 3257 3305
+type(
+  LTerm_draw.context -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm_draw.size
+)
+"src/lTerm_widget.ml" 104 3257 3306 "src/lTerm_widget.ml" 104 3257 3309
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 101 3150 3164 "src/lTerm_widget.ml" 101 3150 3167
+)
+"src/lTerm_widget.ml" 104 3257 3289 "src/lTerm_widget.ml" 104 3257 3310
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 104 3257 3289 "src/lTerm_widget.ml" 104 3257 3315
+type(
+  int
+)
+"src/lTerm_widget.ml" 104 3257 3316 "src/lTerm_widget.ml" 104 3257 3326
+type(
+  LTerm_draw.connection
+)
+ident(
+  ext_ref connection
+)
+"src/lTerm_widget.ml" 104 3257 3261 "src/lTerm_widget.ml" 104 3257 3326
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 103 3220 3224 "src/lTerm_widget.ml" 104 3257 3326
+type(
+  unit
+)
+"src/lTerm_widget.ml" 102 3178 3182 "src/lTerm_widget.ml" 104 3257 3326
+type(
+  unit
+)
+"src/lTerm_widget.ml" 107 3332 3352 "src/lTerm_widget.ml" 107 3332 3358
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. >
+)
+"src/lTerm_widget.ml" 108 3359 3371 "src/lTerm_widget.ml" 108 3359 3378
+type(
+  string
+)
+"src/lTerm_widget.ml" 110 3380 3410 "src/lTerm_widget.ml" 110 3380 3411
+type(
+  int
+)
+"src/lTerm_widget.ml" 110 3380 3420 "src/lTerm_widget.ml" 110 3380 3421
+type(
+  int
+)
+"src/lTerm_widget.ml" 110 3380 3401 "src/lTerm_widget.ml" 110 3380 3423
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 111 3424 3448 "src/lTerm_widget.ml" 111 3424 3460
+type(
+  LTerm_geom.size
+)
+type(
+  LTerm_geom.size
+)
+ident(
+  ext_ref size_request
+)
+"src/lTerm_widget.ml" 113 3462 3484 "src/lTerm_widget.ml" 113 3462 3500
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref LTerm_style.none
+)
+"src/lTerm_widget.ml" 114 3501 3528 "src/lTerm_widget.ml" 114 3501 3544
+type(
+  LTerm_draw.connection
+)
+"src/lTerm_widget.ml" 116 3573 3581 "src/lTerm_widget.ml" 116 3573 3583
+type(
+  string
+)
+ident(
+  def rc "src/lTerm_widget.ml" 117 3640 3644 "src/lTerm_widget.ml" 118 3693 3772
+)
+"src/lTerm_widget.ml" 116 3573 3586 "src/lTerm_widget.ml" 116 3573 3590
+type(
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 107 3332 3352 "src/lTerm_widget.ml" 107 3332 3358
+)
+"src/lTerm_widget.ml" 116 3573 3586 "src/lTerm_widget.ml" 116 3573 3605
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_widget.ml" 116 3573 3610 "src/lTerm_widget.ml" 116 3573 3619
+type(
+  LTerm_resources.t
+)
+ident(
+  def resources "src/lTerm_widget.ml" 117 3640 3644 "src/lTerm_widget.ml" 118 3693 3772
+)
+"src/lTerm_widget.ml" 116 3573 3622 "src/lTerm_widget.ml" 116 3573 3626
+type(
+  'a
+)
+ident(
+  int_ref self "src/lTerm_widget.ml" 107 3332 3352 "src/lTerm_widget.ml" 107 3332 3358
+)
+"src/lTerm_widget.ml" 116 3573 3622 "src/lTerm_widget.ml" 116 3573 3636
+call(
+  stack
+)
+type(
+  LTerm_resources.t
+)
+"src/lTerm_widget.ml" 117 3640 3653 "src/lTerm_widget.ml" 117 3640 3678
+type(
+  string -> LTerm_resources.t -> LTerm_style.t
+)
+ident(
+  ext_ref LTerm_resources.get_style
+)
+"src/lTerm_widget.ml" 117 3640 3679 "src/lTerm_widget.ml" 117 3640 3681
+type(
+  string
+)
+ident(
+  int_ref rc "src/lTerm_widget.ml" 116 3573 3581 "src/lTerm_widget.ml" 116 3573 3583
+)
+"src/lTerm_widget.ml" 117 3640 3682 "src/lTerm_widget.ml" 117 3640 3691
+type(
+  LTerm_resources.t
+)
+ident(
+  int_ref resources "src/lTerm_widget.ml" 116 3573 3610 "src/lTerm_widget.ml" 116 3573 3619
+)
+"src/lTerm_widget.ml" 117 3640 3653 "src/lTerm_widget.ml" 117 3640 3691
+call(
+  stack
+)
+type(
+  LTerm_style.t
+)
+"src/lTerm_widget.ml" 117 3640 3644 "src/lTerm_widget.ml" 117 3640 3691
+type(
+  unit
+)
+"src/lTerm_widget.ml" 118 3693 3711 "src/lTerm_widget.ml" 118 3693 3741
+type(
+  string -> LTerm_resources.t -> LTerm_draw.connection
+)
+ident(
+  ext_ref LTerm_resources.get_connection
+)
+"src/lTerm_widget.ml" 118 3693 3743 "src/lTerm_widget.ml" 118 3693 3745
+type(
+  string
+)
+ident(
+  int_ref rc "src/lTerm_widget.ml" 116 3573 3581 "src/lTerm_widget.ml" 116 3573 3583
+)
+"src/lTerm_widget.ml" 118 3693 3746 "src/lTerm_widget.ml" 118 3693 3747
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/lTerm_widget.ml" 118 3693 3748 "src/lTerm_widget.ml" 118 3693 3761
+type(
+  string
+)
+"src/lTerm_widget.ml" 118 3693 3742 "src/lTerm_widget.ml" 118 3693 3762
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_widget.ml" 118 3693 3763 "src/lTerm_widget.ml" 118 3693 3772
+type(
+  LTerm_resources.t
+)
+ident(
+  int_ref resources "src/lTerm_widget.ml" 116 3573 3610 "src/lTerm_widget.ml" 116 3573 3619
+)
+"src/lTerm_widget.ml" 118 3693 3711 "src/lTerm_widget.ml" 118 3693 3772
+call(
+  stack
+)
+type(
+  LTerm_draw.connection
+)
+"src/lTerm_widget.ml" 118 3693 3697 "src/lTerm_widget.ml" 118 3693 3772
+type(
+  unit
+)
+"src/lTerm_widget.ml" 117 3640 3644 "src/lTerm_widget.ml" 118 3693 3772
+type(
+  unit
+)
+"src/lTerm_widget.ml" 116 3573 3577 "src/lTerm_widget.ml" 118 3693 3772
+type(
+  unit
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 120 3774 3788 "src/lTerm_widget.ml" 120 3774 3791
+type(
+  LTerm_draw.context
+)
+ident(
+  def ctx "src/lTerm_widget.ml" 120 3774 3792 "src/lTerm_widget.ml" 123 3881 3950
+)
+"src/lTerm_widget.ml" 120 3774 3792 "src/lTerm_widget.ml" 120 3774 3799
+type(
+  LTerm_widget_base_impl.t
+)
+ident(
+  def focused "src/lTerm_widget.ml" 121 3802 3806 "src/lTerm_widget.ml" 123 3881 3950
+)
+"src/lTerm_widget.ml" 121 3802 3812 "src/lTerm_widget.ml" 121 3802 3816
+type(
+  int
+)
+ident(
+  def cols "src/lTerm_widget.ml" 122 3844 3848 "src/lTerm_widget.ml" 123 3881 3950
+)
+"src/lTerm_widget.ml" 121 3802 3810 "src/lTerm_widget.ml" 121 3802 3818
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 121 3802 3821 "src/lTerm_widget.ml" 121 3802 3836
+type(
+  LTerm_draw.context -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm_draw.size
+)
+"src/lTerm_widget.ml" 121 3802 3837 "src/lTerm_widget.ml" 121 3802 3840
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 120 3774 3788 "src/lTerm_widget.ml" 120 3774 3791
+)
+"src/lTerm_widget.ml" 121 3802 3821 "src/lTerm_widget.ml" 121 3802 3840
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 122 3844 3848 "src/lTerm_widget.ml" 122 3844 3869
+type(
+  LTerm_draw.context -> LTerm_style.t -> unit
+)
+ident(
+  ext_ref LTerm_draw.fill_style
+)
+"src/lTerm_widget.ml" 122 3844 3870 "src/lTerm_widget.ml" 122 3844 3873
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 120 3774 3788 "src/lTerm_widget.ml" 120 3774 3791
+)
+"src/lTerm_widget.ml" 122 3844 3874 "src/lTerm_widget.ml" 122 3844 3879
+type(
+  LTerm_style.t
+)
+ident(
+  ext_ref style
+)
+"src/lTerm_widget.ml" 122 3844 3848 "src/lTerm_widget.ml" 122 3844 3879
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 123 3881 3885 "src/lTerm_widget.ml" 123 3881 3895
+type(
+  LTerm_draw.context ->
+  int -> int -> int -> ?style:LTerm_style.t -> LTerm_draw.connection -> unit
+)
+ident(
+  ext_ref LTerm_draw.draw_vline
+)
+"src/lTerm_widget.ml" 123 3881 3896 "src/lTerm_widget.ml" 123 3881 3899
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 120 3774 3788 "src/lTerm_widget.ml" 120 3774 3791
+)
+"src/lTerm_widget.ml" 123 3881 3900 "src/lTerm_widget.ml" 123 3881 3901
+type(
+  int
+)
+"src/lTerm_widget.ml" 123 3881 3903 "src/lTerm_widget.ml" 123 3881 3907
+type(
+  int
+)
+ident(
+  int_ref cols "src/lTerm_widget.ml" 121 3802 3812 "src/lTerm_widget.ml" 121 3802 3816
+)
+"src/lTerm_widget.ml" 123 3881 3908 "src/lTerm_widget.ml" 123 3881 3909
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/lTerm_widget.ml" 123 3881 3910 "src/lTerm_widget.ml" 123 3881 3911
+type(
+  int
+)
+"src/lTerm_widget.ml" 123 3881 3902 "src/lTerm_widget.ml" 123 3881 3912
+type(
+  int
+)
+"src/lTerm_widget.ml" 123 3881 3914 "src/lTerm_widget.ml" 123 3881 3929
+type(
+  LTerm_draw.context -> LTerm_geom.size
+)
+ident(
+  ext_ref LTerm_draw.size
+)
+"src/lTerm_widget.ml" 123 3881 3930 "src/lTerm_widget.ml" 123 3881 3933
+type(
+  LTerm_draw.context
+)
+ident(
+  int_ref ctx "src/lTerm_widget.ml" 120 3774 3788 "src/lTerm_widget.ml" 120 3774 3791
+)
+"src/lTerm_widget.ml" 123 3881 3913 "src/lTerm_widget.ml" 123 3881 3934
+call(
+  stack
+)
+type(
+  LTerm_geom.size
+)
+"src/lTerm_widget.ml" 123 3881 3913 "src/lTerm_widget.ml" 123 3881 3939
+type(
+  int
+)
+"src/lTerm_widget.ml" 123 3881 3940 "src/lTerm_widget.ml" 123 3881 3950
+type(
+  LTerm_draw.connection
+)
+ident(
+  ext_ref connection
+)
+"src/lTerm_widget.ml" 123 3881 3885 "src/lTerm_widget.ml" 123 3881 3950
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget.ml" 122 3844 3848 "src/lTerm_widget.ml" 123 3881 3950
+type(
+  unit
+)
+"src/lTerm_widget.ml" 121 3802 3806 "src/lTerm_widget.ml" 123 3881 3950
+type(
+  unit
+)
+"src/lTerm_widget.ml" 140 4657 4661 "src/lTerm_widget.ml" 140 4657 4664
+type(
+  LTerm.t ->
+  ?save_state:bool ->
+  ?load_resources:bool ->
+  ?resources_file:string ->
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : #LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. > ->
+  'a Lwt.t -> 'a Lwt.t
+)
+ident(
+  def run "src/lTerm_widget.ml" 141 4690 4690 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 140 4657 4667 "src/lTerm_widget.ml" 140 4657 4689
+type(
+  LTerm.t ->
+  ?save_state:bool ->
+  ?load_resources:bool ->
+  ?resources_file:string ->
+  (< allocation : LTerm_geom.rect; can_focus : bool;
+     children : #LTerm_widget_base_impl.t list;
+     cursor_position : LTerm_geom.coord option;
+     draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+     focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+     on_event : ?switch:LTerm_widget_callbacks.switch ->
+                (LTerm_event.t -> bool) -> unit;
+     parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+     resource_class : string; resources : LTerm_resources.t;
+     send_event : LTerm_event.t -> unit;
+     set_allocation : LTerm_geom.rect -> unit;
+     set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                 unit;
+     set_parent : LTerm_widget_base_impl.t option -> unit;
+     set_queue_draw : (unit -> unit) -> unit;
+     set_resource_class : string -> unit;
+     set_resources : LTerm_resources.t -> unit;
+     size_request : LTerm_geom.size; update_resources : unit; .. >
+   as 'b) ->
+  'a Lwt.t -> 'a Lwt.t
+)
+ident(
+  ext_ref LTerm_running_impl.run
+)
+"src/lTerm_widget.ml" 141 4690 4694 "src/lTerm_widget.ml" 141 4690 4703
+type(
+  LTerm.t ->
+  ?save_state:bool ->
+  ?load_resources:bool ->
+  ?resources_file:string ->
+  LTerm_toplevel_impl.t Lwt_react.event ->
+  unit Lwt_react.event ->
+  < allocation : LTerm_geom.rect; can_focus : bool;
+    children : #LTerm_widget_base_impl.t list;
+    cursor_position : LTerm_geom.coord option;
+    draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+    focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+    on_event : ?switch:LTerm_widget_callbacks.switch ->
+               (LTerm_event.t -> bool) -> unit;
+    parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+    resource_class : string; resources : LTerm_resources.t;
+    send_event : LTerm_event.t -> unit;
+    set_allocation : LTerm_geom.rect -> unit;
+    set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions -> unit;
+    set_parent : LTerm_widget_base_impl.t option -> unit;
+    set_queue_draw : (unit -> unit) -> unit;
+    set_resource_class : string -> unit;
+    set_resources : LTerm_resources.t -> unit;
+    size_request : LTerm_geom.size; update_resources : unit; .. > ->
+  'a Lwt.t -> 'a Lwt.t
+)
+ident(
+  def run_modal "src/lTerm_widget.ml" 142 4735 4735 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 141 4690 4706 "src/lTerm_widget.ml" 141 4690 4734
+type(
+  LTerm.t ->
+  ?save_state:bool ->
+  ?load_resources:bool ->
+  ?resources_file:string ->
+  LTerm_toplevel_impl.t Lwt_react.event ->
+  unit Lwt_react.event ->
+  (< allocation : LTerm_geom.rect; can_focus : bool;
+     children : #LTerm_widget_base_impl.t list;
+     cursor_position : LTerm_geom.coord option;
+     draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+     focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+     on_event : ?switch:LTerm_widget_callbacks.switch ->
+                (LTerm_event.t -> bool) -> unit;
+     parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+     resource_class : string; resources : LTerm_resources.t;
+     send_event : LTerm_event.t -> unit;
+     set_allocation : LTerm_geom.rect -> unit;
+     set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                 unit;
+     set_parent : LTerm_widget_base_impl.t option -> unit;
+     set_queue_draw : (unit -> unit) -> unit;
+     set_resource_class : string -> unit;
+     set_resources : LTerm_resources.t -> unit;
+     size_request : LTerm_geom.size; update_resources : unit; .. >
+   as 'b) ->
+  'a Lwt.t -> 'a Lwt.t
+)
+ident(
+  ext_ref LTerm_running_impl.run_modal
+)
+"src/lTerm_widget.ml" 142 4735 4739 "src/lTerm_widget.ml" 142 4735 4757
+type(
+  unit ->
+  (< allocation : LTerm_geom.rect; can_focus : bool;
+     children : #LTerm_widget_base_impl.t list;
+     cursor_position : LTerm_geom.coord option;
+     draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+     focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+     on_event : ?switch:LTerm_widget_callbacks.switch ->
+                (LTerm_event.t -> bool) -> unit;
+     parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+     resource_class : string; resources : LTerm_resources.t;
+     send_event : LTerm_event.t -> unit;
+     set_allocation : LTerm_geom.rect -> unit;
+     set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                 unit;
+     set_parent : LTerm_widget_base_impl.t option -> unit;
+     set_queue_draw : (unit -> unit) -> unit;
+     set_resource_class : string -> unit;
+     set_resources : LTerm_resources.t -> unit;
+     size_request : LTerm_geom.size; update_resources : unit; .. > ->
+   'a Lwt.t) *
+  (< allocation : LTerm_geom.rect; can_focus : bool;
+     children : #LTerm_widget_base_impl.t list;
+     cursor_position : LTerm_geom.coord option;
+     draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+     focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+     on_event : ?switch:LTerm_widget_callbacks.switch ->
+                (LTerm_event.t -> bool) -> unit;
+     parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+     resource_class : string; resources : LTerm_resources.t;
+     send_event : LTerm_event.t -> unit;
+     set_allocation : LTerm_geom.rect -> unit;
+     set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                 unit;
+     set_parent : LTerm_widget_base_impl.t option -> unit;
+     set_queue_draw : (unit -> unit) -> unit;
+     set_resource_class : string -> unit;
+     set_resources : LTerm_resources.t -> unit;
+     size_request : LTerm_geom.size; update_resources : unit; .. > ->
+   unit -> unit) *
+  (?step:React.step -> unit -> unit) * ('a -> unit)
+)
+ident(
+  def prepare_simple_run "src/lTerm_widget.ml" 142 4735 4797 "src/lTerm_widget.ml" 1 0 -1
+)
+"src/lTerm_widget.ml" 142 4735 4760 "src/lTerm_widget.ml" 142 4735 4797
+type(
+  unit ->
+  ((< allocation : LTerm_geom.rect; can_focus : bool;
+      children : #LTerm_widget_base_impl.t list;
+      cursor_position : LTerm_geom.coord option;
+      draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+      focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+      on_event : ?switch:LTerm_widget_callbacks.switch ->
+                 (LTerm_event.t -> bool) -> unit;
+      parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+      resource_class : string; resources : LTerm_resources.t;
+      send_event : LTerm_event.t -> unit;
+      set_allocation : LTerm_geom.rect -> unit;
+      set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                  unit;
+      set_parent : LTerm_widget_base_impl.t option -> unit;
+      set_queue_draw : (unit -> unit) -> unit;
+      set_resource_class : string -> unit;
+      set_resources : LTerm_resources.t -> unit;
+      size_request : LTerm_geom.size; update_resources : unit; .. >
+    as 'b) ->
+   'a Lwt.t) *
+  ((< allocation : LTerm_geom.rect; can_focus : bool;
+      children : #LTerm_widget_base_impl.t list;
+      cursor_position : LTerm_geom.coord option;
+      draw : LTerm_draw.context -> LTerm_widget_base_impl.t -> unit;
+      focus : #LTerm_widget_base_impl.t option LTerm_geom.directions;
+      on_event : ?switch:LTerm_widget_callbacks.switch ->
+                 (LTerm_event.t -> bool) -> unit;
+      parent : #LTerm_widget_base_impl.t option; queue_draw : unit;
+      resource_class : string; resources : LTerm_resources.t;
+      send_event : LTerm_event.t -> unit;
+      set_allocation : LTerm_geom.rect -> unit;
+      set_focus : LTerm_widget_base_impl.t option LTerm_geom.directions ->
+                  unit;
+      set_parent : LTerm_widget_base_impl.t option -> unit;
+      set_queue_draw : (unit -> unit) -> unit;
+      set_resource_class : string -> unit;
+      set_resources : LTerm_resources.t -> unit;
+      size_request : LTerm_geom.size; update_resources : unit; .. >
+    as 'c) ->
+   unit -> unit) *
+  (?step:React.step -> unit -> unit) * ('a -> unit)
+)
+ident(
+  ext_ref LTerm_running_impl.prepare_simple_run
+)

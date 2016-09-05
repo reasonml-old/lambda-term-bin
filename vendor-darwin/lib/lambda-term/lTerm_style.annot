@@ -1,0 +1,1538 @@
+"src/lTerm_style.ml" 19 454 458 "src/lTerm_style.ml" 19 454 465
+type(
+  color
+)
+ident(
+  def default "src/lTerm_style.ml" 20 476 476 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 19 454 468 "src/lTerm_style.ml" 19 454 475
+type(
+  color
+)
+"src/lTerm_style.ml" 20 476 480 "src/lTerm_style.ml" 20 476 485
+type(
+  int -> color
+)
+ident(
+  def index "src/lTerm_style.ml" 21 498 498 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 20 476 486 "src/lTerm_style.ml" 20 476 487
+type(
+  int
+)
+ident(
+  def n "src/lTerm_style.ml" 20 476 490 "src/lTerm_style.ml" 20 476 497
+)
+"src/lTerm_style.ml" 20 476 496 "src/lTerm_style.ml" 20 476 497
+type(
+  int
+)
+ident(
+  int_ref n "src/lTerm_style.ml" 20 476 486 "src/lTerm_style.ml" 20 476 487
+)
+"src/lTerm_style.ml" 20 476 490 "src/lTerm_style.ml" 20 476 497
+type(
+  color
+)
+"src/lTerm_style.ml" 21 498 502 "src/lTerm_style.ml" 21 498 505
+type(
+  int -> int -> int -> color
+)
+ident(
+  def rgb "src/lTerm_style.ml" 27 640 640 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 21 498 506 "src/lTerm_style.ml" 21 498 507
+type(
+  int
+)
+ident(
+  def r "src/lTerm_style.ml" 21 498 508 "src/lTerm_style.ml" 25 622 638
+)
+"src/lTerm_style.ml" 21 498 508 "src/lTerm_style.ml" 21 498 509
+type(
+  int
+)
+ident(
+  def g "src/lTerm_style.ml" 21 498 510 "src/lTerm_style.ml" 25 622 638
+)
+"src/lTerm_style.ml" 21 498 510 "src/lTerm_style.ml" 21 498 511
+type(
+  int
+)
+ident(
+  def b "src/lTerm_style.ml" 22 514 516 "src/lTerm_style.ml" 25 622 638
+)
+"src/lTerm_style.ml" 22 514 519 "src/lTerm_style.ml" 22 514 520
+type(
+  int
+)
+ident(
+  int_ref r "src/lTerm_style.ml" 21 498 506 "src/lTerm_style.ml" 21 498 507
+)
+"src/lTerm_style.ml" 22 514 521 "src/lTerm_style.ml" 22 514 522
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_style.ml" 22 514 523 "src/lTerm_style.ml" 22 514 524
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 519 "src/lTerm_style.ml" 22 514 524
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 525 "src/lTerm_style.ml" 22 514 527
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lTerm_style.ml" 22 514 528 "src/lTerm_style.ml" 22 514 529
+type(
+  int
+)
+ident(
+  int_ref r "src/lTerm_style.ml" 21 498 506 "src/lTerm_style.ml" 21 498 507
+)
+"src/lTerm_style.ml" 22 514 530 "src/lTerm_style.ml" 22 514 531
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/lTerm_style.ml" 22 514 532 "src/lTerm_style.ml" 22 514 535
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 528 "src/lTerm_style.ml" 22 514 535
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 536 "src/lTerm_style.ml" 22 514 538
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lTerm_style.ml" 22 514 539 "src/lTerm_style.ml" 22 514 540
+type(
+  int
+)
+ident(
+  int_ref g "src/lTerm_style.ml" 21 498 508 "src/lTerm_style.ml" 21 498 509
+)
+"src/lTerm_style.ml" 22 514 541 "src/lTerm_style.ml" 22 514 542
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_style.ml" 22 514 543 "src/lTerm_style.ml" 22 514 544
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 539 "src/lTerm_style.ml" 22 514 544
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 545 "src/lTerm_style.ml" 22 514 547
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lTerm_style.ml" 22 514 548 "src/lTerm_style.ml" 22 514 549
+type(
+  int
+)
+ident(
+  int_ref g "src/lTerm_style.ml" 21 498 508 "src/lTerm_style.ml" 21 498 509
+)
+"src/lTerm_style.ml" 22 514 550 "src/lTerm_style.ml" 22 514 551
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/lTerm_style.ml" 22 514 552 "src/lTerm_style.ml" 22 514 555
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 548 "src/lTerm_style.ml" 22 514 555
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 556 "src/lTerm_style.ml" 22 514 558
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lTerm_style.ml" 22 514 559 "src/lTerm_style.ml" 22 514 560
+type(
+  int
+)
+ident(
+  int_ref b "src/lTerm_style.ml" 21 498 510 "src/lTerm_style.ml" 21 498 511
+)
+"src/lTerm_style.ml" 22 514 561 "src/lTerm_style.ml" 22 514 562
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_style.ml" 22 514 563 "src/lTerm_style.ml" 22 514 564
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 559 "src/lTerm_style.ml" 22 514 564
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 565 "src/lTerm_style.ml" 22 514 567
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/lTerm_style.ml" 22 514 568 "src/lTerm_style.ml" 22 514 569
+type(
+  int
+)
+ident(
+  int_ref b "src/lTerm_style.ml" 21 498 510 "src/lTerm_style.ml" 21 498 511
+)
+"src/lTerm_style.ml" 22 514 570 "src/lTerm_style.ml" 22 514 571
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/lTerm_style.ml" 22 514 572 "src/lTerm_style.ml" 22 514 575
+type(
+  int
+)
+"src/lTerm_style.ml" 22 514 568 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 559 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 548 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 539 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 528 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 22 514 519 "src/lTerm_style.ml" 22 514 575
+type(
+  bool
+)
+"src/lTerm_style.ml" 23 581 585 "src/lTerm_style.ml" 23 581 596
+type(
+  string -> color
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/lTerm_style.ml" 23 581 597 "src/lTerm_style.ml" 23 581 614
+type(
+  string
+)
+"src/lTerm_style.ml" 23 581 585 "src/lTerm_style.ml" 23 581 614
+call(
+  tail
+)
+type(
+  color
+)
+"src/lTerm_style.ml" 25 622 630 "src/lTerm_style.ml" 25 622 631
+type(
+  int
+)
+ident(
+  int_ref r "src/lTerm_style.ml" 21 498 506 "src/lTerm_style.ml" 21 498 507
+)
+"src/lTerm_style.ml" 25 622 633 "src/lTerm_style.ml" 25 622 634
+type(
+  int
+)
+ident(
+  int_ref g "src/lTerm_style.ml" 21 498 508 "src/lTerm_style.ml" 21 498 509
+)
+"src/lTerm_style.ml" 25 622 636 "src/lTerm_style.ml" 25 622 637
+type(
+  int
+)
+ident(
+  int_ref b "src/lTerm_style.ml" 21 498 510 "src/lTerm_style.ml" 21 498 511
+)
+"src/lTerm_style.ml" 25 622 626 "src/lTerm_style.ml" 25 622 638
+type(
+  color
+)
+"src/lTerm_style.ml" 22 514 516 "src/lTerm_style.ml" 25 622 638
+type(
+  color
+)
+"src/lTerm_style.ml" 27 640 644 "src/lTerm_style.ml" 27 640 649
+type(
+  color
+)
+ident(
+  def black "src/lTerm_style.ml" 28 660 660 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 27 640 658 "src/lTerm_style.ml" 27 640 659
+type(
+  int
+)
+"src/lTerm_style.ml" 27 640 652 "src/lTerm_style.ml" 27 640 659
+type(
+  color
+)
+"src/lTerm_style.ml" 28 660 664 "src/lTerm_style.ml" 28 660 667
+type(
+  color
+)
+ident(
+  def red "src/lTerm_style.ml" 29 678 678 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 28 660 676 "src/lTerm_style.ml" 28 660 677
+type(
+  int
+)
+"src/lTerm_style.ml" 28 660 670 "src/lTerm_style.ml" 28 660 677
+type(
+  color
+)
+"src/lTerm_style.ml" 29 678 682 "src/lTerm_style.ml" 29 678 687
+type(
+  color
+)
+ident(
+  def green "src/lTerm_style.ml" 30 698 698 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 29 678 696 "src/lTerm_style.ml" 29 678 697
+type(
+  int
+)
+"src/lTerm_style.ml" 29 678 690 "src/lTerm_style.ml" 29 678 697
+type(
+  color
+)
+"src/lTerm_style.ml" 30 698 702 "src/lTerm_style.ml" 30 698 708
+type(
+  color
+)
+ident(
+  def yellow "src/lTerm_style.ml" 31 719 719 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 30 698 717 "src/lTerm_style.ml" 30 698 718
+type(
+  int
+)
+"src/lTerm_style.ml" 30 698 711 "src/lTerm_style.ml" 30 698 718
+type(
+  color
+)
+"src/lTerm_style.ml" 31 719 723 "src/lTerm_style.ml" 31 719 727
+type(
+  color
+)
+ident(
+  def blue "src/lTerm_style.ml" 32 738 738 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 31 719 736 "src/lTerm_style.ml" 31 719 737
+type(
+  int
+)
+"src/lTerm_style.ml" 31 719 730 "src/lTerm_style.ml" 31 719 737
+type(
+  color
+)
+"src/lTerm_style.ml" 32 738 742 "src/lTerm_style.ml" 32 738 749
+type(
+  color
+)
+ident(
+  def magenta "src/lTerm_style.ml" 33 760 760 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 32 738 758 "src/lTerm_style.ml" 32 738 759
+type(
+  int
+)
+"src/lTerm_style.ml" 32 738 752 "src/lTerm_style.ml" 32 738 759
+type(
+  color
+)
+"src/lTerm_style.ml" 33 760 764 "src/lTerm_style.ml" 33 760 768
+type(
+  color
+)
+ident(
+  def cyan "src/lTerm_style.ml" 34 779 779 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 33 760 777 "src/lTerm_style.ml" 33 760 778
+type(
+  int
+)
+"src/lTerm_style.ml" 33 760 771 "src/lTerm_style.ml" 33 760 778
+type(
+  color
+)
+"src/lTerm_style.ml" 34 779 783 "src/lTerm_style.ml" 34 779 788
+type(
+  color
+)
+ident(
+  def white "src/lTerm_style.ml" 35 799 799 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 34 779 797 "src/lTerm_style.ml" 34 779 798
+type(
+  int
+)
+"src/lTerm_style.ml" 34 779 791 "src/lTerm_style.ml" 34 779 798
+type(
+  color
+)
+"src/lTerm_style.ml" 35 799 803 "src/lTerm_style.ml" 35 799 809
+type(
+  color
+)
+ident(
+  def lblack "src/lTerm_style.ml" 36 820 820 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 35 799 818 "src/lTerm_style.ml" 35 799 819
+type(
+  int
+)
+"src/lTerm_style.ml" 35 799 812 "src/lTerm_style.ml" 35 799 819
+type(
+  color
+)
+"src/lTerm_style.ml" 36 820 824 "src/lTerm_style.ml" 36 820 828
+type(
+  color
+)
+ident(
+  def lred "src/lTerm_style.ml" 37 839 839 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 36 820 837 "src/lTerm_style.ml" 36 820 838
+type(
+  int
+)
+"src/lTerm_style.ml" 36 820 831 "src/lTerm_style.ml" 36 820 838
+type(
+  color
+)
+"src/lTerm_style.ml" 37 839 843 "src/lTerm_style.ml" 37 839 849
+type(
+  color
+)
+ident(
+  def lgreen "src/lTerm_style.ml" 38 861 861 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 37 839 858 "src/lTerm_style.ml" 37 839 860
+type(
+  int
+)
+"src/lTerm_style.ml" 37 839 852 "src/lTerm_style.ml" 37 839 860
+type(
+  color
+)
+"src/lTerm_style.ml" 38 861 865 "src/lTerm_style.ml" 38 861 872
+type(
+  color
+)
+ident(
+  def lyellow "src/lTerm_style.ml" 39 884 884 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 38 861 881 "src/lTerm_style.ml" 38 861 883
+type(
+  int
+)
+"src/lTerm_style.ml" 38 861 875 "src/lTerm_style.ml" 38 861 883
+type(
+  color
+)
+"src/lTerm_style.ml" 39 884 888 "src/lTerm_style.ml" 39 884 893
+type(
+  color
+)
+ident(
+  def lblue "src/lTerm_style.ml" 40 905 905 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 39 884 902 "src/lTerm_style.ml" 39 884 904
+type(
+  int
+)
+"src/lTerm_style.ml" 39 884 896 "src/lTerm_style.ml" 39 884 904
+type(
+  color
+)
+"src/lTerm_style.ml" 40 905 909 "src/lTerm_style.ml" 40 905 917
+type(
+  color
+)
+ident(
+  def lmagenta "src/lTerm_style.ml" 41 929 929 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 40 905 926 "src/lTerm_style.ml" 40 905 928
+type(
+  int
+)
+"src/lTerm_style.ml" 40 905 920 "src/lTerm_style.ml" 40 905 928
+type(
+  color
+)
+"src/lTerm_style.ml" 41 929 933 "src/lTerm_style.ml" 41 929 938
+type(
+  color
+)
+ident(
+  def lcyan "src/lTerm_style.ml" 42 950 950 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 41 929 947 "src/lTerm_style.ml" 41 929 949
+type(
+  int
+)
+"src/lTerm_style.ml" 41 929 941 "src/lTerm_style.ml" 41 929 949
+type(
+  color
+)
+"src/lTerm_style.ml" 42 950 954 "src/lTerm_style.ml" 42 950 960
+type(
+  color
+)
+ident(
+  def lwhite "src/lTerm_style.ml" 48 1190 1190 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 42 950 969 "src/lTerm_style.ml" 42 950 971
+type(
+  int
+)
+"src/lTerm_style.ml" 42 950 963 "src/lTerm_style.ml" 42 950 971
+type(
+  color
+)
+"src/lTerm_style.ml" 57 1359 1363 "src/lTerm_style.ml" 57 1359 1367
+type(
+  t -> bool option
+)
+ident(
+  def bold "src/lTerm_style.ml" 58 1379 1379 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 57 1359 1368 "src/lTerm_style.ml" 57 1359 1369
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 57 1359 1372 "src/lTerm_style.ml" 57 1359 1378
+)
+"src/lTerm_style.ml" 57 1359 1372 "src/lTerm_style.ml" 57 1359 1373
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 57 1359 1368 "src/lTerm_style.ml" 57 1359 1369
+)
+"src/lTerm_style.ml" 57 1359 1372 "src/lTerm_style.ml" 57 1359 1378
+type(
+  bool option
+)
+"src/lTerm_style.ml" 58 1379 1383 "src/lTerm_style.ml" 58 1379 1392
+type(
+  t -> bool option
+)
+ident(
+  def underline "src/lTerm_style.ml" 59 1409 1409 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 58 1379 1393 "src/lTerm_style.ml" 58 1379 1394
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 58 1379 1397 "src/lTerm_style.ml" 58 1379 1408
+)
+"src/lTerm_style.ml" 58 1379 1397 "src/lTerm_style.ml" 58 1379 1398
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 58 1379 1393 "src/lTerm_style.ml" 58 1379 1394
+)
+"src/lTerm_style.ml" 58 1379 1397 "src/lTerm_style.ml" 58 1379 1408
+type(
+  bool option
+)
+"src/lTerm_style.ml" 59 1409 1413 "src/lTerm_style.ml" 59 1409 1418
+type(
+  t -> bool option
+)
+ident(
+  def blink "src/lTerm_style.ml" 60 1431 1431 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 59 1409 1419 "src/lTerm_style.ml" 59 1409 1420
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 59 1409 1423 "src/lTerm_style.ml" 59 1409 1430
+)
+"src/lTerm_style.ml" 59 1409 1423 "src/lTerm_style.ml" 59 1409 1424
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 59 1409 1419 "src/lTerm_style.ml" 59 1409 1420
+)
+"src/lTerm_style.ml" 59 1409 1423 "src/lTerm_style.ml" 59 1409 1430
+type(
+  bool option
+)
+"src/lTerm_style.ml" 60 1431 1435 "src/lTerm_style.ml" 60 1431 1442
+type(
+  t -> bool option
+)
+ident(
+  def reverse "src/lTerm_style.ml" 61 1457 1457 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 60 1431 1443 "src/lTerm_style.ml" 60 1431 1444
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 60 1431 1447 "src/lTerm_style.ml" 60 1431 1456
+)
+"src/lTerm_style.ml" 60 1431 1447 "src/lTerm_style.ml" 60 1431 1448
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 60 1431 1443 "src/lTerm_style.ml" 60 1431 1444
+)
+"src/lTerm_style.ml" 60 1431 1447 "src/lTerm_style.ml" 60 1431 1456
+type(
+  bool option
+)
+"src/lTerm_style.ml" 61 1457 1461 "src/lTerm_style.ml" 61 1457 1471
+type(
+  t -> color option
+)
+ident(
+  def foreground "src/lTerm_style.ml" 62 1489 1489 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 61 1457 1472 "src/lTerm_style.ml" 61 1457 1473
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 61 1457 1476 "src/lTerm_style.ml" 61 1457 1488
+)
+"src/lTerm_style.ml" 61 1457 1476 "src/lTerm_style.ml" 61 1457 1477
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 61 1457 1472 "src/lTerm_style.ml" 61 1457 1473
+)
+"src/lTerm_style.ml" 61 1457 1476 "src/lTerm_style.ml" 61 1457 1488
+type(
+  color option
+)
+"src/lTerm_style.ml" 62 1489 1493 "src/lTerm_style.ml" 62 1489 1503
+type(
+  t -> color option
+)
+ident(
+  def background "src/lTerm_style.ml" 64 1522 1522 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 62 1489 1504 "src/lTerm_style.ml" 62 1489 1505
+type(
+  t
+)
+ident(
+  def s "src/lTerm_style.ml" 62 1489 1508 "src/lTerm_style.ml" 62 1489 1520
+)
+"src/lTerm_style.ml" 62 1489 1508 "src/lTerm_style.ml" 62 1489 1509
+type(
+  t
+)
+ident(
+  int_ref s "src/lTerm_style.ml" 62 1489 1504 "src/lTerm_style.ml" 62 1489 1505
+)
+"src/lTerm_style.ml" 62 1489 1508 "src/lTerm_style.ml" 62 1489 1520
+type(
+  color option
+)
+"src/lTerm_style.ml" 64 1522 1526 "src/lTerm_style.ml" 64 1522 1530
+type(
+  t
+)
+ident(
+  def none "src/lTerm_style.ml" 73 1649 1649 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 65 1535 1544 "src/lTerm_style.ml" 65 1535 1548
+type(
+  bool option
+)
+"src/lTerm_style.ml" 66 1550 1564 "src/lTerm_style.ml" 66 1550 1568
+type(
+  bool option
+)
+"src/lTerm_style.ml" 67 1570 1580 "src/lTerm_style.ml" 67 1570 1584
+type(
+  bool option
+)
+"src/lTerm_style.ml" 68 1586 1598 "src/lTerm_style.ml" 68 1586 1602
+type(
+  bool option
+)
+"src/lTerm_style.ml" 69 1604 1619 "src/lTerm_style.ml" 69 1604 1623
+type(
+  color option
+)
+"src/lTerm_style.ml" 70 1625 1640 "src/lTerm_style.ml" 70 1625 1644
+type(
+  color option
+)
+"src/lTerm_style.ml" 64 1522 1533 "src/lTerm_style.ml" 71 1646 1647
+type(
+  t
+)
+"src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+type(
+  'a option -> 'a option -> 'a option
+)
+ident(
+  def merge_field "src/lTerm_style.ml" 78 1726 1726 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 73 1649 1665 "src/lTerm_style.ml" 73 1649 1667
+type(
+  'a option
+)
+ident(
+  def f1 "src/lTerm_style.ml" 73 1649 1668 "src/lTerm_style.ml" 76 1708 1724
+)
+"src/lTerm_style.ml" 73 1649 1668 "src/lTerm_style.ml" 73 1649 1670
+type(
+  'a option
+)
+ident(
+  def f2 "src/lTerm_style.ml" 74 1673 1675 "src/lTerm_style.ml" 76 1708 1724
+)
+"src/lTerm_style.ml" 74 1673 1681 "src/lTerm_style.ml" 74 1673 1683
+type(
+  'a option
+)
+ident(
+  int_ref f2 "src/lTerm_style.ml" 73 1649 1668 "src/lTerm_style.ml" 73 1649 1670
+)
+"src/lTerm_style.ml" 75 1689 1700 "src/lTerm_style.ml" 75 1689 1701
+type(
+  'a
+)
+"src/lTerm_style.ml" 75 1689 1695 "src/lTerm_style.ml" 75 1689 1701
+type(
+  'a option
+)
+"src/lTerm_style.ml" 75 1689 1705 "src/lTerm_style.ml" 75 1689 1707
+type(
+  'a option
+)
+ident(
+  int_ref f2 "src/lTerm_style.ml" 73 1649 1668 "src/lTerm_style.ml" 73 1649 1670
+)
+"src/lTerm_style.ml" 76 1708 1714 "src/lTerm_style.ml" 76 1708 1718
+type(
+  'a option
+)
+"src/lTerm_style.ml" 76 1708 1722 "src/lTerm_style.ml" 76 1708 1724
+type(
+  'a option
+)
+ident(
+  int_ref f1 "src/lTerm_style.ml" 73 1649 1665 "src/lTerm_style.ml" 73 1649 1667
+)
+"src/lTerm_style.ml" 74 1673 1675 "src/lTerm_style.ml" 76 1708 1724
+type(
+  'a option
+)
+"src/lTerm_style.ml" 78 1726 1730 "src/lTerm_style.ml" 78 1726 1735
+type(
+  t -> t -> t
+)
+ident(
+  def merge "src/lTerm_style.ml" 87 2040 2040 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+type(
+  t
+)
+ident(
+  def s1 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 85 2037 2038
+)
+"src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+type(
+  t
+)
+ident(
+  def s2 "src/lTerm_style.ml" 78 1726 1744 "src/lTerm_style.ml" 85 2037 2038
+)
+"src/lTerm_style.ml" 79 1746 1755 "src/lTerm_style.ml" 79 1746 1766
+type(
+  bool option -> bool option -> bool option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 79 1746 1767 "src/lTerm_style.ml" 79 1746 1769
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 79 1746 1767 "src/lTerm_style.ml" 79 1746 1774
+type(
+  bool option
+)
+"src/lTerm_style.ml" 79 1746 1775 "src/lTerm_style.ml" 79 1746 1777
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 79 1746 1775 "src/lTerm_style.ml" 79 1746 1782
+type(
+  bool option
+)
+"src/lTerm_style.ml" 79 1746 1755 "src/lTerm_style.ml" 79 1746 1782
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/lTerm_style.ml" 80 1784 1798 "src/lTerm_style.ml" 80 1784 1809
+type(
+  bool option -> bool option -> bool option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 80 1784 1810 "src/lTerm_style.ml" 80 1784 1812
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 80 1784 1810 "src/lTerm_style.ml" 80 1784 1822
+type(
+  bool option
+)
+"src/lTerm_style.ml" 80 1784 1823 "src/lTerm_style.ml" 80 1784 1825
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 80 1784 1823 "src/lTerm_style.ml" 80 1784 1835
+type(
+  bool option
+)
+"src/lTerm_style.ml" 80 1784 1798 "src/lTerm_style.ml" 80 1784 1835
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/lTerm_style.ml" 81 1837 1847 "src/lTerm_style.ml" 81 1837 1858
+type(
+  bool option -> bool option -> bool option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 81 1837 1859 "src/lTerm_style.ml" 81 1837 1861
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 81 1837 1859 "src/lTerm_style.ml" 81 1837 1867
+type(
+  bool option
+)
+"src/lTerm_style.ml" 81 1837 1868 "src/lTerm_style.ml" 81 1837 1870
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 81 1837 1868 "src/lTerm_style.ml" 81 1837 1876
+type(
+  bool option
+)
+"src/lTerm_style.ml" 81 1837 1847 "src/lTerm_style.ml" 81 1837 1876
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/lTerm_style.ml" 82 1878 1890 "src/lTerm_style.ml" 82 1878 1901
+type(
+  bool option -> bool option -> bool option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 82 1878 1902 "src/lTerm_style.ml" 82 1878 1904
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 82 1878 1902 "src/lTerm_style.ml" 82 1878 1912
+type(
+  bool option
+)
+"src/lTerm_style.ml" 82 1878 1913 "src/lTerm_style.ml" 82 1878 1915
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 82 1878 1913 "src/lTerm_style.ml" 82 1878 1923
+type(
+  bool option
+)
+"src/lTerm_style.ml" 82 1878 1890 "src/lTerm_style.ml" 82 1878 1923
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/lTerm_style.ml" 83 1925 1940 "src/lTerm_style.ml" 83 1925 1951
+type(
+  color option -> color option -> color option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 83 1925 1952 "src/lTerm_style.ml" 83 1925 1954
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 83 1925 1952 "src/lTerm_style.ml" 83 1925 1965
+type(
+  color option
+)
+"src/lTerm_style.ml" 83 1925 1966 "src/lTerm_style.ml" 83 1925 1968
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 83 1925 1966 "src/lTerm_style.ml" 83 1925 1979
+type(
+  color option
+)
+"src/lTerm_style.ml" 83 1925 1940 "src/lTerm_style.ml" 83 1925 1979
+call(
+  stack
+)
+type(
+  color option
+)
+"src/lTerm_style.ml" 84 1981 1996 "src/lTerm_style.ml" 84 1981 2007
+type(
+  color option -> color option -> color option
+)
+ident(
+  int_ref merge_field "src/lTerm_style.ml" 73 1649 1653 "src/lTerm_style.ml" 73 1649 1664
+)
+"src/lTerm_style.ml" 84 1981 2008 "src/lTerm_style.ml" 84 1981 2010
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 78 1726 1736 "src/lTerm_style.ml" 78 1726 1738
+)
+"src/lTerm_style.ml" 84 1981 2008 "src/lTerm_style.ml" 84 1981 2021
+type(
+  color option
+)
+"src/lTerm_style.ml" 84 1981 2022 "src/lTerm_style.ml" 84 1981 2024
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 78 1726 1739 "src/lTerm_style.ml" 78 1726 1741
+)
+"src/lTerm_style.ml" 84 1981 2022 "src/lTerm_style.ml" 84 1981 2035
+type(
+  color option
+)
+"src/lTerm_style.ml" 84 1981 1996 "src/lTerm_style.ml" 84 1981 2035
+call(
+  stack
+)
+type(
+  color option
+)
+"src/lTerm_style.ml" 78 1726 1744 "src/lTerm_style.ml" 85 2037 2038
+type(
+  t
+)
+"src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+type(
+  bool option -> bool
+)
+ident(
+  def bool "src/lTerm_style.ml" 91 2095 2095 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 88 2060 2069 "src/lTerm_style.ml" 88 2060 2070
+type(
+  bool
+)
+ident(
+  def b "src/lTerm_style.ml" 88 2060 2074 "src/lTerm_style.ml" 88 2060 2075
+)
+"src/lTerm_style.ml" 88 2060 2064 "src/lTerm_style.ml" 88 2060 2070
+type(
+  bool option
+)
+"src/lTerm_style.ml" 88 2060 2074 "src/lTerm_style.ml" 88 2060 2075
+type(
+  bool
+)
+ident(
+  int_ref b "src/lTerm_style.ml" 88 2060 2069 "src/lTerm_style.ml" 88 2060 2070
+)
+"src/lTerm_style.ml" 89 2076 2080 "src/lTerm_style.ml" 89 2076 2084
+type(
+  bool option
+)
+"src/lTerm_style.ml" 89 2076 2088 "src/lTerm_style.ml" 89 2076 2093
+type(
+  bool
+)
+"src/lTerm_style.ml" 87 2040 2051 "src/lTerm_style.ml" 89 2076 2093
+type(
+  bool option -> bool
+)
+"src/lTerm_style.ml" 91 2095 2099 "src/lTerm_style.ml" 91 2095 2104
+type(
+  color option -> color
+)
+ident(
+  def color "src/lTerm_style.ml" 95 2153 2153 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 92 2116 2125 "src/lTerm_style.ml" 92 2116 2126
+type(
+  color
+)
+ident(
+  def c "src/lTerm_style.ml" 92 2116 2130 "src/lTerm_style.ml" 92 2116 2131
+)
+"src/lTerm_style.ml" 92 2116 2120 "src/lTerm_style.ml" 92 2116 2126
+type(
+  color option
+)
+"src/lTerm_style.ml" 92 2116 2130 "src/lTerm_style.ml" 92 2116 2131
+type(
+  color
+)
+ident(
+  int_ref c "src/lTerm_style.ml" 92 2116 2125 "src/lTerm_style.ml" 92 2116 2126
+)
+"src/lTerm_style.ml" 93 2132 2136 "src/lTerm_style.ml" 93 2132 2140
+type(
+  color option
+)
+"src/lTerm_style.ml" 93 2132 2144 "src/lTerm_style.ml" 93 2132 2151
+type(
+  color
+)
+"src/lTerm_style.ml" 91 2095 2107 "src/lTerm_style.ml" 93 2132 2151
+type(
+  color option -> color
+)
+"src/lTerm_style.ml" 95 2153 2157 "src/lTerm_style.ml" 95 2153 2162
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "src/lTerm_style.ml" 101 2386 2433 "src/lTerm_style.ml" 1 0 -1
+)
+"src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+type(
+  t
+)
+ident(
+  def s1 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 101 2386 2433
+)
+"src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+type(
+  t
+)
+ident(
+  def s2 "src/lTerm_style.ml" 96 2171 2173 "src/lTerm_style.ml" 101 2386 2433
+)
+"src/lTerm_style.ml" 96 2171 2174 "src/lTerm_style.ml" 96 2171 2178
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 96 2171 2179 "src/lTerm_style.ml" 96 2171 2181
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 96 2171 2179 "src/lTerm_style.ml" 96 2171 2186
+type(
+  bool option
+)
+"src/lTerm_style.ml" 96 2171 2174 "src/lTerm_style.ml" 96 2171 2186
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 96 2171 2187 "src/lTerm_style.ml" 96 2171 2188
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 96 2171 2189 "src/lTerm_style.ml" 96 2171 2193
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 96 2171 2194 "src/lTerm_style.ml" 96 2171 2196
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 96 2171 2194 "src/lTerm_style.ml" 96 2171 2201
+type(
+  bool option
+)
+"src/lTerm_style.ml" 96 2171 2189 "src/lTerm_style.ml" 96 2171 2201
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 96 2171 2173 "src/lTerm_style.ml" 96 2171 2202
+type(
+  bool
+)
+"src/lTerm_style.ml" 96 2171 2203 "src/lTerm_style.ml" 96 2171 2205
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_style.ml" 97 2206 2211 "src/lTerm_style.ml" 97 2206 2215
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 97 2206 2216 "src/lTerm_style.ml" 97 2206 2218
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 97 2206 2216 "src/lTerm_style.ml" 97 2206 2228
+type(
+  bool option
+)
+"src/lTerm_style.ml" 97 2206 2211 "src/lTerm_style.ml" 97 2206 2228
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 97 2206 2229 "src/lTerm_style.ml" 97 2206 2230
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 97 2206 2231 "src/lTerm_style.ml" 97 2206 2235
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 97 2206 2236 "src/lTerm_style.ml" 97 2206 2238
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 97 2206 2236 "src/lTerm_style.ml" 97 2206 2248
+type(
+  bool option
+)
+"src/lTerm_style.ml" 97 2206 2231 "src/lTerm_style.ml" 97 2206 2248
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 97 2206 2210 "src/lTerm_style.ml" 97 2206 2249
+type(
+  bool
+)
+"src/lTerm_style.ml" 97 2206 2250 "src/lTerm_style.ml" 97 2206 2252
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_style.ml" 98 2253 2258 "src/lTerm_style.ml" 98 2253 2262
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 98 2253 2263 "src/lTerm_style.ml" 98 2253 2265
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 98 2253 2263 "src/lTerm_style.ml" 98 2253 2271
+type(
+  bool option
+)
+"src/lTerm_style.ml" 98 2253 2258 "src/lTerm_style.ml" 98 2253 2271
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 98 2253 2272 "src/lTerm_style.ml" 98 2253 2273
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 98 2253 2274 "src/lTerm_style.ml" 98 2253 2278
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 98 2253 2279 "src/lTerm_style.ml" 98 2253 2281
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 98 2253 2279 "src/lTerm_style.ml" 98 2253 2287
+type(
+  bool option
+)
+"src/lTerm_style.ml" 98 2253 2274 "src/lTerm_style.ml" 98 2253 2287
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 98 2253 2257 "src/lTerm_style.ml" 98 2253 2288
+type(
+  bool
+)
+"src/lTerm_style.ml" 98 2253 2289 "src/lTerm_style.ml" 98 2253 2291
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_style.ml" 99 2292 2297 "src/lTerm_style.ml" 99 2292 2301
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 99 2292 2302 "src/lTerm_style.ml" 99 2292 2304
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 99 2292 2302 "src/lTerm_style.ml" 99 2292 2312
+type(
+  bool option
+)
+"src/lTerm_style.ml" 99 2292 2297 "src/lTerm_style.ml" 99 2292 2312
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 99 2292 2313 "src/lTerm_style.ml" 99 2292 2314
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 99 2292 2315 "src/lTerm_style.ml" 99 2292 2319
+type(
+  bool option -> bool
+)
+ident(
+  int_ref bool "src/lTerm_style.ml" 87 2040 2044 "src/lTerm_style.ml" 87 2040 2048
+)
+"src/lTerm_style.ml" 99 2292 2320 "src/lTerm_style.ml" 99 2292 2322
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 99 2292 2320 "src/lTerm_style.ml" 99 2292 2330
+type(
+  bool option
+)
+"src/lTerm_style.ml" 99 2292 2315 "src/lTerm_style.ml" 99 2292 2330
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_style.ml" 99 2292 2296 "src/lTerm_style.ml" 99 2292 2331
+type(
+  bool
+)
+"src/lTerm_style.ml" 99 2292 2332 "src/lTerm_style.ml" 99 2292 2334
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_style.ml" 100 2335 2340 "src/lTerm_style.ml" 100 2335 2345
+type(
+  color option -> color
+)
+ident(
+  int_ref color "src/lTerm_style.ml" 91 2095 2099 "src/lTerm_style.ml" 91 2095 2104
+)
+"src/lTerm_style.ml" 100 2335 2346 "src/lTerm_style.ml" 100 2335 2348
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 100 2335 2346 "src/lTerm_style.ml" 100 2335 2359
+type(
+  color option
+)
+"src/lTerm_style.ml" 100 2335 2340 "src/lTerm_style.ml" 100 2335 2359
+call(
+  stack
+)
+type(
+  color
+)
+"src/lTerm_style.ml" 100 2335 2360 "src/lTerm_style.ml" 100 2335 2361
+type(
+  color -> color -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 100 2335 2362 "src/lTerm_style.ml" 100 2335 2367
+type(
+  color option -> color
+)
+ident(
+  int_ref color "src/lTerm_style.ml" 91 2095 2099 "src/lTerm_style.ml" 91 2095 2104
+)
+"src/lTerm_style.ml" 100 2335 2368 "src/lTerm_style.ml" 100 2335 2370
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 100 2335 2368 "src/lTerm_style.ml" 100 2335 2381
+type(
+  color option
+)
+"src/lTerm_style.ml" 100 2335 2362 "src/lTerm_style.ml" 100 2335 2381
+call(
+  stack
+)
+type(
+  color
+)
+"src/lTerm_style.ml" 100 2335 2339 "src/lTerm_style.ml" 100 2335 2382
+type(
+  bool
+)
+"src/lTerm_style.ml" 100 2335 2383 "src/lTerm_style.ml" 100 2335 2385
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_style.ml" 101 2386 2391 "src/lTerm_style.ml" 101 2386 2396
+type(
+  color option -> color
+)
+ident(
+  int_ref color "src/lTerm_style.ml" 91 2095 2099 "src/lTerm_style.ml" 91 2095 2104
+)
+"src/lTerm_style.ml" 101 2386 2397 "src/lTerm_style.ml" 101 2386 2399
+type(
+  t
+)
+ident(
+  int_ref s1 "src/lTerm_style.ml" 95 2153 2163 "src/lTerm_style.ml" 95 2153 2165
+)
+"src/lTerm_style.ml" 101 2386 2397 "src/lTerm_style.ml" 101 2386 2410
+type(
+  color option
+)
+"src/lTerm_style.ml" 101 2386 2391 "src/lTerm_style.ml" 101 2386 2410
+call(
+  stack
+)
+type(
+  color
+)
+"src/lTerm_style.ml" 101 2386 2411 "src/lTerm_style.ml" 101 2386 2412
+type(
+  color -> color -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/lTerm_style.ml" 101 2386 2413 "src/lTerm_style.ml" 101 2386 2418
+type(
+  color option -> color
+)
+ident(
+  int_ref color "src/lTerm_style.ml" 91 2095 2099 "src/lTerm_style.ml" 91 2095 2104
+)
+"src/lTerm_style.ml" 101 2386 2419 "src/lTerm_style.ml" 101 2386 2421
+type(
+  t
+)
+ident(
+  int_ref s2 "src/lTerm_style.ml" 95 2153 2166 "src/lTerm_style.ml" 95 2153 2168
+)
+"src/lTerm_style.ml" 101 2386 2419 "src/lTerm_style.ml" 101 2386 2432
+type(
+  color option
+)
+"src/lTerm_style.ml" 101 2386 2413 "src/lTerm_style.ml" 101 2386 2432
+call(
+  stack
+)
+type(
+  color
+)
+"src/lTerm_style.ml" 101 2386 2390 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
+"src/lTerm_style.ml" 100 2335 2339 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
+"src/lTerm_style.ml" 99 2292 2296 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
+"src/lTerm_style.ml" 98 2253 2257 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
+"src/lTerm_style.ml" 97 2206 2210 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
+"src/lTerm_style.ml" 96 2171 2173 "src/lTerm_style.ml" 101 2386 2433
+type(
+  bool
+)
