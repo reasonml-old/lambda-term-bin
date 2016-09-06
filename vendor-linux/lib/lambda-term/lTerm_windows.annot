@@ -1,0 +1,1864 @@
+"src/lTerm_windows.ml" 12 205 209 "src/lTerm_windows.ml" 12 205 215
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  def return "src/lTerm_windows.ml" 14 266 266 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 12 205 217 "src/lTerm_windows.ml" 12 205 222
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  def >>= "src/lTerm_windows.ml" 14 266 266 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 12 205 224 "src/lTerm_windows.ml" 12 205 229
+type(
+  'd Lwt.t -> ('d -> 'e) -> 'e Lwt.t
+)
+ident(
+  def >|= "src/lTerm_windows.ml" 14 266 266 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 12 205 209 "src/lTerm_windows.ml" 12 205 229
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t) *
+  ('d Lwt.t -> ('d -> 'e) -> 'e Lwt.t)
+)
+"src/lTerm_windows.ml" 12 205 232 "src/lTerm_windows.ml" 12 205 242
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/lTerm_windows.ml" 12 205 244 "src/lTerm_windows.ml" 12 205 253
+type(
+  'b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"src/lTerm_windows.ml" 12 205 255 "src/lTerm_windows.ml" 12 205 264
+type(
+  'd Lwt.t -> ('d -> 'e) -> 'e Lwt.t
+)
+ident(
+  ext_ref Lwt.( >|= )
+)
+"src/lTerm_windows.ml" 12 205 232 "src/lTerm_windows.ml" 12 205 264
+type(
+  ('a -> 'a Lwt.t) * ('b Lwt.t -> ('b -> 'c Lwt.t) -> 'c Lwt.t) *
+  ('d Lwt.t -> ('d -> 'e) -> 'e Lwt.t)
+)
+"src/lTerm_windows.ml" 29 1068 1072 "src/lTerm_windows.ml" 29 1068 1080
+type(
+  CamomileLibraryDyn.Camomile.UChar.t array
+)
+ident(
+  def controls "src/lTerm_windows.ml" 64 1763 1763 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 30 1086 1088 "src/lTerm_windows.ml" 30 1086 1101
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 30 1086 1102 "src/lTerm_windows.ml" 30 1086 1105
+type(
+  char
+)
+"src/lTerm_windows.ml" 30 1086 1088 "src/lTerm_windows.ml" 30 1086 1105
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 31 1107 1109 "src/lTerm_windows.ml" 31 1107 1122
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 31 1107 1123 "src/lTerm_windows.ml" 31 1107 1126
+type(
+  char
+)
+"src/lTerm_windows.ml" 31 1107 1109 "src/lTerm_windows.ml" 31 1107 1126
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 32 1128 1130 "src/lTerm_windows.ml" 32 1128 1143
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 32 1128 1144 "src/lTerm_windows.ml" 32 1128 1147
+type(
+  char
+)
+"src/lTerm_windows.ml" 32 1128 1130 "src/lTerm_windows.ml" 32 1128 1147
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 33 1149 1151 "src/lTerm_windows.ml" 33 1149 1164
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 33 1149 1165 "src/lTerm_windows.ml" 33 1149 1168
+type(
+  char
+)
+"src/lTerm_windows.ml" 33 1149 1151 "src/lTerm_windows.ml" 33 1149 1168
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 34 1170 1172 "src/lTerm_windows.ml" 34 1170 1185
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 34 1170 1186 "src/lTerm_windows.ml" 34 1170 1189
+type(
+  char
+)
+"src/lTerm_windows.ml" 34 1170 1172 "src/lTerm_windows.ml" 34 1170 1189
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 35 1191 1193 "src/lTerm_windows.ml" 35 1191 1206
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 35 1191 1207 "src/lTerm_windows.ml" 35 1191 1210
+type(
+  char
+)
+"src/lTerm_windows.ml" 35 1191 1193 "src/lTerm_windows.ml" 35 1191 1210
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 36 1212 1214 "src/lTerm_windows.ml" 36 1212 1227
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 36 1212 1228 "src/lTerm_windows.ml" 36 1212 1231
+type(
+  char
+)
+"src/lTerm_windows.ml" 36 1212 1214 "src/lTerm_windows.ml" 36 1212 1231
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 37 1233 1235 "src/lTerm_windows.ml" 37 1233 1248
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 37 1233 1249 "src/lTerm_windows.ml" 37 1233 1252
+type(
+  char
+)
+"src/lTerm_windows.ml" 37 1233 1235 "src/lTerm_windows.ml" 37 1233 1252
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 38 1254 1256 "src/lTerm_windows.ml" 38 1254 1269
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 38 1254 1270 "src/lTerm_windows.ml" 38 1254 1273
+type(
+  char
+)
+"src/lTerm_windows.ml" 38 1254 1256 "src/lTerm_windows.ml" 38 1254 1273
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 39 1275 1277 "src/lTerm_windows.ml" 39 1275 1290
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 39 1275 1291 "src/lTerm_windows.ml" 39 1275 1294
+type(
+  char
+)
+"src/lTerm_windows.ml" 39 1275 1277 "src/lTerm_windows.ml" 39 1275 1294
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 40 1296 1298 "src/lTerm_windows.ml" 40 1296 1311
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 40 1296 1312 "src/lTerm_windows.ml" 40 1296 1315
+type(
+  char
+)
+"src/lTerm_windows.ml" 40 1296 1298 "src/lTerm_windows.ml" 40 1296 1315
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 41 1317 1319 "src/lTerm_windows.ml" 41 1317 1332
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 41 1317 1333 "src/lTerm_windows.ml" 41 1317 1336
+type(
+  char
+)
+"src/lTerm_windows.ml" 41 1317 1319 "src/lTerm_windows.ml" 41 1317 1336
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 42 1338 1340 "src/lTerm_windows.ml" 42 1338 1353
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 42 1338 1354 "src/lTerm_windows.ml" 42 1338 1357
+type(
+  char
+)
+"src/lTerm_windows.ml" 42 1338 1340 "src/lTerm_windows.ml" 42 1338 1357
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 43 1359 1361 "src/lTerm_windows.ml" 43 1359 1374
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 43 1359 1375 "src/lTerm_windows.ml" 43 1359 1378
+type(
+  char
+)
+"src/lTerm_windows.ml" 43 1359 1361 "src/lTerm_windows.ml" 43 1359 1378
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 44 1380 1382 "src/lTerm_windows.ml" 44 1380 1395
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 44 1380 1396 "src/lTerm_windows.ml" 44 1380 1399
+type(
+  char
+)
+"src/lTerm_windows.ml" 44 1380 1382 "src/lTerm_windows.ml" 44 1380 1399
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 45 1401 1403 "src/lTerm_windows.ml" 45 1401 1416
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 45 1401 1417 "src/lTerm_windows.ml" 45 1401 1420
+type(
+  char
+)
+"src/lTerm_windows.ml" 45 1401 1403 "src/lTerm_windows.ml" 45 1401 1420
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 46 1422 1424 "src/lTerm_windows.ml" 46 1422 1437
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 46 1422 1438 "src/lTerm_windows.ml" 46 1422 1441
+type(
+  char
+)
+"src/lTerm_windows.ml" 46 1422 1424 "src/lTerm_windows.ml" 46 1422 1441
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 47 1443 1445 "src/lTerm_windows.ml" 47 1443 1458
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 47 1443 1459 "src/lTerm_windows.ml" 47 1443 1462
+type(
+  char
+)
+"src/lTerm_windows.ml" 47 1443 1445 "src/lTerm_windows.ml" 47 1443 1462
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 48 1464 1466 "src/lTerm_windows.ml" 48 1464 1479
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 48 1464 1480 "src/lTerm_windows.ml" 48 1464 1483
+type(
+  char
+)
+"src/lTerm_windows.ml" 48 1464 1466 "src/lTerm_windows.ml" 48 1464 1483
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 49 1485 1487 "src/lTerm_windows.ml" 49 1485 1500
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 49 1485 1501 "src/lTerm_windows.ml" 49 1485 1504
+type(
+  char
+)
+"src/lTerm_windows.ml" 49 1485 1487 "src/lTerm_windows.ml" 49 1485 1504
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 50 1506 1508 "src/lTerm_windows.ml" 50 1506 1521
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 50 1506 1522 "src/lTerm_windows.ml" 50 1506 1525
+type(
+  char
+)
+"src/lTerm_windows.ml" 50 1506 1508 "src/lTerm_windows.ml" 50 1506 1525
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 51 1527 1529 "src/lTerm_windows.ml" 51 1527 1542
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 51 1527 1543 "src/lTerm_windows.ml" 51 1527 1546
+type(
+  char
+)
+"src/lTerm_windows.ml" 51 1527 1529 "src/lTerm_windows.ml" 51 1527 1546
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 52 1548 1550 "src/lTerm_windows.ml" 52 1548 1563
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 52 1548 1564 "src/lTerm_windows.ml" 52 1548 1567
+type(
+  char
+)
+"src/lTerm_windows.ml" 52 1548 1550 "src/lTerm_windows.ml" 52 1548 1567
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 53 1569 1571 "src/lTerm_windows.ml" 53 1569 1584
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 53 1569 1585 "src/lTerm_windows.ml" 53 1569 1588
+type(
+  char
+)
+"src/lTerm_windows.ml" 53 1569 1571 "src/lTerm_windows.ml" 53 1569 1588
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 54 1590 1592 "src/lTerm_windows.ml" 54 1590 1605
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 54 1590 1606 "src/lTerm_windows.ml" 54 1590 1609
+type(
+  char
+)
+"src/lTerm_windows.ml" 54 1590 1592 "src/lTerm_windows.ml" 54 1590 1609
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 55 1611 1613 "src/lTerm_windows.ml" 55 1611 1626
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 55 1611 1627 "src/lTerm_windows.ml" 55 1611 1630
+type(
+  char
+)
+"src/lTerm_windows.ml" 55 1611 1613 "src/lTerm_windows.ml" 55 1611 1630
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 56 1632 1634 "src/lTerm_windows.ml" 56 1632 1647
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 56 1632 1648 "src/lTerm_windows.ml" 56 1632 1651
+type(
+  char
+)
+"src/lTerm_windows.ml" 56 1632 1634 "src/lTerm_windows.ml" 56 1632 1651
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 57 1653 1655 "src/lTerm_windows.ml" 57 1653 1668
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 57 1653 1669 "src/lTerm_windows.ml" 57 1653 1672
+type(
+  char
+)
+"src/lTerm_windows.ml" 57 1653 1655 "src/lTerm_windows.ml" 57 1653 1672
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 58 1674 1676 "src/lTerm_windows.ml" 58 1674 1689
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 58 1674 1690 "src/lTerm_windows.ml" 58 1674 1694
+type(
+  char
+)
+"src/lTerm_windows.ml" 58 1674 1676 "src/lTerm_windows.ml" 58 1674 1694
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 59 1696 1698 "src/lTerm_windows.ml" 59 1696 1711
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 59 1696 1712 "src/lTerm_windows.ml" 59 1696 1715
+type(
+  char
+)
+"src/lTerm_windows.ml" 59 1696 1698 "src/lTerm_windows.ml" 59 1696 1715
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 60 1717 1719 "src/lTerm_windows.ml" 60 1717 1732
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 60 1717 1733 "src/lTerm_windows.ml" 60 1717 1736
+type(
+  char
+)
+"src/lTerm_windows.ml" 60 1717 1719 "src/lTerm_windows.ml" 60 1717 1736
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 61 1738 1740 "src/lTerm_windows.ml" 61 1738 1753
+type(
+  char -> CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.of_char
+)
+"src/lTerm_windows.ml" 61 1738 1754 "src/lTerm_windows.ml" 61 1738 1757
+type(
+  char
+)
+"src/lTerm_windows.ml" 61 1738 1740 "src/lTerm_windows.ml" 61 1738 1757
+call(
+  stack
+)
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 29 1068 1083 "src/lTerm_windows.ml" 62 1759 1761
+type(
+  CamomileLibraryDyn.Camomile.UChar.t array
+)
+"src/lTerm_windows.ml" 64 1763 1767 "src/lTerm_windows.ml" 64 1763 1785
+type(
+  Lwt_unix.file_descr -> input Lwt.t
+)
+ident(
+  def read_console_input "src/lTerm_windows.ml" 76 2174 2174 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 64 1763 1786 "src/lTerm_windows.ml" 64 1763 1788
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 65 1791 1793 "src/lTerm_windows.ml" 74 2159 2172
+)
+"src/lTerm_windows.ml" 65 1791 1793 "src/lTerm_windows.ml" 65 1791 1818
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 65 1791 1819 "src/lTerm_windows.ml" 65 1791 1821
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 64 1763 1786 "src/lTerm_windows.ml" 64 1763 1788
+)
+"src/lTerm_windows.ml" 65 1791 1793 "src/lTerm_windows.ml" 65 1791 1821
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 66 1823 1825 "src/lTerm_windows.ml" 66 1823 1845
+type(
+  ?async_method:Lwt_unix.async_method ->
+  job:[ `read_console_input ] Lwt_unix.job ->
+  result:([ `read_console_input ] Lwt_unix.job -> input) ->
+  free:([ `read_console_input ] Lwt_unix.job -> unit) -> input Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.execute_job
+)
+"src/lTerm_windows.ml" 67 1846 1851 "src/lTerm_windows.ml" 67 1846 1873
+type(
+  Unix.file_descr -> [ `read_console_input ] Lwt_unix.job
+)
+ident(
+  int_ref read_console_input_job "src/lTerm_windows.ml" 25 696 696 "src/lTerm_windows.ml" 25 696 823
+)
+"src/lTerm_windows.ml" 67 1846 1875 "src/lTerm_windows.ml" 67 1846 1899
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 67 1846 1900 "src/lTerm_windows.ml" 67 1846 1902
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 64 1763 1786 "src/lTerm_windows.ml" 64 1763 1788
+)
+"src/lTerm_windows.ml" 67 1846 1874 "src/lTerm_windows.ml" 67 1846 1903
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 67 1846 1850 "src/lTerm_windows.ml" 67 1846 1904
+type(
+  [ `read_console_input ] Lwt_unix.job
+)
+"src/lTerm_windows.ml" 68 1905 1909 "src/lTerm_windows.ml" 68 1905 1934
+type(
+  [ `read_console_input ] Lwt_unix.job -> input
+)
+ident(
+  int_ref read_console_input_result "src/lTerm_windows.ml" 26 824 824 "src/lTerm_windows.ml" 26 824 947
+)
+"src/lTerm_windows.ml" 69 1935 1939 "src/lTerm_windows.ml" 69 1935 1962
+type(
+  [ `read_console_input ] Lwt_unix.job -> unit
+)
+ident(
+  int_ref read_console_input_free "src/lTerm_windows.ml" 27 948 948 "src/lTerm_windows.ml" 27 948 1066
+)
+"src/lTerm_windows.ml" 66 1823 1825 "src/lTerm_windows.ml" 69 1935 1962
+call(
+  stack
+)
+type(
+  input Lwt.t
+)
+"src/lTerm_windows.ml" 70 1963 1965 "src/lTerm_windows.ml" 70 1963 1968
+type(
+  input Lwt.t -> (input -> input) -> input Lwt.t
+)
+ident(
+  int_ref >|= "src/lTerm_windows.ml" 12 205 224 "src/lTerm_windows.ml" 12 205 229
+)
+"src/lTerm_windows.ml" 71 1978 2022 "src/lTerm_windows.ml" 71 1978 2024
+type(
+  CamomileLibrary.UChar.t
+)
+ident(
+  def ch "src/lTerm_windows.ml" 71 1978 2040 "src/lTerm_windows.ml" 72 2062 2143
+)
+"src/lTerm_windows.ml" 71 1978 2007 "src/lTerm_windows.ml" 71 1978 2024
+type(
+  LTerm_key.code
+)
+"src/lTerm_windows.ml" 71 1978 1988 "src/lTerm_windows.ml" 71 1978 2026
+type(
+  LTerm_key.t
+)
+"src/lTerm_windows.ml" 71 1978 2030 "src/lTerm_windows.ml" 71 1978 2033
+ident(
+  def key "src/lTerm_windows.ml" 71 1978 2040 "src/lTerm_windows.ml" 72 2062 2143
+)
+"src/lTerm_windows.ml" 71 1978 1987 "src/lTerm_windows.ml" 71 1978 2034
+type(
+  LTerm_key.t
+)
+"src/lTerm_windows.ml" 71 1978 1984 "src/lTerm_windows.ml" 71 1978 2034
+type(
+  input
+)
+"src/lTerm_windows.ml" 71 1978 2040 "src/lTerm_windows.ml" 71 1978 2050
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/lTerm_windows.ml" 71 1978 2051 "src/lTerm_windows.ml" 71 1978 2053
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/lTerm_windows.ml" 71 1978 2022 "src/lTerm_windows.ml" 71 1978 2024
+)
+"src/lTerm_windows.ml" 71 1978 2040 "src/lTerm_windows.ml" 71 1978 2053
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_windows.ml" 71 1978 2054 "src/lTerm_windows.ml" 71 1978 2055
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_windows.ml" 71 1978 2056 "src/lTerm_windows.ml" 71 1978 2058
+type(
+  int
+)
+"src/lTerm_windows.ml" 71 1978 2040 "src/lTerm_windows.ml" 71 1978 2058
+type(
+  bool
+)
+"src/lTerm_windows.ml" 72 2062 2076 "src/lTerm_windows.ml" 72 2062 2079
+type(
+  LTerm_key.t
+)
+ident(
+  int_ref key "src/lTerm_windows.ml" 71 1978 1987 "src/lTerm_windows.ml" 71 1978 2034
+)
+"src/lTerm_windows.ml" 72 2062 2117 "src/lTerm_windows.ml" 72 2062 2125
+type(
+  CamomileLibraryDyn.Camomile.UChar.t array
+)
+ident(
+  int_ref controls "src/lTerm_windows.ml" 29 1068 1072 "src/lTerm_windows.ml" 29 1068 1080
+)
+"src/lTerm_windows.ml" 72 2062 2127 "src/lTerm_windows.ml" 72 2062 2137
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/lTerm_windows.ml" 72 2062 2138 "src/lTerm_windows.ml" 72 2062 2140
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/lTerm_windows.ml" 71 1978 2022 "src/lTerm_windows.ml" 71 1978 2024
+)
+"src/lTerm_windows.ml" 72 2062 2127 "src/lTerm_windows.ml" 72 2062 2140
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_windows.ml" 72 2062 2117 "src/lTerm_windows.ml" 72 2062 2141
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+"src/lTerm_windows.ml" 72 2062 2102 "src/lTerm_windows.ml" 72 2062 2141
+type(
+  LTerm_key.code
+)
+"src/lTerm_windows.ml" 72 2062 2074 "src/lTerm_windows.ml" 72 2062 2143
+type(
+  LTerm_key.t
+)
+"src/lTerm_windows.ml" 72 2062 2070 "src/lTerm_windows.ml" 72 2062 2143
+type(
+  input
+)
+"src/lTerm_windows.ml" 73 2144 2150 "src/lTerm_windows.ml" 73 2144 2155
+type(
+  input
+)
+ident(
+  def input "src/lTerm_windows.ml" 74 2159 2167 "src/lTerm_windows.ml" 74 2159 2172
+)
+"src/lTerm_windows.ml" 74 2159 2167 "src/lTerm_windows.ml" 74 2159 2172
+type(
+  input
+)
+ident(
+  int_ref input "src/lTerm_windows.ml" 73 2144 2150 "src/lTerm_windows.ml" 73 2144 2155
+)
+"src/lTerm_windows.ml" 70 1963 1969 "src/lTerm_windows.ml" 74 2159 2172
+type(
+  input -> input
+)
+"src/lTerm_windows.ml" 66 1823 1825 "src/lTerm_windows.ml" 74 2159 2172
+call(
+  tail
+)
+type(
+  input Lwt.t
+)
+"src/lTerm_windows.ml" 65 1791 1793 "src/lTerm_windows.ml" 74 2159 2172
+type(
+  input Lwt.t
+)
+"src/lTerm_windows.ml" 91 2581 2585 "src/lTerm_windows.ml" 91 2581 2615
+type(
+  Lwt_unix.file_descr -> console_screen_buffer_info
+)
+ident(
+  def get_console_screen_buffer_info "src/lTerm_windows.ml" 95 2717 2717 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 91 2581 2616 "src/lTerm_windows.ml" 91 2581 2618
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 92 2621 2623 "src/lTerm_windows.ml" 93 2653 2715
+)
+"src/lTerm_windows.ml" 92 2621 2623 "src/lTerm_windows.ml" 92 2621 2648
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 92 2621 2649 "src/lTerm_windows.ml" 92 2621 2651
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 91 2581 2616 "src/lTerm_windows.ml" 91 2581 2618
+)
+"src/lTerm_windows.ml" 92 2621 2623 "src/lTerm_windows.ml" 92 2621 2651
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 93 2653 2655 "src/lTerm_windows.ml" 93 2653 2685
+type(
+  Unix.file_descr -> console_screen_buffer_info
+)
+ident(
+  int_ref get_console_screen_buffer_info "src/lTerm_windows.ml" 89 2446 2446 "src/lTerm_windows.ml" 89 2446 2579
+)
+"src/lTerm_windows.ml" 93 2653 2687 "src/lTerm_windows.ml" 93 2653 2711
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 93 2653 2712 "src/lTerm_windows.ml" 93 2653 2714
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 91 2581 2616 "src/lTerm_windows.ml" 91 2581 2618
+)
+"src/lTerm_windows.ml" 93 2653 2686 "src/lTerm_windows.ml" 93 2653 2715
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 93 2653 2655 "src/lTerm_windows.ml" 93 2653 2715
+type(
+  console_screen_buffer_info
+)
+"src/lTerm_windows.ml" 92 2621 2623 "src/lTerm_windows.ml" 93 2653 2715
+type(
+  console_screen_buffer_info
+)
+"src/lTerm_windows.ml" 108 3117 3121 "src/lTerm_windows.ml" 108 3117 3137
+type(
+  Lwt_unix.file_descr -> console_mode
+)
+ident(
+  def get_console_mode "src/lTerm_windows.ml" 112 3225 3225 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 108 3117 3138 "src/lTerm_windows.ml" 108 3117 3140
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 109 3143 3145 "src/lTerm_windows.ml" 110 3175 3223
+)
+"src/lTerm_windows.ml" 109 3143 3145 "src/lTerm_windows.ml" 109 3143 3170
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 109 3143 3171 "src/lTerm_windows.ml" 109 3143 3173
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 108 3117 3138 "src/lTerm_windows.ml" 108 3117 3140
+)
+"src/lTerm_windows.ml" 109 3143 3145 "src/lTerm_windows.ml" 109 3143 3173
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 110 3175 3177 "src/lTerm_windows.ml" 110 3175 3193
+type(
+  Unix.file_descr -> console_mode
+)
+ident(
+  int_ref get_console_mode "src/lTerm_windows.ml" 105 2924 2924 "src/lTerm_windows.ml" 105 2924 3015
+)
+"src/lTerm_windows.ml" 110 3175 3195 "src/lTerm_windows.ml" 110 3175 3219
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 110 3175 3220 "src/lTerm_windows.ml" 110 3175 3222
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 108 3117 3138 "src/lTerm_windows.ml" 108 3117 3140
+)
+"src/lTerm_windows.ml" 110 3175 3194 "src/lTerm_windows.ml" 110 3175 3223
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 110 3175 3177 "src/lTerm_windows.ml" 110 3175 3223
+type(
+  console_mode
+)
+"src/lTerm_windows.ml" 109 3143 3145 "src/lTerm_windows.ml" 110 3175 3223
+type(
+  console_mode
+)
+"src/lTerm_windows.ml" 112 3225 3229 "src/lTerm_windows.ml" 112 3225 3245
+type(
+  Lwt_unix.file_descr -> console_mode -> unit
+)
+ident(
+  def set_console_mode "src/lTerm_windows.ml" 116 3343 3343 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 112 3225 3246 "src/lTerm_windows.ml" 112 3225 3248
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 112 3225 3249 "src/lTerm_windows.ml" 114 3288 3341
+)
+"src/lTerm_windows.ml" 112 3225 3249 "src/lTerm_windows.ml" 112 3225 3253
+type(
+  console_mode
+)
+ident(
+  def mode "src/lTerm_windows.ml" 113 3256 3258 "src/lTerm_windows.ml" 114 3288 3341
+)
+"src/lTerm_windows.ml" 113 3256 3258 "src/lTerm_windows.ml" 113 3256 3283
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 113 3256 3284 "src/lTerm_windows.ml" 113 3256 3286
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 112 3225 3246 "src/lTerm_windows.ml" 112 3225 3248
+)
+"src/lTerm_windows.ml" 113 3256 3258 "src/lTerm_windows.ml" 113 3256 3286
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 114 3288 3290 "src/lTerm_windows.ml" 114 3288 3306
+type(
+  Unix.file_descr -> console_mode -> unit
+)
+ident(
+  int_ref set_console_mode "src/lTerm_windows.ml" 106 3016 3016 "src/lTerm_windows.ml" 106 3016 3115
+)
+"src/lTerm_windows.ml" 114 3288 3308 "src/lTerm_windows.ml" 114 3288 3332
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 114 3288 3333 "src/lTerm_windows.ml" 114 3288 3335
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 112 3225 3246 "src/lTerm_windows.ml" 112 3225 3248
+)
+"src/lTerm_windows.ml" 114 3288 3307 "src/lTerm_windows.ml" 114 3288 3336
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 114 3288 3337 "src/lTerm_windows.ml" 114 3288 3341
+type(
+  console_mode
+)
+ident(
+  int_ref mode "src/lTerm_windows.ml" 112 3225 3249 "src/lTerm_windows.ml" 112 3225 3253
+)
+"src/lTerm_windows.ml" 114 3288 3290 "src/lTerm_windows.ml" 114 3288 3341
+type(
+  unit
+)
+"src/lTerm_windows.ml" 113 3256 3258 "src/lTerm_windows.ml" 114 3288 3341
+type(
+  unit
+)
+"src/lTerm_windows.ml" 119 3561 3565 "src/lTerm_windows.ml" 119 3561 3588
+type(
+  Lwt_unix.file_descr -> int * bool
+)
+ident(
+  def get_console_cursor_info "src/lTerm_windows.ml" 123 3683 3683 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 119 3561 3589 "src/lTerm_windows.ml" 119 3561 3591
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 120 3594 3596 "src/lTerm_windows.ml" 121 3626 3681
+)
+"src/lTerm_windows.ml" 120 3594 3596 "src/lTerm_windows.ml" 120 3594 3621
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 120 3594 3622 "src/lTerm_windows.ml" 120 3594 3624
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 119 3561 3589 "src/lTerm_windows.ml" 119 3561 3591
+)
+"src/lTerm_windows.ml" 120 3594 3596 "src/lTerm_windows.ml" 120 3594 3624
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 121 3626 3628 "src/lTerm_windows.ml" 121 3626 3651
+type(
+  Unix.file_descr -> int * bool
+)
+ident(
+  int_ref get_console_cursor_info "src/lTerm_windows.ml" 116 3343 3343 "src/lTerm_windows.ml" 116 3343 3446
+)
+"src/lTerm_windows.ml" 121 3626 3653 "src/lTerm_windows.ml" 121 3626 3677
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 121 3626 3678 "src/lTerm_windows.ml" 121 3626 3680
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 119 3561 3589 "src/lTerm_windows.ml" 119 3561 3591
+)
+"src/lTerm_windows.ml" 121 3626 3652 "src/lTerm_windows.ml" 121 3626 3681
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 121 3626 3628 "src/lTerm_windows.ml" 121 3626 3681
+type(
+  int * bool
+)
+"src/lTerm_windows.ml" 120 3594 3596 "src/lTerm_windows.ml" 121 3626 3681
+type(
+  int * bool
+)
+"src/lTerm_windows.ml" 123 3683 3687 "src/lTerm_windows.ml" 123 3683 3710
+type(
+  Lwt_unix.file_descr -> int -> bool -> unit
+)
+ident(
+  def set_console_cursor_info "src/lTerm_windows.ml" 127 3831 3831 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 123 3683 3711 "src/lTerm_windows.ml" 123 3683 3713
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 123 3683 3714 "src/lTerm_windows.ml" 125 3761 3829
+)
+"src/lTerm_windows.ml" 123 3683 3714 "src/lTerm_windows.ml" 123 3683 3718
+type(
+  int
+)
+ident(
+  def size "src/lTerm_windows.ml" 123 3683 3719 "src/lTerm_windows.ml" 125 3761 3829
+)
+"src/lTerm_windows.ml" 123 3683 3719 "src/lTerm_windows.ml" 123 3683 3726
+type(
+  bool
+)
+ident(
+  def visible "src/lTerm_windows.ml" 124 3729 3731 "src/lTerm_windows.ml" 125 3761 3829
+)
+"src/lTerm_windows.ml" 124 3729 3731 "src/lTerm_windows.ml" 124 3729 3756
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 124 3729 3757 "src/lTerm_windows.ml" 124 3729 3759
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 123 3683 3711 "src/lTerm_windows.ml" 123 3683 3713
+)
+"src/lTerm_windows.ml" 124 3729 3731 "src/lTerm_windows.ml" 124 3729 3759
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 125 3761 3763 "src/lTerm_windows.ml" 125 3761 3786
+type(
+  Unix.file_descr -> int -> bool -> unit
+)
+ident(
+  int_ref set_console_cursor_info "src/lTerm_windows.ml" 117 3447 3447 "src/lTerm_windows.ml" 117 3447 3559
+)
+"src/lTerm_windows.ml" 125 3761 3788 "src/lTerm_windows.ml" 125 3761 3812
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 125 3761 3813 "src/lTerm_windows.ml" 125 3761 3815
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 123 3683 3711 "src/lTerm_windows.ml" 123 3683 3713
+)
+"src/lTerm_windows.ml" 125 3761 3787 "src/lTerm_windows.ml" 125 3761 3816
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 125 3761 3817 "src/lTerm_windows.ml" 125 3761 3821
+type(
+  int
+)
+ident(
+  int_ref size "src/lTerm_windows.ml" 123 3683 3714 "src/lTerm_windows.ml" 123 3683 3718
+)
+"src/lTerm_windows.ml" 125 3761 3822 "src/lTerm_windows.ml" 125 3761 3829
+type(
+  bool
+)
+ident(
+  int_ref visible "src/lTerm_windows.ml" 123 3683 3719 "src/lTerm_windows.ml" 123 3683 3726
+)
+"src/lTerm_windows.ml" 125 3761 3763 "src/lTerm_windows.ml" 125 3761 3829
+type(
+  unit
+)
+"src/lTerm_windows.ml" 124 3729 3731 "src/lTerm_windows.ml" 125 3761 3829
+type(
+  unit
+)
+"src/lTerm_windows.ml" 129 3958 3962 "src/lTerm_windows.ml" 129 3958 3989
+type(
+  Lwt_unix.file_descr -> LTerm_geom.coord -> unit
+)
+ident(
+  def set_console_cursor_position "src/lTerm_windows.ml" 133 4100 4100 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 129 3958 3990 "src/lTerm_windows.ml" 129 3958 3992
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 129 3958 3993 "src/lTerm_windows.ml" 131 4033 4098
+)
+"src/lTerm_windows.ml" 129 3958 3993 "src/lTerm_windows.ml" 129 3958 3998
+type(
+  LTerm_geom.coord
+)
+ident(
+  def coord "src/lTerm_windows.ml" 130 4001 4003 "src/lTerm_windows.ml" 131 4033 4098
+)
+"src/lTerm_windows.ml" 130 4001 4003 "src/lTerm_windows.ml" 130 4001 4028
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 130 4001 4029 "src/lTerm_windows.ml" 130 4001 4031
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 129 3958 3990 "src/lTerm_windows.ml" 129 3958 3992
+)
+"src/lTerm_windows.ml" 130 4001 4003 "src/lTerm_windows.ml" 130 4001 4031
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 131 4033 4035 "src/lTerm_windows.ml" 131 4033 4062
+type(
+  Unix.file_descr -> LTerm_geom.coord -> unit
+)
+ident(
+  int_ref set_console_cursor_position "src/lTerm_windows.ml" 127 3831 3831 "src/lTerm_windows.ml" 127 3831 3956
+)
+"src/lTerm_windows.ml" 131 4033 4064 "src/lTerm_windows.ml" 131 4033 4088
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 131 4033 4089 "src/lTerm_windows.ml" 131 4033 4091
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 129 3958 3990 "src/lTerm_windows.ml" 129 3958 3992
+)
+"src/lTerm_windows.ml" 131 4033 4063 "src/lTerm_windows.ml" 131 4033 4092
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 131 4033 4093 "src/lTerm_windows.ml" 131 4033 4098
+type(
+  LTerm_geom.coord
+)
+ident(
+  int_ref coord "src/lTerm_windows.ml" 129 3958 3993 "src/lTerm_windows.ml" 129 3958 3998
+)
+"src/lTerm_windows.ml" 131 4033 4035 "src/lTerm_windows.ml" 131 4033 4098
+type(
+  unit
+)
+"src/lTerm_windows.ml" 130 4001 4003 "src/lTerm_windows.ml" 131 4033 4098
+type(
+  unit
+)
+"src/lTerm_windows.ml" 135 4224 4228 "src/lTerm_windows.ml" 135 4224 4254
+type(
+  Lwt_unix.file_descr -> text_attributes -> unit
+)
+ident(
+  def set_console_text_attribute "src/lTerm_windows.ml" 139 4364 4364 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 135 4224 4255 "src/lTerm_windows.ml" 135 4224 4257
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 135 4224 4258 "src/lTerm_windows.ml" 137 4298 4362
+)
+"src/lTerm_windows.ml" 135 4224 4258 "src/lTerm_windows.ml" 135 4224 4263
+type(
+  text_attributes
+)
+ident(
+  def attrs "src/lTerm_windows.ml" 136 4266 4268 "src/lTerm_windows.ml" 137 4298 4362
+)
+"src/lTerm_windows.ml" 136 4266 4268 "src/lTerm_windows.ml" 136 4266 4293
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 136 4266 4294 "src/lTerm_windows.ml" 136 4266 4296
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 135 4224 4255 "src/lTerm_windows.ml" 135 4224 4257
+)
+"src/lTerm_windows.ml" 136 4266 4268 "src/lTerm_windows.ml" 136 4266 4296
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 137 4298 4300 "src/lTerm_windows.ml" 137 4298 4326
+type(
+  Unix.file_descr -> text_attributes -> unit
+)
+ident(
+  int_ref set_console_text_attribute "src/lTerm_windows.ml" 133 4100 4100 "src/lTerm_windows.ml" 133 4100 4222
+)
+"src/lTerm_windows.ml" 137 4298 4328 "src/lTerm_windows.ml" 137 4298 4352
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 137 4298 4353 "src/lTerm_windows.ml" 137 4298 4355
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 135 4224 4255 "src/lTerm_windows.ml" 135 4224 4257
+)
+"src/lTerm_windows.ml" 137 4298 4327 "src/lTerm_windows.ml" 137 4298 4356
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 137 4298 4357 "src/lTerm_windows.ml" 137 4298 4362
+type(
+  text_attributes
+)
+ident(
+  int_ref attrs "src/lTerm_windows.ml" 135 4224 4258 "src/lTerm_windows.ml" 135 4224 4263
+)
+"src/lTerm_windows.ml" 137 4298 4300 "src/lTerm_windows.ml" 137 4298 4362
+type(
+  unit
+)
+"src/lTerm_windows.ml" 136 4266 4268 "src/lTerm_windows.ml" 137 4298 4362
+type(
+  unit
+)
+"src/lTerm_windows.ml" 147 4640 4644 "src/lTerm_windows.ml" 147 4640 4664
+type(
+  Lwt_unix.file_descr ->
+  char_info array array ->
+  LTerm_geom.size -> LTerm_geom.coord -> LTerm_geom.rect -> LTerm_geom.rect
+)
+ident(
+  def write_console_output "src/lTerm_windows.ml" 156 5051 5051 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 147 4640 4665 "src/lTerm_windows.ml" 147 4640 4667
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 147 4640 4668 "src/lTerm_windows.ml" 154 4975 5049
+)
+"src/lTerm_windows.ml" 147 4640 4668 "src/lTerm_windows.ml" 147 4640 4673
+type(
+  char_info array array
+)
+ident(
+  def chars "src/lTerm_windows.ml" 147 4640 4674 "src/lTerm_windows.ml" 154 4975 5049
+)
+"src/lTerm_windows.ml" 147 4640 4674 "src/lTerm_windows.ml" 147 4640 4678
+type(
+  LTerm_geom.size
+)
+ident(
+  def size "src/lTerm_windows.ml" 147 4640 4679 "src/lTerm_windows.ml" 154 4975 5049
+)
+"src/lTerm_windows.ml" 147 4640 4679 "src/lTerm_windows.ml" 147 4640 4684
+type(
+  LTerm_geom.coord
+)
+ident(
+  def coord "src/lTerm_windows.ml" 147 4640 4685 "src/lTerm_windows.ml" 154 4975 5049
+)
+"src/lTerm_windows.ml" 147 4640 4685 "src/lTerm_windows.ml" 147 4640 4689
+type(
+  LTerm_geom.rect
+)
+ident(
+  def rect "src/lTerm_windows.ml" 148 4692 4694 "src/lTerm_windows.ml" 154 4975 5049
+)
+"src/lTerm_windows.ml" 148 4692 4694 "src/lTerm_windows.ml" 148 4692 4719
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 148 4692 4720 "src/lTerm_windows.ml" 148 4692 4722
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 147 4640 4665 "src/lTerm_windows.ml" 147 4640 4667
+)
+"src/lTerm_windows.ml" 148 4692 4694 "src/lTerm_windows.ml" 148 4692 4722
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 149 4724 4729 "src/lTerm_windows.ml" 149 4724 4741
+type(
+  char_info array array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/lTerm_windows.ml" 149 4724 4742 "src/lTerm_windows.ml" 149 4724 4747
+type(
+  char_info array array
+)
+ident(
+  int_ref chars "src/lTerm_windows.ml" 147 4640 4668 "src/lTerm_windows.ml" 147 4640 4673
+)
+"src/lTerm_windows.ml" 149 4724 4729 "src/lTerm_windows.ml" 149 4724 4747
+type(
+  int
+)
+"src/lTerm_windows.ml" 149 4724 4748 "src/lTerm_windows.ml" 149 4724 4750
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/lTerm_windows.ml" 149 4724 4751 "src/lTerm_windows.ml" 149 4724 4755
+type(
+  LTerm_geom.size
+)
+ident(
+  int_ref size "src/lTerm_windows.ml" 147 4640 4674 "src/lTerm_windows.ml" 147 4640 4678
+)
+"src/lTerm_windows.ml" 149 4724 4751 "src/lTerm_windows.ml" 149 4724 4771
+type(
+  int
+)
+"src/lTerm_windows.ml" 149 4724 4729 "src/lTerm_windows.ml" 149 4724 4771
+type(
+  bool
+)
+"src/lTerm_windows.ml" 149 4724 4777 "src/lTerm_windows.ml" 149 4724 4788
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/lTerm_windows.ml" 149 4724 4789 "src/lTerm_windows.ml" 149 4724 4825
+type(
+  string
+)
+"src/lTerm_windows.ml" 149 4724 4777 "src/lTerm_windows.ml" 149 4724 4825
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 149 4724 4726 "src/lTerm_windows.ml" 149 4724 4825
+type(
+  unit
+)
+"src/lTerm_windows.ml" 150 4827 4829 "src/lTerm_windows.ml" 150 4827 4839
+type(
+  (char_info array -> unit) -> char_info array array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"src/lTerm_windows.ml" 151 4840 4849 "src/lTerm_windows.ml" 151 4840 4853
+type(
+  char_info array
+)
+ident(
+  def line "src/lTerm_windows.ml" 152 4857 4864 "src/lTerm_windows.ml" 152 4857 4962
+)
+"src/lTerm_windows.ml" 152 4857 4867 "src/lTerm_windows.ml" 152 4857 4879
+type(
+  char_info array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/lTerm_windows.ml" 152 4857 4880 "src/lTerm_windows.ml" 152 4857 4884
+type(
+  char_info array
+)
+ident(
+  int_ref line "src/lTerm_windows.ml" 151 4840 4849 "src/lTerm_windows.ml" 151 4840 4853
+)
+"src/lTerm_windows.ml" 152 4857 4867 "src/lTerm_windows.ml" 152 4857 4884
+type(
+  int
+)
+"src/lTerm_windows.ml" 152 4857 4885 "src/lTerm_windows.ml" 152 4857 4887
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/lTerm_windows.ml" 152 4857 4888 "src/lTerm_windows.ml" 152 4857 4892
+type(
+  LTerm_geom.size
+)
+ident(
+  int_ref size "src/lTerm_windows.ml" 147 4640 4674 "src/lTerm_windows.ml" 147 4640 4678
+)
+"src/lTerm_windows.ml" 152 4857 4888 "src/lTerm_windows.ml" 152 4857 4908
+type(
+  int
+)
+"src/lTerm_windows.ml" 152 4857 4867 "src/lTerm_windows.ml" 152 4857 4908
+type(
+  bool
+)
+"src/lTerm_windows.ml" 152 4857 4914 "src/lTerm_windows.ml" 152 4857 4925
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/lTerm_windows.ml" 152 4857 4926 "src/lTerm_windows.ml" 152 4857 4962
+type(
+  string
+)
+"src/lTerm_windows.ml" 152 4857 4914 "src/lTerm_windows.ml" 152 4857 4962
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 152 4857 4864 "src/lTerm_windows.ml" 152 4857 4962
+type(
+  unit
+)
+"src/lTerm_windows.ml" 151 4840 4844 "src/lTerm_windows.ml" 152 4857 4963
+type(
+  char_info array -> unit
+)
+"src/lTerm_windows.ml" 153 4964 4968 "src/lTerm_windows.ml" 153 4964 4973
+type(
+  char_info array array
+)
+ident(
+  int_ref chars "src/lTerm_windows.ml" 147 4640 4668 "src/lTerm_windows.ml" 147 4640 4673
+)
+"src/lTerm_windows.ml" 150 4827 4829 "src/lTerm_windows.ml" 153 4964 4973
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 154 4975 4977 "src/lTerm_windows.ml" 154 4975 4997
+type(
+  Unix.file_descr ->
+  char_info array array ->
+  LTerm_geom.size -> LTerm_geom.coord -> LTerm_geom.rect -> LTerm_geom.rect
+)
+ident(
+  int_ref write_console_output "src/lTerm_windows.ml" 145 4453 4453 "src/lTerm_windows.ml" 145 4453 4638
+)
+"src/lTerm_windows.ml" 154 4975 4999 "src/lTerm_windows.ml" 154 4975 5023
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 154 4975 5024 "src/lTerm_windows.ml" 154 4975 5026
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 147 4640 4665 "src/lTerm_windows.ml" 147 4640 4667
+)
+"src/lTerm_windows.ml" 154 4975 4998 "src/lTerm_windows.ml" 154 4975 5027
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 154 4975 5028 "src/lTerm_windows.ml" 154 4975 5033
+type(
+  char_info array array
+)
+ident(
+  int_ref chars "src/lTerm_windows.ml" 147 4640 4668 "src/lTerm_windows.ml" 147 4640 4673
+)
+"src/lTerm_windows.ml" 154 4975 5034 "src/lTerm_windows.ml" 154 4975 5038
+type(
+  LTerm_geom.size
+)
+ident(
+  int_ref size "src/lTerm_windows.ml" 147 4640 4674 "src/lTerm_windows.ml" 147 4640 4678
+)
+"src/lTerm_windows.ml" 154 4975 5039 "src/lTerm_windows.ml" 154 4975 5044
+type(
+  LTerm_geom.coord
+)
+ident(
+  int_ref coord "src/lTerm_windows.ml" 147 4640 4679 "src/lTerm_windows.ml" 147 4640 4684
+)
+"src/lTerm_windows.ml" 154 4975 5045 "src/lTerm_windows.ml" 154 4975 5049
+type(
+  LTerm_geom.rect
+)
+ident(
+  int_ref rect "src/lTerm_windows.ml" 147 4640 4685 "src/lTerm_windows.ml" 147 4640 4689
+)
+"src/lTerm_windows.ml" 154 4975 4977 "src/lTerm_windows.ml" 154 4975 5049
+type(
+  LTerm_geom.rect
+)
+"src/lTerm_windows.ml" 150 4827 4829 "src/lTerm_windows.ml" 154 4975 5049
+type(
+  LTerm_geom.rect
+)
+"src/lTerm_windows.ml" 149 4724 4726 "src/lTerm_windows.ml" 154 4975 5049
+type(
+  LTerm_geom.rect
+)
+"src/lTerm_windows.ml" 148 4692 4694 "src/lTerm_windows.ml" 154 4975 5049
+type(
+  LTerm_geom.rect
+)
+"src/lTerm_windows.ml" 158 5199 5203 "src/lTerm_windows.ml" 158 5199 5232
+type(
+  Lwt_unix.file_descr ->
+  CamomileLibraryDyn.Camomile.UChar.t -> int -> LTerm_geom.coord -> int
+)
+ident(
+  def fill_console_output_character "src/lTerm_windows.ml" 160 5287 5365 "src/lTerm_windows.ml" 1 0 -1
+)
+"src/lTerm_windows.ml" 158 5199 5233 "src/lTerm_windows.ml" 158 5199 5235
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/lTerm_windows.ml" 158 5199 5236 "src/lTerm_windows.ml" 160 5287 5365
+)
+"src/lTerm_windows.ml" 158 5199 5236 "src/lTerm_windows.ml" 158 5199 5240
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  def char "src/lTerm_windows.ml" 158 5199 5241 "src/lTerm_windows.ml" 160 5287 5365
+)
+"src/lTerm_windows.ml" 158 5199 5241 "src/lTerm_windows.ml" 158 5199 5246
+type(
+  int
+)
+ident(
+  def count "src/lTerm_windows.ml" 158 5199 5247 "src/lTerm_windows.ml" 160 5287 5365
+)
+"src/lTerm_windows.ml" 158 5199 5247 "src/lTerm_windows.ml" 158 5199 5252
+type(
+  LTerm_geom.coord
+)
+ident(
+  def coord "src/lTerm_windows.ml" 159 5255 5257 "src/lTerm_windows.ml" 160 5287 5365
+)
+"src/lTerm_windows.ml" 159 5255 5257 "src/lTerm_windows.ml" 159 5255 5282
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.check_descriptor
+)
+"src/lTerm_windows.ml" 159 5255 5283 "src/lTerm_windows.ml" 159 5255 5285
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 158 5199 5233 "src/lTerm_windows.ml" 158 5199 5235
+)
+"src/lTerm_windows.ml" 159 5255 5257 "src/lTerm_windows.ml" 159 5255 5285
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_windows.ml" 160 5287 5289 "src/lTerm_windows.ml" 160 5287 5318
+type(
+  Unix.file_descr ->
+  CamomileLibraryDyn.Camomile.UChar.t -> int -> LTerm_geom.coord -> int
+)
+ident(
+  int_ref fill_console_output_character "src/lTerm_windows.ml" 156 5051 5051 "src/lTerm_windows.ml" 156 5051 5197
+)
+"src/lTerm_windows.ml" 160 5287 5320 "src/lTerm_windows.ml" 160 5287 5344
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/lTerm_windows.ml" 160 5287 5345 "src/lTerm_windows.ml" 160 5287 5347
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/lTerm_windows.ml" 158 5199 5233 "src/lTerm_windows.ml" 158 5199 5235
+)
+"src/lTerm_windows.ml" 160 5287 5319 "src/lTerm_windows.ml" 160 5287 5348
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/lTerm_windows.ml" 160 5287 5349 "src/lTerm_windows.ml" 160 5287 5353
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref char "src/lTerm_windows.ml" 158 5199 5236 "src/lTerm_windows.ml" 158 5199 5240
+)
+"src/lTerm_windows.ml" 160 5287 5354 "src/lTerm_windows.ml" 160 5287 5359
+type(
+  int
+)
+ident(
+  int_ref count "src/lTerm_windows.ml" 158 5199 5241 "src/lTerm_windows.ml" 158 5199 5246
+)
+"src/lTerm_windows.ml" 160 5287 5360 "src/lTerm_windows.ml" 160 5287 5365
+type(
+  LTerm_geom.coord
+)
+ident(
+  int_ref coord "src/lTerm_windows.ml" 158 5199 5247 "src/lTerm_windows.ml" 158 5199 5252
+)
+"src/lTerm_windows.ml" 160 5287 5289 "src/lTerm_windows.ml" 160 5287 5365
+type(
+  int
+)
+"src/lTerm_windows.ml" 159 5255 5257 "src/lTerm_windows.ml" 160 5287 5365
+type(
+  int
+)

@@ -1,0 +1,396 @@
+"src/lTerm_mouse.ml" 30 398 402 "src/lTerm_mouse.ml" 30 398 409
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/lTerm_mouse.ml" 32 421 421 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 30 398 412 "src/lTerm_mouse.ml" 30 398 419
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/lTerm_mouse.ml" 32 421 425 "src/lTerm_mouse.ml" 32 421 432
+type(
+  t -> bool
+)
+ident(
+  def control "src/lTerm_mouse.ml" 33 447 447 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 32 421 433 "src/lTerm_mouse.ml" 32 421 434
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 32 421 437 "src/lTerm_mouse.ml" 32 421 446
+)
+"src/lTerm_mouse.ml" 32 421 437 "src/lTerm_mouse.ml" 32 421 438
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 32 421 433 "src/lTerm_mouse.ml" 32 421 434
+)
+"src/lTerm_mouse.ml" 32 421 437 "src/lTerm_mouse.ml" 32 421 446
+type(
+  bool
+)
+"src/lTerm_mouse.ml" 33 447 451 "src/lTerm_mouse.ml" 33 447 455
+type(
+  t -> bool
+)
+ident(
+  def meta "src/lTerm_mouse.ml" 34 467 467 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 33 447 456 "src/lTerm_mouse.ml" 33 447 457
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 33 447 460 "src/lTerm_mouse.ml" 33 447 466
+)
+"src/lTerm_mouse.ml" 33 447 460 "src/lTerm_mouse.ml" 33 447 461
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 33 447 456 "src/lTerm_mouse.ml" 33 447 457
+)
+"src/lTerm_mouse.ml" 33 447 460 "src/lTerm_mouse.ml" 33 447 466
+type(
+  bool
+)
+"src/lTerm_mouse.ml" 34 467 471 "src/lTerm_mouse.ml" 34 467 477
+type(
+  t -> button
+)
+ident(
+  def button "src/lTerm_mouse.ml" 35 491 491 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 34 467 478 "src/lTerm_mouse.ml" 34 467 479
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 34 467 482 "src/lTerm_mouse.ml" 34 467 490
+)
+"src/lTerm_mouse.ml" 34 467 482 "src/lTerm_mouse.ml" 34 467 483
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 34 467 478 "src/lTerm_mouse.ml" 34 467 479
+)
+"src/lTerm_mouse.ml" 34 467 482 "src/lTerm_mouse.ml" 34 467 490
+type(
+  button
+)
+"src/lTerm_mouse.ml" 35 491 495 "src/lTerm_mouse.ml" 35 491 498
+type(
+  t -> int
+)
+ident(
+  def row "src/lTerm_mouse.ml" 36 509 509 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 35 491 499 "src/lTerm_mouse.ml" 35 491 500
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 35 491 503 "src/lTerm_mouse.ml" 35 491 508
+)
+"src/lTerm_mouse.ml" 35 491 503 "src/lTerm_mouse.ml" 35 491 504
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 35 491 499 "src/lTerm_mouse.ml" 35 491 500
+)
+"src/lTerm_mouse.ml" 35 491 503 "src/lTerm_mouse.ml" 35 491 508
+type(
+  int
+)
+"src/lTerm_mouse.ml" 36 509 513 "src/lTerm_mouse.ml" 36 509 516
+type(
+  t -> int
+)
+ident(
+  def col "src/lTerm_mouse.ml" 37 527 527 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 36 509 517 "src/lTerm_mouse.ml" 36 509 518
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 36 509 521 "src/lTerm_mouse.ml" 36 509 526
+)
+"src/lTerm_mouse.ml" 36 509 521 "src/lTerm_mouse.ml" 36 509 522
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 36 509 517 "src/lTerm_mouse.ml" 36 509 518
+)
+"src/lTerm_mouse.ml" 36 509 521 "src/lTerm_mouse.ml" 36 509 526
+type(
+  int
+)
+"src/lTerm_mouse.ml" 37 527 531 "src/lTerm_mouse.ml" 37 527 536
+type(
+  t -> LTerm_geom.coord
+)
+ident(
+  def coord "src/lTerm_mouse.ml" 39 582 582 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 37 527 537 "src/lTerm_mouse.ml" 37 527 538
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 37 527 541 "src/lTerm_mouse.ml" 37 527 580
+)
+"src/lTerm_mouse.ml" 37 527 560 "src/lTerm_mouse.ml" 37 527 563
+type(
+  t -> int
+)
+ident(
+  int_ref row "src/lTerm_mouse.ml" 35 491 495 "src/lTerm_mouse.ml" 35 491 498
+)
+"src/lTerm_mouse.ml" 37 527 564 "src/lTerm_mouse.ml" 37 527 565
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 37 527 537 "src/lTerm_mouse.ml" 37 527 538
+)
+"src/lTerm_mouse.ml" 37 527 560 "src/lTerm_mouse.ml" 37 527 565
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_mouse.ml" 37 527 573 "src/lTerm_mouse.ml" 37 527 576
+type(
+  t -> int
+)
+ident(
+  int_ref col "src/lTerm_mouse.ml" 36 509 513 "src/lTerm_mouse.ml" 36 509 516
+)
+"src/lTerm_mouse.ml" 37 527 577 "src/lTerm_mouse.ml" 37 527 578
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 37 527 537 "src/lTerm_mouse.ml" 37 527 538
+)
+"src/lTerm_mouse.ml" 37 527 573 "src/lTerm_mouse.ml" 37 527 578
+call(
+  stack
+)
+type(
+  int
+)
+"src/lTerm_mouse.ml" 37 527 541 "src/lTerm_mouse.ml" 37 527 580
+type(
+  LTerm_geom.coord
+)
+"src/lTerm_mouse.ml" 39 582 586 "src/lTerm_mouse.ml" 39 582 602
+type(
+  button -> string
+)
+ident(
+  def string_of_button "src/lTerm_mouse.ml" 50 840 840 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 40 614 618 "src/lTerm_mouse.ml" 40 614 625
+type(
+  button
+)
+"src/lTerm_mouse.ml" 40 614 629 "src/lTerm_mouse.ml" 40 614 638
+type(
+  string
+)
+"src/lTerm_mouse.ml" 41 639 643 "src/lTerm_mouse.ml" 41 639 650
+type(
+  button
+)
+"src/lTerm_mouse.ml" 41 639 654 "src/lTerm_mouse.ml" 41 639 663
+type(
+  string
+)
+"src/lTerm_mouse.ml" 42 664 668 "src/lTerm_mouse.ml" 42 664 675
+type(
+  button
+)
+"src/lTerm_mouse.ml" 42 664 679 "src/lTerm_mouse.ml" 42 664 688
+type(
+  string
+)
+"src/lTerm_mouse.ml" 43 689 693 "src/lTerm_mouse.ml" 43 689 700
+type(
+  button
+)
+"src/lTerm_mouse.ml" 43 689 704 "src/lTerm_mouse.ml" 43 689 713
+type(
+  string
+)
+"src/lTerm_mouse.ml" 44 714 718 "src/lTerm_mouse.ml" 44 714 725
+type(
+  button
+)
+"src/lTerm_mouse.ml" 44 714 729 "src/lTerm_mouse.ml" 44 714 738
+type(
+  string
+)
+"src/lTerm_mouse.ml" 45 739 743 "src/lTerm_mouse.ml" 45 739 750
+type(
+  button
+)
+"src/lTerm_mouse.ml" 45 739 754 "src/lTerm_mouse.ml" 45 739 763
+type(
+  string
+)
+"src/lTerm_mouse.ml" 46 764 768 "src/lTerm_mouse.ml" 46 764 775
+type(
+  button
+)
+"src/lTerm_mouse.ml" 46 764 779 "src/lTerm_mouse.ml" 46 764 788
+type(
+  string
+)
+"src/lTerm_mouse.ml" 47 789 793 "src/lTerm_mouse.ml" 47 789 800
+type(
+  button
+)
+"src/lTerm_mouse.ml" 47 789 804 "src/lTerm_mouse.ml" 47 789 813
+type(
+  string
+)
+"src/lTerm_mouse.ml" 48 814 818 "src/lTerm_mouse.ml" 48 814 825
+type(
+  button
+)
+"src/lTerm_mouse.ml" 48 814 829 "src/lTerm_mouse.ml" 48 814 838
+type(
+  string
+)
+"src/lTerm_mouse.ml" 39 582 605 "src/lTerm_mouse.ml" 48 814 838
+type(
+  button -> string
+)
+"src/lTerm_mouse.ml" 50 840 844 "src/lTerm_mouse.ml" 50 840 853
+type(
+  t -> string
+)
+ident(
+  def to_string "src/lTerm_mouse.ml" 53 954 1022 "src/lTerm_mouse.ml" 1 0 -1
+)
+"src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+type(
+  t
+)
+ident(
+  def m "src/lTerm_mouse.ml" 51 858 860 "src/lTerm_mouse.ml" 53 954 1022
+)
+"src/lTerm_mouse.ml" 51 858 860 "src/lTerm_mouse.ml" 51 858 874
+type(
+  (bool -> bool -> bool -> string -> int -> int -> string, unit, string)
+  format -> bool -> bool -> bool -> string -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_mouse.ml" 52 875 879 "src/lTerm_mouse.ml" 52 875 953
+type(
+  (bool -> bool -> bool -> string -> int -> int -> string, unit, string)
+  format
+)
+"src/lTerm_mouse.ml" 53 954 958 "src/lTerm_mouse.ml" 53 954 959
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 958 "src/lTerm_mouse.ml" 53 954 967
+type(
+  bool
+)
+"src/lTerm_mouse.ml" 53 954 968 "src/lTerm_mouse.ml" 53 954 969
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 968 "src/lTerm_mouse.ml" 53 954 974
+type(
+  bool
+)
+"src/lTerm_mouse.ml" 53 954 975 "src/lTerm_mouse.ml" 53 954 976
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 975 "src/lTerm_mouse.ml" 53 954 982
+type(
+  bool
+)
+"src/lTerm_mouse.ml" 53 954 984 "src/lTerm_mouse.ml" 53 954 1000
+type(
+  button -> string
+)
+ident(
+  int_ref string_of_button "src/lTerm_mouse.ml" 39 582 586 "src/lTerm_mouse.ml" 39 582 602
+)
+"src/lTerm_mouse.ml" 53 954 1001 "src/lTerm_mouse.ml" 53 954 1002
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 1001 "src/lTerm_mouse.ml" 53 954 1009
+type(
+  button
+)
+"src/lTerm_mouse.ml" 53 954 983 "src/lTerm_mouse.ml" 53 954 1010
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_mouse.ml" 53 954 1011 "src/lTerm_mouse.ml" 53 954 1012
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 1011 "src/lTerm_mouse.ml" 53 954 1016
+type(
+  int
+)
+"src/lTerm_mouse.ml" 53 954 1017 "src/lTerm_mouse.ml" 53 954 1018
+type(
+  t
+)
+ident(
+  int_ref m "src/lTerm_mouse.ml" 50 840 854 "src/lTerm_mouse.ml" 50 840 855
+)
+"src/lTerm_mouse.ml" 53 954 1017 "src/lTerm_mouse.ml" 53 954 1022
+type(
+  int
+)
+"src/lTerm_mouse.ml" 51 858 860 "src/lTerm_mouse.ml" 53 954 1022
+call(
+  tail
+)
+type(
+  string
+)

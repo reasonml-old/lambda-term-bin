@@ -1,0 +1,660 @@
+"src/lTerm_widget_callbacks.ml" 10 179 183 "src/lTerm_widget_callbacks.ml" 10 179 190
+type(
+  Lwt_log_core.section
+)
+ident(
+  def section "src/lTerm_widget_callbacks.ml" 16 464 464 "src/lTerm_widget_callbacks.ml" 1 0 -1
+)
+"src/lTerm_widget_callbacks.ml" 10 179 193 "src/lTerm_widget_callbacks.ml" 10 179 213
+type(
+  string -> Lwt_log_core.section
+)
+ident(
+  ext_ref Lwt_log.Section.make
+)
+"src/lTerm_widget_callbacks.ml" 10 179 214 "src/lTerm_widget_callbacks.ml" 10 179 245
+type(
+  string
+)
+"src/lTerm_widget_callbacks.ml" 10 179 193 "src/lTerm_widget_callbacks.ml" 10 179 245
+call(
+  stack
+)
+type(
+  Lwt_log_core.section
+)
+"src/lTerm_widget_callbacks.ml" 18 533 537 "src/lTerm_widget_callbacks.ml" 18 533 545
+type(
+  switch option -> 'a Lwt_sequence.t -> 'a -> unit
+)
+ident(
+  def register "src/lTerm_widget_callbacks.ml" 30 904 904 "src/lTerm_widget_callbacks.ml" 1 0 -1
+)
+"src/lTerm_widget_callbacks.ml" 18 533 546 "src/lTerm_widget_callbacks.ml" 18 533 556
+type(
+  switch option
+)
+ident(
+  def switch_opt "src/lTerm_widget_callbacks.ml" 18 533 557 "src/lTerm_widget_callbacks.ml" 28 886 902
+)
+"src/lTerm_widget_callbacks.ml" 18 533 557 "src/lTerm_widget_callbacks.ml" 18 533 560
+type(
+  'a Lwt_sequence.t
+)
+ident(
+  def seq "src/lTerm_widget_callbacks.ml" 18 533 561 "src/lTerm_widget_callbacks.ml" 28 886 902
+)
+"src/lTerm_widget_callbacks.ml" 18 533 561 "src/lTerm_widget_callbacks.ml" 18 533 562
+type(
+  'a
+)
+ident(
+  def f "src/lTerm_widget_callbacks.ml" 19 565 567 "src/lTerm_widget_callbacks.ml" 28 886 902
+)
+"src/lTerm_widget_callbacks.ml" 19 565 573 "src/lTerm_widget_callbacks.ml" 19 565 583
+type(
+  switch option
+)
+ident(
+  int_ref switch_opt "src/lTerm_widget_callbacks.ml" 18 533 546 "src/lTerm_widget_callbacks.ml" 18 533 556
+)
+"src/lTerm_widget_callbacks.ml" 20 589 595 "src/lTerm_widget_callbacks.ml" 20 589 599
+type(
+  switch option
+)
+"src/lTerm_widget_callbacks.ml" 21 603 611 "src/lTerm_widget_callbacks.ml" 21 603 617
+type(
+  'a Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/lTerm_widget_callbacks.ml" 21 603 619 "src/lTerm_widget_callbacks.ml" 21 603 637
+type(
+  'a -> 'a Lwt_sequence.t -> 'a Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/lTerm_widget_callbacks.ml" 21 603 638 "src/lTerm_widget_callbacks.ml" 21 603 639
+type(
+  'a
+)
+ident(
+  int_ref f "src/lTerm_widget_callbacks.ml" 18 533 561 "src/lTerm_widget_callbacks.ml" 18 533 562
+)
+"src/lTerm_widget_callbacks.ml" 21 603 640 "src/lTerm_widget_callbacks.ml" 21 603 643
+type(
+  'a Lwt_sequence.t
+)
+ident(
+  int_ref seq "src/lTerm_widget_callbacks.ml" 18 533 557 "src/lTerm_widget_callbacks.ml" 18 533 560
+)
+"src/lTerm_widget_callbacks.ml" 21 603 618 "src/lTerm_widget_callbacks.ml" 21 603 644
+call(
+  stack
+)
+type(
+  'a Lwt_sequence.node
+)
+"src/lTerm_widget_callbacks.ml" 21 603 611 "src/lTerm_widget_callbacks.ml" 21 603 644
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 22 645 656 "src/lTerm_widget_callbacks.ml" 22 645 662
+type(
+  switch
+)
+ident(
+  def switch "src/lTerm_widget_callbacks.ml" 23 666 674 "src/lTerm_widget_callbacks.ml" 28 886 902
+)
+"src/lTerm_widget_callbacks.ml" 22 645 651 "src/lTerm_widget_callbacks.ml" 22 645 662
+type(
+  switch option
+)
+"src/lTerm_widget_callbacks.ml" 23 666 680 "src/lTerm_widget_callbacks.ml" 23 666 686
+type(
+  switch
+)
+ident(
+  int_ref switch "src/lTerm_widget_callbacks.ml" 22 645 656 "src/lTerm_widget_callbacks.ml" 22 645 662
+)
+"src/lTerm_widget_callbacks.ml" 23 666 680 "src/lTerm_widget_callbacks.ml" 23 666 699
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 24 705 722 "src/lTerm_widget_callbacks.ml" 24 705 723
+type(
+  (unit -> unit) list
+)
+ident(
+  def l "src/lTerm_widget_callbacks.ml" 25 727 741 "src/lTerm_widget_callbacks.ml" 26 780 865
+)
+"src/lTerm_widget_callbacks.ml" 24 705 717 "src/lTerm_widget_callbacks.ml" 24 705 723
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 25 727 745 "src/lTerm_widget_callbacks.ml" 25 727 749
+type(
+  'a Lwt_sequence.node
+)
+ident(
+  def node "src/lTerm_widget_callbacks.ml" 26 780 794 "src/lTerm_widget_callbacks.ml" 26 780 865
+)
+"src/lTerm_widget_callbacks.ml" 25 727 752 "src/lTerm_widget_callbacks.ml" 25 727 770
+type(
+  'a -> 'a Lwt_sequence.t -> 'a Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/lTerm_widget_callbacks.ml" 25 727 771 "src/lTerm_widget_callbacks.ml" 25 727 772
+type(
+  'a
+)
+ident(
+  int_ref f "src/lTerm_widget_callbacks.ml" 18 533 561 "src/lTerm_widget_callbacks.ml" 18 533 562
+)
+"src/lTerm_widget_callbacks.ml" 25 727 773 "src/lTerm_widget_callbacks.ml" 25 727 776
+type(
+  'a Lwt_sequence.t
+)
+ident(
+  int_ref seq "src/lTerm_widget_callbacks.ml" 18 533 557 "src/lTerm_widget_callbacks.ml" 18 533 560
+)
+"src/lTerm_widget_callbacks.ml" 25 727 752 "src/lTerm_widget_callbacks.ml" 25 727 776
+call(
+  stack
+)
+type(
+  'a Lwt_sequence.node
+)
+"src/lTerm_widget_callbacks.ml" 26 780 794 "src/lTerm_widget_callbacks.ml" 26 780 800
+type(
+  switch
+)
+ident(
+  int_ref switch "src/lTerm_widget_callbacks.ml" 22 645 656 "src/lTerm_widget_callbacks.ml" 22 645 662
+)
+"src/lTerm_widget_callbacks.ml" 26 780 828 "src/lTerm_widget_callbacks.ml" 26 780 830
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 26 780 834 "src/lTerm_widget_callbacks.ml" 26 780 853
+type(
+  'a Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/lTerm_widget_callbacks.ml" 26 780 854 "src/lTerm_widget_callbacks.ml" 26 780 858
+type(
+  'a Lwt_sequence.node
+)
+ident(
+  int_ref node "src/lTerm_widget_callbacks.ml" 25 727 745 "src/lTerm_widget_callbacks.ml" 25 727 749
+)
+"src/lTerm_widget_callbacks.ml" 26 780 834 "src/lTerm_widget_callbacks.ml" 26 780 858
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 26 780 823 "src/lTerm_widget_callbacks.ml" 26 780 859
+type(
+  unit -> unit
+)
+"src/lTerm_widget_callbacks.ml" 26 780 863 "src/lTerm_widget_callbacks.ml" 26 780 864
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref l "src/lTerm_widget_callbacks.ml" 24 705 722 "src/lTerm_widget_callbacks.ml" 24 705 723
+)
+"src/lTerm_widget_callbacks.ml" 26 780 822 "src/lTerm_widget_callbacks.ml" 26 780 865
+type(
+  (unit -> unit) list
+)
+"src/lTerm_widget_callbacks.ml" 26 780 817 "src/lTerm_widget_callbacks.ml" 26 780 865
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 26 780 794 "src/lTerm_widget_callbacks.ml" 26 780 865
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 25 727 741 "src/lTerm_widget_callbacks.ml" 26 780 865
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 27 866 878 "src/lTerm_widget_callbacks.ml" 27 866 882
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 28 886 900 "src/lTerm_widget_callbacks.ml" 28 886 902
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 23 666 674 "src/lTerm_widget_callbacks.ml" 28 886 902
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 19 565 567 "src/lTerm_widget_callbacks.ml" 28 886 902
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 30 904 908 "src/lTerm_widget_callbacks.ml" 30 904 912
+type(
+  switch -> unit
+)
+ident(
+  def stop "src/lTerm_widget_callbacks.ml" 38 1070 1070 "src/lTerm_widget_callbacks.ml" 1 0 -1
+)
+"src/lTerm_widget_callbacks.ml" 30 904 913 "src/lTerm_widget_callbacks.ml" 30 904 919
+type(
+  switch
+)
+ident(
+  def switch "src/lTerm_widget_callbacks.ml" 31 922 924 "src/lTerm_widget_callbacks.ml" 36 1058 1068
+)
+"src/lTerm_widget_callbacks.ml" 31 922 930 "src/lTerm_widget_callbacks.ml" 31 922 936
+type(
+  switch
+)
+ident(
+  int_ref switch "src/lTerm_widget_callbacks.ml" 30 904 913 "src/lTerm_widget_callbacks.ml" 30 904 919
+)
+"src/lTerm_widget_callbacks.ml" 31 922 930 "src/lTerm_widget_callbacks.ml" 31 922 949
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 32 955 966 "src/lTerm_widget_callbacks.ml" 32 955 967
+type(
+  (unit -> unit) list
+)
+ident(
+  def l "src/lTerm_widget_callbacks.ml" 33 971 979 "src/lTerm_widget_callbacks.ml" 34 1008 1043
+)
+"src/lTerm_widget_callbacks.ml" 32 955 961 "src/lTerm_widget_callbacks.ml" 32 955 967
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 33 971 979 "src/lTerm_widget_callbacks.ml" 33 971 985
+type(
+  switch
+)
+ident(
+  int_ref switch "src/lTerm_widget_callbacks.ml" 30 904 913 "src/lTerm_widget_callbacks.ml" 30 904 919
+)
+"src/lTerm_widget_callbacks.ml" 33 971 1002 "src/lTerm_widget_callbacks.ml" 33 971 1006
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 33 971 979 "src/lTerm_widget_callbacks.ml" 33 971 1006
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1016 "src/lTerm_widget_callbacks.ml" 34 1008 1025
+type(
+  ((unit -> unit) -> unit) -> (unit -> unit) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1031 "src/lTerm_widget_callbacks.ml" 34 1008 1032
+type(
+  unit -> unit
+)
+ident(
+  def f "src/lTerm_widget_callbacks.ml" 34 1008 1036 "src/lTerm_widget_callbacks.ml" 34 1008 1040
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1036 "src/lTerm_widget_callbacks.ml" 34 1008 1037
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/lTerm_widget_callbacks.ml" 34 1008 1031 "src/lTerm_widget_callbacks.ml" 34 1008 1032
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1038 "src/lTerm_widget_callbacks.ml" 34 1008 1040
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1036 "src/lTerm_widget_callbacks.ml" 34 1008 1040
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1026 "src/lTerm_widget_callbacks.ml" 34 1008 1041
+type(
+  (unit -> unit) -> unit
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1042 "src/lTerm_widget_callbacks.ml" 34 1008 1043
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref l "src/lTerm_widget_callbacks.ml" 32 955 966 "src/lTerm_widget_callbacks.ml" 32 955 967
+)
+"src/lTerm_widget_callbacks.ml" 34 1008 1016 "src/lTerm_widget_callbacks.ml" 34 1008 1043
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 33 971 979 "src/lTerm_widget_callbacks.ml" 34 1008 1043
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 35 1044 1050 "src/lTerm_widget_callbacks.ml" 35 1044 1054
+type(
+  (unit -> unit) list option
+)
+"src/lTerm_widget_callbacks.ml" 36 1058 1066 "src/lTerm_widget_callbacks.ml" 36 1058 1068
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 31 922 924 "src/lTerm_widget_callbacks.ml" 36 1058 1068
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 38 1070 1074 "src/lTerm_widget_callbacks.ml" 38 1070 1088
+type(
+  ('a -> unit) Lwt_sequence.t -> 'a -> unit
+)
+ident(
+  def exec_callbacks "src/lTerm_widget_callbacks.ml" 47 1255 1255 "src/lTerm_widget_callbacks.ml" 1 0 -1
+)
+"src/lTerm_widget_callbacks.ml" 38 1070 1089 "src/lTerm_widget_callbacks.ml" 38 1070 1092
+type(
+  ('a -> unit) Lwt_sequence.t
+)
+ident(
+  def seq "src/lTerm_widget_callbacks.ml" 38 1070 1093 "src/lTerm_widget_callbacks.ml" 45 1246 1253
+)
+"src/lTerm_widget_callbacks.ml" 38 1070 1093 "src/lTerm_widget_callbacks.ml" 38 1070 1094
+type(
+  'a
+)
+ident(
+  def x "src/lTerm_widget_callbacks.ml" 39 1097 1099 "src/lTerm_widget_callbacks.ml" 45 1246 1253
+)
+"src/lTerm_widget_callbacks.ml" 39 1097 1099 "src/lTerm_widget_callbacks.ml" 39 1097 1118
+type(
+  (('a -> unit) -> unit) -> ('a -> unit) Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/lTerm_widget_callbacks.ml" 40 1119 1128 "src/lTerm_widget_callbacks.ml" 40 1119 1129
+type(
+  'a -> unit
+)
+ident(
+  def f "src/lTerm_widget_callbacks.ml" 41 1133 1140 "src/lTerm_widget_callbacks.ml" 44 1176 1244
+)
+"src/lTerm_widget_callbacks.ml" 42 1144 1153 "src/lTerm_widget_callbacks.ml" 42 1144 1154
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/lTerm_widget_callbacks.ml" 40 1119 1128 "src/lTerm_widget_callbacks.ml" 40 1119 1129
+)
+"src/lTerm_widget_callbacks.ml" 42 1144 1155 "src/lTerm_widget_callbacks.ml" 42 1144 1156
+type(
+  'a
+)
+ident(
+  int_ref x "src/lTerm_widget_callbacks.ml" 38 1070 1093 "src/lTerm_widget_callbacks.ml" 38 1070 1094
+)
+"src/lTerm_widget_callbacks.ml" 42 1144 1153 "src/lTerm_widget_callbacks.ml" 42 1144 1156
+call(
+  stack
+)
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 43 1157 1169 "src/lTerm_widget_callbacks.ml" 43 1157 1172
+type(
+  exn
+)
+ident(
+  def exn "src/lTerm_widget_callbacks.ml" 44 1176 1185 "src/lTerm_widget_callbacks.ml" 44 1176 1244
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1185 "src/lTerm_widget_callbacks.ml" 44 1176 1191
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1193 "src/lTerm_widget_callbacks.ml" 44 1176 1206
+type(
+  ?exn:exn ->
+  ?section:Lwt_log.section ->
+  ?location:string * int * int ->
+  ?logger:Lwt_log.logger -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_log.error
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1208 "src/lTerm_widget_callbacks.ml" 44 1176 1215
+type(
+  Lwt_log.section
+)
+ident(
+  int_ref section "src/lTerm_widget_callbacks.ml" 10 179 183 "src/lTerm_widget_callbacks.ml" 10 179 190
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1217 "src/lTerm_widget_callbacks.ml" 44 1176 1220
+type(
+  exn
+)
+ident(
+  int_ref exn "src/lTerm_widget_callbacks.ml" 43 1157 1169 "src/lTerm_widget_callbacks.ml" 43 1157 1172
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1221 "src/lTerm_widget_callbacks.ml" 44 1176 1243
+type(
+  string
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1192 "src/lTerm_widget_callbacks.ml" 44 1176 1244
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_widget_callbacks.ml" 44 1176 1185 "src/lTerm_widget_callbacks.ml" 44 1176 1244
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 41 1133 1140 "src/lTerm_widget_callbacks.ml" 44 1176 1244
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 40 1119 1123 "src/lTerm_widget_callbacks.ml" 44 1176 1245
+type(
+  ('a -> unit) -> unit
+)
+"src/lTerm_widget_callbacks.ml" 45 1246 1250 "src/lTerm_widget_callbacks.ml" 45 1246 1253
+type(
+  ('a -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref seq "src/lTerm_widget_callbacks.ml" 38 1070 1089 "src/lTerm_widget_callbacks.ml" 38 1070 1092
+)
+"src/lTerm_widget_callbacks.ml" 39 1097 1099 "src/lTerm_widget_callbacks.ml" 45 1246 1253
+call(
+  tail
+)
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 47 1255 1259 "src/lTerm_widget_callbacks.ml" 47 1255 1271
+type(
+  ('a -> bool) Lwt_sequence.t -> 'a -> bool
+)
+ident(
+  def exec_filters "src/lTerm_widget_callbacks.ml" 59 1519 1532 "src/lTerm_widget_callbacks.ml" 1 0 -1
+)
+"src/lTerm_widget_callbacks.ml" 47 1255 1272 "src/lTerm_widget_callbacks.ml" 47 1255 1275
+type(
+  ('a -> bool) Lwt_sequence.t
+)
+ident(
+  def seq "src/lTerm_widget_callbacks.ml" 47 1255 1276 "src/lTerm_widget_callbacks.ml" 59 1519 1532
+)
+"src/lTerm_widget_callbacks.ml" 47 1255 1276 "src/lTerm_widget_callbacks.ml" 47 1255 1277
+type(
+  'a
+)
+ident(
+  def x "src/lTerm_widget_callbacks.ml" 48 1280 1282 "src/lTerm_widget_callbacks.ml" 59 1519 1532
+)
+"src/lTerm_widget_callbacks.ml" 48 1280 1282 "src/lTerm_widget_callbacks.ml" 48 1280 1301
+type(
+  (('a -> bool) -> bool -> bool) ->
+  ('a -> bool) Lwt_sequence.t -> bool -> bool
+)
+ident(
+  ext_ref Lwt_sequence.fold_l
+)
+"src/lTerm_widget_callbacks.ml" 49 1302 1311 "src/lTerm_widget_callbacks.ml" 49 1302 1312
+type(
+  'a -> bool
+)
+ident(
+  def f "src/lTerm_widget_callbacks.ml" 49 1302 1313 "src/lTerm_widget_callbacks.ml" 58 1507 1517
+)
+"src/lTerm_widget_callbacks.ml" 49 1302 1313 "src/lTerm_widget_callbacks.ml" 49 1302 1316
+type(
+  bool
+)
+ident(
+  def acc "src/lTerm_widget_callbacks.ml" 50 1320 1327 "src/lTerm_widget_callbacks.ml" 58 1507 1517
+)
+"src/lTerm_widget_callbacks.ml" 50 1320 1330 "src/lTerm_widget_callbacks.ml" 50 1320 1333
+type(
+  bool
+)
+ident(
+  int_ref acc "src/lTerm_widget_callbacks.ml" 49 1302 1313 "src/lTerm_widget_callbacks.ml" 49 1302 1316
+)
+"src/lTerm_widget_callbacks.ml" 51 1339 1348 "src/lTerm_widget_callbacks.ml" 51 1339 1352
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 54 1384 1395 "src/lTerm_widget_callbacks.ml" 54 1384 1396
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/lTerm_widget_callbacks.ml" 49 1302 1311 "src/lTerm_widget_callbacks.ml" 49 1302 1312
+)
+"src/lTerm_widget_callbacks.ml" 54 1384 1397 "src/lTerm_widget_callbacks.ml" 54 1384 1398
+type(
+  'a
+)
+ident(
+  int_ref x "src/lTerm_widget_callbacks.ml" 47 1255 1276 "src/lTerm_widget_callbacks.ml" 47 1255 1277
+)
+"src/lTerm_widget_callbacks.ml" 54 1384 1395 "src/lTerm_widget_callbacks.ml" 54 1384 1398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 55 1399 1413 "src/lTerm_widget_callbacks.ml" 55 1399 1416
+type(
+  exn
+)
+ident(
+  def exn "src/lTerm_widget_callbacks.ml" 56 1420 1431 "src/lTerm_widget_callbacks.ml" 57 1490 1506
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1431 "src/lTerm_widget_callbacks.ml" 56 1420 1437
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1439 "src/lTerm_widget_callbacks.ml" 56 1420 1452
+type(
+  ?exn:exn ->
+  ?section:Lwt_log.section ->
+  ?location:string * int * int ->
+  ?logger:Lwt_log.logger -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_log.error
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1454 "src/lTerm_widget_callbacks.ml" 56 1420 1461
+type(
+  Lwt_log.section
+)
+ident(
+  int_ref section "src/lTerm_widget_callbacks.ml" 10 179 183 "src/lTerm_widget_callbacks.ml" 10 179 190
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1463 "src/lTerm_widget_callbacks.ml" 56 1420 1466
+type(
+  exn
+)
+ident(
+  int_ref exn "src/lTerm_widget_callbacks.ml" 55 1399 1413 "src/lTerm_widget_callbacks.ml" 55 1399 1416
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1467 "src/lTerm_widget_callbacks.ml" 56 1420 1487
+type(
+  string
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1438 "src/lTerm_widget_callbacks.ml" 56 1420 1488
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1431 "src/lTerm_widget_callbacks.ml" 56 1420 1488
+type(
+  unit
+)
+"src/lTerm_widget_callbacks.ml" 57 1490 1501 "src/lTerm_widget_callbacks.ml" 57 1490 1506
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 56 1420 1431 "src/lTerm_widget_callbacks.ml" 57 1490 1506
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 52 1353 1365 "src/lTerm_widget_callbacks.ml" 58 1507 1517
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 50 1320 1327 "src/lTerm_widget_callbacks.ml" 58 1507 1517
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 49 1302 1306 "src/lTerm_widget_callbacks.ml" 58 1507 1518
+type(
+  ('a -> bool) -> bool -> bool
+)
+"src/lTerm_widget_callbacks.ml" 59 1519 1523 "src/lTerm_widget_callbacks.ml" 59 1519 1526
+type(
+  ('a -> bool) Lwt_sequence.t
+)
+ident(
+  int_ref seq "src/lTerm_widget_callbacks.ml" 47 1255 1272 "src/lTerm_widget_callbacks.ml" 47 1255 1275
+)
+"src/lTerm_widget_callbacks.ml" 59 1519 1527 "src/lTerm_widget_callbacks.ml" 59 1519 1532
+type(
+  bool
+)
+"src/lTerm_widget_callbacks.ml" 48 1280 1282 "src/lTerm_widget_callbacks.ml" 59 1519 1532
+call(
+  tail
+)
+type(
+  bool
+)

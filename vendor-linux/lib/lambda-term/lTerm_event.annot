@@ -1,0 +1,197 @@
+"src/lTerm_event.ml" 16 280 284 "src/lTerm_event.ml" 16 280 293
+type(
+  t -> string
+)
+ident(
+  def to_string "src/lTerm_event.ml" 24 539 600 "src/lTerm_event.ml" 1 0 -1
+)
+"src/lTerm_event.ml" 17 305 316 "src/lTerm_event.ml" 17 305 320
+type(
+  LTerm_geom.size
+)
+ident(
+  def size "src/lTerm_event.ml" 18 324 330 "src/lTerm_event.ml" 18 324 389
+)
+"src/lTerm_event.ml" 17 305 309 "src/lTerm_event.ml" 17 305 320
+type(
+  t
+)
+"src/lTerm_event.ml" 18 324 330 "src/lTerm_event.ml" 18 324 344
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_event.ml" 18 324 345 "src/lTerm_event.ml" 18 324 356
+type(
+  (string -> string, unit, string) format
+)
+"src/lTerm_event.ml" 18 324 358 "src/lTerm_event.ml" 18 324 383
+type(
+  LTerm_geom.size -> string
+)
+ident(
+  ext_ref LTerm_geom.string_of_size
+)
+"src/lTerm_event.ml" 18 324 384 "src/lTerm_event.ml" 18 324 388
+type(
+  LTerm_geom.size
+)
+ident(
+  int_ref size "src/lTerm_event.ml" 17 305 316 "src/lTerm_event.ml" 17 305 320
+)
+"src/lTerm_event.ml" 18 324 357 "src/lTerm_event.ml" 18 324 389
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 18 324 330 "src/lTerm_event.ml" 18 324 389
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 19 390 398 "src/lTerm_event.ml" 19 390 401
+type(
+  LTerm_key.t
+)
+ident(
+  def key "src/lTerm_event.ml" 20 405 411 "src/lTerm_event.ml" 20 405 460
+)
+"src/lTerm_event.ml" 19 390 394 "src/lTerm_event.ml" 19 390 401
+type(
+  t
+)
+"src/lTerm_event.ml" 20 405 411 "src/lTerm_event.ml" 20 405 425
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_event.ml" 20 405 426 "src/lTerm_event.ml" 20 405 434
+type(
+  (string -> string, unit, string) format
+)
+"src/lTerm_event.ml" 20 405 436 "src/lTerm_event.ml" 20 405 455
+type(
+  LTerm_key.t -> string
+)
+ident(
+  ext_ref LTerm_key.to_string
+)
+"src/lTerm_event.ml" 20 405 456 "src/lTerm_event.ml" 20 405 459
+type(
+  LTerm_key.t
+)
+ident(
+  int_ref key "src/lTerm_event.ml" 19 390 398 "src/lTerm_event.ml" 19 390 401
+)
+"src/lTerm_event.ml" 20 405 435 "src/lTerm_event.ml" 20 405 460
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 20 405 411 "src/lTerm_event.ml" 20 405 460
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 21 461 474 "src/lTerm_event.ml" 21 461 477
+type(
+  string
+)
+ident(
+  def seq "src/lTerm_event.ml" 22 481 487 "src/lTerm_event.ml" 22 481 519
+)
+"src/lTerm_event.ml" 21 461 465 "src/lTerm_event.ml" 21 461 477
+type(
+  t
+)
+"src/lTerm_event.ml" 22 481 487 "src/lTerm_event.ml" 22 481 501
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_event.ml" 22 481 502 "src/lTerm_event.ml" 22 481 515
+type(
+  (string -> string, unit, string) format
+)
+"src/lTerm_event.ml" 22 481 516 "src/lTerm_event.ml" 22 481 519
+type(
+  string
+)
+ident(
+  int_ref seq "src/lTerm_event.ml" 21 461 474 "src/lTerm_event.ml" 21 461 477
+)
+"src/lTerm_event.ml" 22 481 487 "src/lTerm_event.ml" 22 481 519
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 23 520 530 "src/lTerm_event.ml" 23 520 535
+type(
+  LTerm_mouse.t
+)
+ident(
+  def mouse "src/lTerm_event.ml" 24 539 545 "src/lTerm_event.ml" 24 539 600
+)
+"src/lTerm_event.ml" 23 520 524 "src/lTerm_event.ml" 23 520 535
+type(
+  t
+)
+"src/lTerm_event.ml" 24 539 545 "src/lTerm_event.ml" 24 539 559
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_event.ml" 24 539 560 "src/lTerm_event.ml" 24 539 570
+type(
+  (string -> string, unit, string) format
+)
+"src/lTerm_event.ml" 24 539 572 "src/lTerm_event.ml" 24 539 593
+type(
+  LTerm_mouse.t -> string
+)
+ident(
+  ext_ref LTerm_mouse.to_string
+)
+"src/lTerm_event.ml" 24 539 594 "src/lTerm_event.ml" 24 539 599
+type(
+  LTerm_mouse.t
+)
+ident(
+  int_ref mouse "src/lTerm_event.ml" 23 520 530 "src/lTerm_event.ml" 23 520 535
+)
+"src/lTerm_event.ml" 24 539 571 "src/lTerm_event.ml" 24 539 600
+call(
+  stack
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 24 539 545 "src/lTerm_event.ml" 24 539 600
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_event.ml" 16 280 296 "src/lTerm_event.ml" 24 539 600
+type(
+  t -> string
+)

@@ -1,0 +1,655 @@
+"src/lTerm_geom.ml" 15 210 214 "src/lTerm_geom.ml" 15 210 218
+type(
+  size -> int
+)
+ident(
+  def rows "src/lTerm_geom.ml" 16 236 236 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 15 210 219 "src/lTerm_geom.ml" 15 210 223
+type(
+  size
+)
+ident(
+  def size "src/lTerm_geom.ml" 15 210 226 "src/lTerm_geom.ml" 15 210 235
+)
+"src/lTerm_geom.ml" 15 210 226 "src/lTerm_geom.ml" 15 210 230
+type(
+  size
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 15 210 219 "src/lTerm_geom.ml" 15 210 223
+)
+"src/lTerm_geom.ml" 15 210 226 "src/lTerm_geom.ml" 15 210 235
+type(
+  int
+)
+"src/lTerm_geom.ml" 16 236 240 "src/lTerm_geom.ml" 16 236 244
+type(
+  size -> int
+)
+ident(
+  def cols "src/lTerm_geom.ml" 18 263 263 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 16 236 245 "src/lTerm_geom.ml" 16 236 249
+type(
+  size
+)
+ident(
+  def size "src/lTerm_geom.ml" 16 236 252 "src/lTerm_geom.ml" 16 236 261
+)
+"src/lTerm_geom.ml" 16 236 252 "src/lTerm_geom.ml" 16 236 256
+type(
+  size
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 16 236 245 "src/lTerm_geom.ml" 16 236 249
+)
+"src/lTerm_geom.ml" 16 236 252 "src/lTerm_geom.ml" 16 236 261
+type(
+  int
+)
+"src/lTerm_geom.ml" 18 263 267 "src/lTerm_geom.ml" 18 263 281
+type(
+  size -> string
+)
+ident(
+  def string_of_size "src/lTerm_geom.ml" 21 354 354 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 18 263 282 "src/lTerm_geom.ml" 18 263 286
+type(
+  size
+)
+ident(
+  def size "src/lTerm_geom.ml" 19 289 291 "src/lTerm_geom.ml" 19 289 352
+)
+"src/lTerm_geom.ml" 19 289 291 "src/lTerm_geom.ml" 19 289 305
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_geom.ml" 19 289 306 "src/lTerm_geom.ml" 19 289 332
+type(
+  (int -> int -> string, unit, string) format
+)
+"src/lTerm_geom.ml" 19 289 333 "src/lTerm_geom.ml" 19 289 337
+type(
+  size
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 18 263 282 "src/lTerm_geom.ml" 18 263 286
+)
+"src/lTerm_geom.ml" 19 289 333 "src/lTerm_geom.ml" 19 289 342
+type(
+  int
+)
+"src/lTerm_geom.ml" 19 289 343 "src/lTerm_geom.ml" 19 289 347
+type(
+  size
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 18 263 282 "src/lTerm_geom.ml" 18 263 286
+)
+"src/lTerm_geom.ml" 19 289 343 "src/lTerm_geom.ml" 19 289 352
+type(
+  int
+)
+"src/lTerm_geom.ml" 19 289 291 "src/lTerm_geom.ml" 19 289 352
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_geom.ml" 26 398 402 "src/lTerm_geom.ml" 26 398 405
+type(
+  coord -> int
+)
+ident(
+  def row "src/lTerm_geom.ml" 27 422 422 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 26 398 406 "src/lTerm_geom.ml" 26 398 410
+type(
+  coord
+)
+ident(
+  def size "src/lTerm_geom.ml" 26 398 413 "src/lTerm_geom.ml" 26 398 421
+)
+"src/lTerm_geom.ml" 26 398 413 "src/lTerm_geom.ml" 26 398 417
+type(
+  coord
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 26 398 406 "src/lTerm_geom.ml" 26 398 410
+)
+"src/lTerm_geom.ml" 26 398 413 "src/lTerm_geom.ml" 26 398 421
+type(
+  int
+)
+"src/lTerm_geom.ml" 27 422 426 "src/lTerm_geom.ml" 27 422 429
+type(
+  coord -> int
+)
+ident(
+  def col "src/lTerm_geom.ml" 29 447 447 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 27 422 430 "src/lTerm_geom.ml" 27 422 434
+type(
+  coord
+)
+ident(
+  def size "src/lTerm_geom.ml" 27 422 437 "src/lTerm_geom.ml" 27 422 445
+)
+"src/lTerm_geom.ml" 27 422 437 "src/lTerm_geom.ml" 27 422 441
+type(
+  coord
+)
+ident(
+  int_ref size "src/lTerm_geom.ml" 27 422 430 "src/lTerm_geom.ml" 27 422 434
+)
+"src/lTerm_geom.ml" 27 422 437 "src/lTerm_geom.ml" 27 422 445
+type(
+  int
+)
+"src/lTerm_geom.ml" 29 447 451 "src/lTerm_geom.ml" 29 447 466
+type(
+  coord -> string
+)
+ident(
+  def string_of_coord "src/lTerm_geom.ml" 32 538 538 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 29 447 467 "src/lTerm_geom.ml" 29 447 472
+type(
+  coord
+)
+ident(
+  def coord "src/lTerm_geom.ml" 30 475 477 "src/lTerm_geom.ml" 30 475 536
+)
+"src/lTerm_geom.ml" 30 475 477 "src/lTerm_geom.ml" 30 475 491
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_geom.ml" 30 475 492 "src/lTerm_geom.ml" 30 475 516
+type(
+  (int -> int -> string, unit, string) format
+)
+"src/lTerm_geom.ml" 30 475 517 "src/lTerm_geom.ml" 30 475 522
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 29 447 467 "src/lTerm_geom.ml" 29 447 472
+)
+"src/lTerm_geom.ml" 30 475 517 "src/lTerm_geom.ml" 30 475 526
+type(
+  int
+)
+"src/lTerm_geom.ml" 30 475 527 "src/lTerm_geom.ml" 30 475 532
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 29 447 467 "src/lTerm_geom.ml" 29 447 472
+)
+"src/lTerm_geom.ml" 30 475 527 "src/lTerm_geom.ml" 30 475 536
+type(
+  int
+)
+"src/lTerm_geom.ml" 30 475 477 "src/lTerm_geom.ml" 30 475 536
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_geom.ml" 39 611 615 "src/lTerm_geom.ml" 39 611 619
+type(
+  rect -> int
+)
+ident(
+  def row1 "src/lTerm_geom.ml" 40 637 637 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 39 611 620 "src/lTerm_geom.ml" 39 611 624
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 39 611 627 "src/lTerm_geom.ml" 39 611 636
+)
+"src/lTerm_geom.ml" 39 611 627 "src/lTerm_geom.ml" 39 611 631
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 39 611 620 "src/lTerm_geom.ml" 39 611 624
+)
+"src/lTerm_geom.ml" 39 611 627 "src/lTerm_geom.ml" 39 611 636
+type(
+  int
+)
+"src/lTerm_geom.ml" 40 637 641 "src/lTerm_geom.ml" 40 637 645
+type(
+  rect -> int
+)
+ident(
+  def col1 "src/lTerm_geom.ml" 41 663 663 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 40 637 646 "src/lTerm_geom.ml" 40 637 650
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 40 637 653 "src/lTerm_geom.ml" 40 637 662
+)
+"src/lTerm_geom.ml" 40 637 653 "src/lTerm_geom.ml" 40 637 657
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 40 637 646 "src/lTerm_geom.ml" 40 637 650
+)
+"src/lTerm_geom.ml" 40 637 653 "src/lTerm_geom.ml" 40 637 662
+type(
+  int
+)
+"src/lTerm_geom.ml" 41 663 667 "src/lTerm_geom.ml" 41 663 671
+type(
+  rect -> int
+)
+ident(
+  def row2 "src/lTerm_geom.ml" 42 689 689 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 41 663 672 "src/lTerm_geom.ml" 41 663 676
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 41 663 679 "src/lTerm_geom.ml" 41 663 688
+)
+"src/lTerm_geom.ml" 41 663 679 "src/lTerm_geom.ml" 41 663 683
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 41 663 672 "src/lTerm_geom.ml" 41 663 676
+)
+"src/lTerm_geom.ml" 41 663 679 "src/lTerm_geom.ml" 41 663 688
+type(
+  int
+)
+"src/lTerm_geom.ml" 42 689 693 "src/lTerm_geom.ml" 42 689 697
+type(
+  rect -> int
+)
+ident(
+  def col2 "src/lTerm_geom.ml" 44 716 716 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 42 689 698 "src/lTerm_geom.ml" 42 689 702
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 42 689 705 "src/lTerm_geom.ml" 42 689 714
+)
+"src/lTerm_geom.ml" 42 689 705 "src/lTerm_geom.ml" 42 689 709
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 42 689 698 "src/lTerm_geom.ml" 42 689 702
+)
+"src/lTerm_geom.ml" 42 689 705 "src/lTerm_geom.ml" 42 689 714
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 720 "src/lTerm_geom.ml" 44 716 732
+type(
+  rect -> size
+)
+ident(
+  def size_of_rect "src/lTerm_geom.ml" 46 804 804 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 44 716 733 "src/lTerm_geom.ml" 44 716 737
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 44 716 740 "src/lTerm_geom.ml" 44 716 802
+)
+"src/lTerm_geom.ml" 44 716 749 "src/lTerm_geom.ml" 44 716 753
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 44 716 733 "src/lTerm_geom.ml" 44 716 737
+)
+"src/lTerm_geom.ml" 44 716 749 "src/lTerm_geom.ml" 44 716 758
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 759 "src/lTerm_geom.ml" 44 716 760
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lTerm_geom.ml" 44 716 761 "src/lTerm_geom.ml" 44 716 765
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 44 716 733 "src/lTerm_geom.ml" 44 716 737
+)
+"src/lTerm_geom.ml" 44 716 761 "src/lTerm_geom.ml" 44 716 770
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 749 "src/lTerm_geom.ml" 44 716 770
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 779 "src/lTerm_geom.ml" 44 716 783
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 44 716 733 "src/lTerm_geom.ml" 44 716 737
+)
+"src/lTerm_geom.ml" 44 716 779 "src/lTerm_geom.ml" 44 716 788
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 789 "src/lTerm_geom.ml" 44 716 790
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/lTerm_geom.ml" 44 716 791 "src/lTerm_geom.ml" 44 716 795
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 44 716 733 "src/lTerm_geom.ml" 44 716 737
+)
+"src/lTerm_geom.ml" 44 716 791 "src/lTerm_geom.ml" 44 716 800
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 779 "src/lTerm_geom.ml" 44 716 800
+type(
+  int
+)
+"src/lTerm_geom.ml" 44 716 740 "src/lTerm_geom.ml" 44 716 802
+type(
+  size
+)
+"src/lTerm_geom.ml" 46 804 808 "src/lTerm_geom.ml" 46 804 822
+type(
+  rect -> string
+)
+ident(
+  def string_of_rect "src/lTerm_geom.ml" 51 945 945 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 46 804 823 "src/lTerm_geom.ml" 46 804 827
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 47 830 832 "src/lTerm_geom.ml" 49 900 943
+)
+"src/lTerm_geom.ml" 47 830 832 "src/lTerm_geom.ml" 47 830 846
+type(
+  (int -> int -> int -> int -> string, unit, string) format ->
+  int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/lTerm_geom.ml" 48 847 851 "src/lTerm_geom.ml" 48 847 899
+type(
+  (int -> int -> int -> int -> string, unit, string) format
+)
+"src/lTerm_geom.ml" 49 900 904 "src/lTerm_geom.ml" 49 900 908
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 46 804 823 "src/lTerm_geom.ml" 46 804 827
+)
+"src/lTerm_geom.ml" 49 900 904 "src/lTerm_geom.ml" 49 900 913
+type(
+  int
+)
+"src/lTerm_geom.ml" 49 900 914 "src/lTerm_geom.ml" 49 900 918
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 46 804 823 "src/lTerm_geom.ml" 46 804 827
+)
+"src/lTerm_geom.ml" 49 900 914 "src/lTerm_geom.ml" 49 900 923
+type(
+  int
+)
+"src/lTerm_geom.ml" 49 900 924 "src/lTerm_geom.ml" 49 900 928
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 46 804 823 "src/lTerm_geom.ml" 46 804 827
+)
+"src/lTerm_geom.ml" 49 900 924 "src/lTerm_geom.ml" 49 900 933
+type(
+  int
+)
+"src/lTerm_geom.ml" 49 900 934 "src/lTerm_geom.ml" 49 900 938
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 46 804 823 "src/lTerm_geom.ml" 46 804 827
+)
+"src/lTerm_geom.ml" 49 900 934 "src/lTerm_geom.ml" 49 900 943
+type(
+  int
+)
+"src/lTerm_geom.ml" 47 830 832 "src/lTerm_geom.ml" 49 900 943
+call(
+  tail
+)
+type(
+  string
+)
+"src/lTerm_geom.ml" 51 945 949 "src/lTerm_geom.ml" 51 945 956
+type(
+  rect -> coord -> bool
+)
+ident(
+  def in_rect "src/lTerm_geom.ml" 57 1080 1080 "src/lTerm_geom.ml" 1 0 -1
+)
+"src/lTerm_geom.ml" 51 945 957 "src/lTerm_geom.ml" 51 945 961
+type(
+  rect
+)
+ident(
+  def rect "src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 55 1054 1077
+)
+"src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 51 945 967
+type(
+  coord
+)
+ident(
+  def coord "src/lTerm_geom.ml" 52 971 973 "src/lTerm_geom.ml" 55 1054 1077
+)
+"src/lTerm_geom.ml" 52 971 973 "src/lTerm_geom.ml" 52 971 978
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 51 945 967
+)
+"src/lTerm_geom.ml" 52 971 973 "src/lTerm_geom.ml" 52 971 982
+type(
+  int
+)
+"src/lTerm_geom.ml" 52 971 983 "src/lTerm_geom.ml" 52 971 985
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lTerm_geom.ml" 52 971 986 "src/lTerm_geom.ml" 52 971 990
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 51 945 957 "src/lTerm_geom.ml" 51 945 961
+)
+"src/lTerm_geom.ml" 52 971 986 "src/lTerm_geom.ml" 52 971 995
+type(
+  int
+)
+"src/lTerm_geom.ml" 52 971 973 "src/lTerm_geom.ml" 52 971 995
+type(
+  bool
+)
+"src/lTerm_geom.ml" 52 971 996 "src/lTerm_geom.ml" 52 971 998
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_geom.ml" 53 999 1001 "src/lTerm_geom.ml" 53 999 1006
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 51 945 967
+)
+"src/lTerm_geom.ml" 53 999 1001 "src/lTerm_geom.ml" 53 999 1010
+type(
+  int
+)
+"src/lTerm_geom.ml" 53 999 1011 "src/lTerm_geom.ml" 53 999 1012
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_geom.ml" 53 999 1013 "src/lTerm_geom.ml" 53 999 1017
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 51 945 957 "src/lTerm_geom.ml" 51 945 961
+)
+"src/lTerm_geom.ml" 53 999 1013 "src/lTerm_geom.ml" 53 999 1022
+type(
+  int
+)
+"src/lTerm_geom.ml" 53 999 1001 "src/lTerm_geom.ml" 53 999 1022
+type(
+  bool
+)
+"src/lTerm_geom.ml" 53 999 1023 "src/lTerm_geom.ml" 53 999 1025
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_geom.ml" 54 1026 1028 "src/lTerm_geom.ml" 54 1026 1033
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 51 945 967
+)
+"src/lTerm_geom.ml" 54 1026 1028 "src/lTerm_geom.ml" 54 1026 1037
+type(
+  int
+)
+"src/lTerm_geom.ml" 54 1026 1038 "src/lTerm_geom.ml" 54 1026 1040
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/lTerm_geom.ml" 54 1026 1041 "src/lTerm_geom.ml" 54 1026 1045
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 51 945 957 "src/lTerm_geom.ml" 51 945 961
+)
+"src/lTerm_geom.ml" 54 1026 1041 "src/lTerm_geom.ml" 54 1026 1050
+type(
+  int
+)
+"src/lTerm_geom.ml" 54 1026 1028 "src/lTerm_geom.ml" 54 1026 1050
+type(
+  bool
+)
+"src/lTerm_geom.ml" 54 1026 1051 "src/lTerm_geom.ml" 54 1026 1053
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/lTerm_geom.ml" 55 1054 1056 "src/lTerm_geom.ml" 55 1054 1061
+type(
+  coord
+)
+ident(
+  int_ref coord "src/lTerm_geom.ml" 51 945 962 "src/lTerm_geom.ml" 51 945 967
+)
+"src/lTerm_geom.ml" 55 1054 1056 "src/lTerm_geom.ml" 55 1054 1065
+type(
+  int
+)
+"src/lTerm_geom.ml" 55 1054 1066 "src/lTerm_geom.ml" 55 1054 1067
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/lTerm_geom.ml" 55 1054 1068 "src/lTerm_geom.ml" 55 1054 1072
+type(
+  rect
+)
+ident(
+  int_ref rect "src/lTerm_geom.ml" 51 945 957 "src/lTerm_geom.ml" 51 945 961
+)
+"src/lTerm_geom.ml" 55 1054 1068 "src/lTerm_geom.ml" 55 1054 1077
+type(
+  int
+)
+"src/lTerm_geom.ml" 55 1054 1056 "src/lTerm_geom.ml" 55 1054 1077
+type(
+  bool
+)
+"src/lTerm_geom.ml" 54 1026 1028 "src/lTerm_geom.ml" 55 1054 1077
+type(
+  bool
+)
+"src/lTerm_geom.ml" 53 999 1001 "src/lTerm_geom.ml" 55 1054 1077
+type(
+  bool
+)
+"src/lTerm_geom.ml" 52 971 973 "src/lTerm_geom.ml" 55 1054 1077
+type(
+  bool
+)
