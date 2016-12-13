@@ -34,11 +34,11 @@
     }
   },
   "dependencies": {
-    "nopam": "https://github.com/yunxing/nopam.git",
+    "nopam": "*",
     "react-bin": "https://github.com/reasonml/react-bin",
     "@opam-alpha/ocamlfind": "*",
     "zed-bin": "https://github.com/reasonml/zed-bin",
     "lwt-bin": "https://github.com/reasonml/lwt-bin",
-    "dependency-env": "https://github.com/npm-ml/dependency-env.git"
+    "dependency-env": "*"
   }
 }
